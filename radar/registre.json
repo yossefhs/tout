@@ -1,4 +1,155 @@
 {
   "mise_a_jour": "2026-10-14",
-  "opportunites": []
+  "opportunites": [
+    {
+      "id": "2026-10-14-cv-ats-mobilite",
+      "nom": "CV + lettre ATS adaptés au pays visé, FR/EN (« Candidature Prête 48h, édition mobilité »)",
+      "source_url": "https://comeup.com/fr/service/180178/creer-votre-cv-compatible-ats-pour-propulser-vos-candidatures",
+      "modele": "Service à l'unité sur marketplace + options, puis lots",
+      "prix": "39 / 69 / 99 €",
+      "preuves": [
+        {"type": "verifiable", "texte": "FastPatch : 1 440 ventes, 909 avis, base 35 €, avis du 13/10/2026", "url": "https://comeup.com/fr/service/180178/creer-votre-cv-compatible-ats-pour-propulser-vos-candidatures"},
+        {"type": "verifiable", "texte": "COMREDACTION : 673 ventes, dernier avis 13/10/2026", "url": "https://comeup.com/fr/service/188817"},
+        {"type": "verifiable_api", "texte": "Rezi : 248 456 $ de MRR", "url": "https://trustmrr.com/startup/rezi"}
+      ],
+      "scores": {"preuve": 5, "delai": 5, "automatisation": 4, "cout": 5, "acquisition": 4},
+      "total": 23,
+      "statut": "ciblée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Cible du 14/10. Angle Israël non prouvé (« cv israel » : 0 résultat sur ComeUp) : c'est l'hypothèse du test. Succès = 1 vente dans les 7 jours après lancement."
+    },
+    {
+      "id": "2026-10-14-profil-linkedin",
+      "nom": "Optimisation de profil LinkedIn pour freelances et consultants francophones",
+      "source_url": "https://comeup.com/fr/service/131668/optimiser-votre-profil-linkedin",
+      "modele": "Service à l'unité, vendable en lot avec le CV",
+      "prix": "79 € (+ 4 posts à 49 €)",
+      "preuves": [
+        {"type": "verifiable", "texte": "LinkedPro : 784 ventes, 635 avis, dernier avis 22/09/2026", "url": "https://comeup.com/fr/service/131668/optimiser-votre-profil-linkedin"},
+        {"type": "verifiable_api", "texte": "Podawaa : 65 579 $ de MRR", "url": "https://trustmrr.com/startup/podawaa"}
+      ],
+      "scores": {"preuve": 4, "delai": 5, "automatisation": 4, "cout": 5, "acquisition": 4},
+      "total": 22,
+      "statut": "repérée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Le ghostwriting de posts se vend mal sur ComeUp : vendre le profil, pas les posts."
+    },
+    {
+      "id": "2026-10-14-diagnostic-geo",
+      "nom": "Diagnostic de visibilité dans les IA (GEO) pour TPE/PME locales",
+      "source_url": "https://trustmrr.com/startup/rank-prompt",
+      "modele": "Audit ponctuel puis suivi mensuel",
+      "prix": "149 € + 49 €/mois",
+      "preuves": [
+        {"type": "verifiable_api", "texte": "AEO Engine : 157 959 $ de MRR", "url": "https://trustmrr.com/startup/aeo-engine"},
+        {"type": "verifiable_api", "texte": "Rank Prompt : 43 672 $ de MRR", "url": "https://trustmrr.com/startup/rank-prompt"},
+        {"type": "verifiable", "texte": "Entrée de gamme francophone faible : 3 ventes au mieux sur ComeUp", "url": "https://comeup.com/fr/service/533268"}
+      ],
+      "scores": {"preuve": 3, "delai": 5, "automatisation": 4, "cout": 4, "acquisition": 4},
+      "total": 20,
+      "statut": "repérée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Ne pas copier les offres « visibilité IA » à base de backlinks et faux comparatifs (pratique trompeuse). Prospection B2B via leads-france possible."
+    },
+    {
+      "id": "2026-10-14-fiches-produits",
+      "nom": "Fiches produits e-commerce rédigées par IA",
+      "source_url": "https://comeup.com/fr/service/136742/rediger-votre-fiche-produit-e-commerce-optimisee-seo-prete-a-publier",
+      "modele": "Service à l'unité",
+      "prix": "15 €",
+      "preuves": [
+        {"type": "verifiable", "texte": "Sinapi : 989 ventes mais dernier avis 31/12/2024", "url": "https://comeup.com/fr/service/136742/rediger-votre-fiche-produit-e-commerce-optimisee-seo-prete-a-publier"}
+      ],
+      "scores": {"preuve": 2, "delai": 5, "automatisation": 5, "cout": 5, "acquisition": 2},
+      "total": 19,
+      "statut": "écartée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Demande en chute depuis 2024, concurrence d'outils gratuits (Shopify)."
+    },
+    {
+      "id": "2026-10-14-reponses-avis-google",
+      "nom": "Réponses aux avis Google par IA",
+      "source_url": "https://comeup.com/fr/search?q=avis%20google",
+      "modele": "Abonnement ou service",
+      "prix": "variable",
+      "preuves": [
+        {"type": "verifiable", "texte": "~20 offres ComeUp quasi toutes sans avis", "url": "https://comeup.com/fr/search?q=avis%20google"},
+        {"type": "verifiable_api", "texte": "BoringLocal : 5,76 $ de revenu total", "url": "https://trustmrr.com/startup/boringlocal.md"}
+      ],
+      "scores": {"preuve": 1, "delai": 5, "automatisation": 5, "cout": 5, "acquisition": 2},
+      "total": 18,
+      "statut": "écartée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Beaucoup d'offre, presque pas d'acheteurs ; Google teste sa propre fonction."
+    },
+    {
+      "id": "2026-10-14-automatisations-n8n",
+      "nom": "Automatisations n8n/Make sur mesure",
+      "source_url": "https://comeup.com/fr/service/308288/creer-votre-automatisation-ia-avec-n8n-make-ou-zapier",
+      "modele": "Mission sur mesure",
+      "prix": "à partir de 15 €",
+      "preuves": [
+        {"type": "verifiable", "texte": "jp_automate : 376 ventes, dernier avis 06/10/2026", "url": "https://comeup.com/fr/service/308288/creer-votre-automatisation-ia-avec-n8n-make-ou-zapier"}
+      ],
+      "scores": {"preuve": 4, "delai": 4, "automatisation": 2, "cout": 4, "acquisition": 3},
+      "total": 17,
+      "statut": "écartée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Demande réelle mais chaque mission est différente : peu reproductible."
+    },
+    {
+      "id": "2026-10-14-home-staging-virtuel",
+      "nom": "Home staging virtuel par IA",
+      "source_url": "https://comeup.com/fr/service/116787",
+      "modele": "Service à la photo",
+      "prix": "25 €",
+      "preuves": [
+        {"type": "verifiable", "texte": "xPertiz : 55 ventes, dernier avis 11/09/2025", "url": "https://comeup.com/fr/service/116787"}
+      ],
+      "scores": {"preuve": 2, "delai": 4, "automatisation": 4, "cout": 3, "acquisition": 3},
+      "total": 16,
+      "statut": "écartée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Outils à 0,50 €/photo sur le marché."
+    },
+    {
+      "id": "2026-10-14-agent-whatsapp",
+      "nom": "Agent WhatsApp IA pour commerces",
+      "source_url": "https://trustmrr.com/startup/wazzap-ai",
+      "modele": "Abonnement SaaS",
+      "prix": "variable",
+      "preuves": [
+        {"type": "verifiable_api", "texte": "Wazzap AI : 1 272 $ de MRR, 33 abonnés", "url": "https://trustmrr.com/startup/wazzap-ai"}
+      ],
+      "scores": {"preuve": 2, "delai": 3, "automatisation": 4, "cout": 3, "acquisition": 2},
+      "total": 14,
+      "statut": "écartée",
+      "date_reperage": "2026-10-14",
+      "date_lancement": null,
+      "ventes": 0,
+      "revenus_eur": 0,
+      "notes": "Trop long à lancer en 48h, traction faible chez les acteurs existants."
+    }
+  ]
 }
