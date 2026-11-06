@@ -25,9 +25,13 @@ on:
         options: [ftps, ftps-legacy, ftp]
         default: ftps
       port:
-        description: "Port (21 pour ftp/ftps, 22 pour sftp)"
+        description: "Port (21 pour ftp/ftps, 990 pour ftps-legacy)"
         type: string
         default: "21"
+      diag:
+        description: "Diagnostic seulement : ports ouverts et test SFTP chiffré, sans déploiement"
+        type: boolean
+        default: false
 
 concurrency:
   group: deploy-ovh
@@ -37,7 +41,28 @@ permissions:
   contents: read
 
 jobs:
+  diagnostic:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.diag == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Ports et protocoles disponibles sur le serveur (aucun secret affiché)
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set +e
+          echo "Résolution DNS : $(getent hosts "$FTP_SERVER" >/dev/null && echo OK || echo ECHEC)"
+          for p in 21 22 990; do timeout 8 bash -c "cat < /dev/null > /dev/tcp/$FTP_SERVER/$p" 2>/dev/null && echo "port $p : ouvert" || echo "port $p : fermé ou filtré"; done
+          echo "Bannière FTP (port 21) :"; timeout 8 bash -c "exec 3<>/dev/tcp/$FTP_SERVER/21; head -c 200 <&3" 2>/dev/null | head -2
+          sudo apt-get install -y -q lftp >/dev/null 2>&1
+          echo "Test SFTP chiffré (port 22) avec les identifiants :"
+          lftp -e "set net:timeout 15; set net:max-retries 1; set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no -o ConnectTimeout=15'; ls; bye" -u "$FTP_USERNAME,$FTP_PASSWORD" "sftp://$FTP_SERVER" >/tmp/sftp.log 2>&1 && echo "SFTP : connexion et identification OK" || { echo "SFTP : échec"; sed -e "s/$FTP_PASSWORD/***/g" /tmp/sftp.log | head -5; }
+          echo "Test FTPS explicite (port 21) :"
+          lftp -e "set net:timeout 15; set net:max-retries 1; set ftp:ssl-force true; set ftp:ssl-protect-data true; ls; bye" -u "$FTP_USERNAME,$FTP_PASSWORD" "ftp://$FTP_SERVER" >/tmp/ftps.log 2>&1 && echo "FTPS : connexion et identification OK" || { echo "FTPS : échec"; sed -e "s/$FTP_PASSWORD/***/g" /tmp/ftps.log | head -5; }
   deploy:
+    if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.diag == true) }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
