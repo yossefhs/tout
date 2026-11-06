@@ -1,10 +1,10 @@
-# Déploiement du dossier site/ vers l'hébergement OVH par FTP/SFTP à chaque push sur la branche clientsici-prospection.
+# Déploiement du dossier site/ vers l'hébergement OVH par SFTP (chiffré, port 22, lftp) à chaque push sur la branche clientsici-prospection.
+# Diagnostic du 2026-11-06 : port 22 ouvert, FTPS refusé par le serveur, port 990 fermé.
 # À copier dans le dépôt du site sous .github/workflows/deploy.yml
 # Secrets à créer dans le dépôt (Settings > Secrets and variables > Actions) :
 #   FTP_SERVER   ex. ftp.cluster0xx.hosting.ovh.net  (ou le serveur SFTP OVH)
 #   FTP_USERNAME identifiant FTP OVH
 #   FTP_PASSWORD mot de passe FTP OVH
-# NON TESTÉ : aucun dépôt ni accès FTP dans la session qui a écrit ce fichier.
 name: Déploiement OVH (site/)
 
 on:
@@ -19,15 +19,6 @@ on:
         description: "Simulation : lister les fichiers sans rien envoyer"
         type: boolean
         default: false
-      protocol:
-        description: "Protocole (ftps = FTP explicite TLS port 21 ; ftps-legacy = TLS implicite port 990 ; ftp = non chiffré, à éviter)"
-        type: choice
-        options: [ftps, ftps-legacy, ftp]
-        default: ftps
-      port:
-        description: "Port (21 pour ftp/ftps, 990 pour ftps-legacy)"
-        type: string
-        default: "21"
       diag:
         description: "Diagnostic seulement : ports ouverts et test SFTP chiffré, sans déploiement"
         type: boolean
@@ -82,30 +73,21 @@ jobs:
           done
           echo "Fichiers à déployer :"; find site -type f | sort | head -200
 
-      - name: Envoi FTP/SFTP vers OVH
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          # OVH mutualisé : FTP explicite sur TLS (ftps) ; mettre "sftp" si l'hébergement l'offre (port 22).
-          protocol: ${{ inputs.protocol || 'ftps' }}
-          port: ${{ inputs.port || 21 }}
-          local-dir: ./site/
-          # Racine web OVH mutualisé : généralement ./www/ ; adapter au dossier racine du domaine.
-          server-dir: ./www/
-          state-name: .ftp-deploy-sync-state.json
-          dangerous-clean-slate: false
-          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true }}
-          log-level: standard
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/*.map
-            **/.DS_Store
-            **/Thumbs.db
-            **/*.tmp
-            **/.maquette-*
-            **/README*.md
-            **/captures/**
+      - name: Envoi SFTP (chiffré, port 22) vers OVH avec lftp
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run == true) && '--dry-run' || '' }}
+          SERVER_DIR: ./www/
+        run: |
+          sudo apt-get install -y -q lftp >/dev/null 2>&1
+          echo "Mode : ${DRY_RUN:-envoi réel} ; destination : $SERVER_DIR"
+          # mirror -R : envoie site/ vers la racine web ; jamais de suppression distante (pas de --delete) ;
+          # --only-newer : ne renvoie que les fichiers modifiés ; exclusions : captures, états, fichiers système.
+          lftp -e "set net:timeout 30; set net:max-retries 2; set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no -o ConnectTimeout=20'; \
+                   mirror -R --only-newer --no-perms --verbose=1 $DRY_RUN \
+                     --exclude-glob .git* --exclude-glob '*.map' --exclude-glob .DS_Store --exclude-glob Thumbs.db --exclude-glob '*.tmp' \
+                     --exclude-glob 'README*.md' --exclude captures/ --exclude-glob '.maquette-*' \
+                     ./site/ $SERVER_DIR; bye" -u "$FTP_USERNAME,$FTP_PASSWORD" "sftp://$FTP_SERVER" 2>&1 | sed -e "s/$FTP_PASSWORD/***/g"
+          test ${PIPESTATUS[0]} -eq 0
