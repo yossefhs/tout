@@ -1,0 +1,19 @@
+{
+  "nom": "Groupe Roy Énergie",
+  "metier": "Installateur de panneaux photovoltaïques",
+  "metier_court": "Installateur photovoltaïque",
+  "ville": "Toury",
+  "tel": "02 38 80 18 01",
+  "email": "contact@gre-enr.fr",
+  "adresse": "23 rue Gondrelier, Z.A de la Haute Borne, 28310 Toury",
+  "slogan": "Installateur de panneaux photovoltaïques",
+  "services": [
+    "Autoconsommation",
+    "Revente totale",
+    "Location de toiture",
+    "Dépannage et Maintenance"
+  ],
+  "palette": "batiment",
+  "objectif": "devis",
+  "domaine_source": "gre-enr.fr"
+}

@@ -1,0 +1,14 @@
+# Lourds ou régénérables
+pipeline/out/*/audit/captures/
+pipeline/out/*/*/audit/captures/
+pipeline/out/**/lighthouse.json
+pipeline/out/**/*.png
+pipeline/data/raw/
+pipeline/data/logs/
+pipeline/scripts/__pycache__/
+pipeline/scripts/**/__pycache__/
+_preparation/captures-clientsici/*.json
+clientsici-site/captures-tests/*.json
+**/node_modules/
+.venv*/
+*.pyc

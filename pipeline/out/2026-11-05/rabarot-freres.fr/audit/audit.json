@@ -1,0 +1,1088 @@
+{
+  "meta": {
+    "outil": "audit_site.py",
+    "version": "1.1",
+    "date": "2026-11-05T21:58:59+00:00",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "parametres": {
+      "url": "https://rabarot-freres.fr",
+      "pages": 4,
+      "ville": "GOMMERVILLE",
+      "cp": "28310",
+      "nom": "RABAROT FRERES",
+      "enseigne": "",
+      "siren": "500467279",
+      "metier": "maçon",
+      "timeout_s": 12,
+      "navigateur": true,
+      "lighthouse": true
+    },
+    "requetes_html": 7,
+    "requetes_autres": 2,
+    "duree_totale_s": 27.6
+  },
+  "cible": {
+    "url_demandee": "https://rabarot-freres.fr",
+    "domaine_demande": "rabarot-freres.fr",
+    "url_finale": "https://rabarot-freres.fr/",
+    "domaine_final": "rabarot-freres.fr",
+    "hote_final": "rabarot-freres.fr",
+    "status": 200,
+    "chaine": [],
+    "erreur": null
+  },
+  "http": {
+    "hsts": "max-age=31536000; preload",
+    "test_http": {
+      "url": "http://rabarot-freres.fr/",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/",
+      "chaine": [
+        {
+          "url": "http://rabarot-freres.fr/",
+          "status": 301,
+          "location": "https://rabarot-freres.fr/"
+        }
+      ],
+      "erreur": null,
+      "duree_s": 0.22
+    },
+    "test_https": null,
+    "test_www": {
+      "url": "https://www.rabarot-freres.fr/",
+      "status": 200,
+      "final_url": "https://www.rabarot-freres.fr/",
+      "chaine": [],
+      "erreur": null,
+      "duree_s": 0.4
+    },
+    "serveur": "nginx"
+  },
+  "pages": [
+    {
+      "role": "accueil",
+      "url": "https://rabarot-freres.fr",
+      "final_url": "https://rabarot-freres.fr/",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 159130,
+      "duree_s": 0.42,
+      "erreur": null,
+      "html": true,
+      "title": "Rabarot Frères - Couvreur RGE Qualibat à Angerville",
+      "title_longueur": 51,
+      "meta_description": "Nos spécialistes de la construction de maison sont à votre écoute pour tous vos travaux de maçonnerie, couverture, plâtrerie, menuiserie et terrassement.",
+      "meta_description_longueur": 153,
+      "meta_viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": "Rabarot Frères - Couvreur RGE Qualibat à Angerville",
+      "lang": "fr",
+      "canonical": "https://www.rabarot-freres.fr/",
+      "h1": [
+        "SAS",
+        "RABAROT FRERES",
+        "",
+        "ENTREPRISE artisanale DEPUIS 1948",
+        "Travaux de rénovation - maçonnerie - couverture du bâtiment"
+      ],
+      "h1_nombre": 5,
+      "h2": [
+        "Découvrez nos prestations",
+        "Les raisons de nous faire confiance",
+        ""
+      ],
+      "h3": [
+        "Rabarot Frères, entreprise RGE Qualibat à Gommerville, vous accompagne dans vos travaux de rénovation.",
+        "Entreprise familiale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité",
+        "Couverture",
+        "Menuiseries",
+        "Clôtures",
+        "Extension",
+        "Charpente",
+        "Plâtrerie",
+        "Fenêtre de toit",
+        "Maçonnerie",
+        "Entreprise de maçonnerie : agrandissez ou rénovez votre maison avec des professionnels RGE",
+        "Toiture et couverture : la protection indispensable de la maison près de Pussay",
+        "Entreprise de plâtrerie : aménagez et rénovez énergétiquement vos espaces intérieurs.",
+        "Entreprise artisanale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité",
+        "Menuiseries : posez vos portes, portails, fenêtres, baies, etc.",
+        "Terrassement : modifiez votre terrain avec un remblai ou un déblai"
+      ],
+      "liens_internes": 65,
+      "liens_externes": 2,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 19,
+      "images_sans_alt": 19,
+      "images_sans_alt_exemples": [
+        "https://irp.cdn-website.com/md/dmtmpl/3ece4468-4a3e-4529-9ab6-841ddce4c28b/dms3rep/multi/Logo-861d487a.svg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT+Logo-sans+fond-1920w.png",
+        "https://irp.cdn-website.com/27a57583/import/clib/rabarot-freres_com/dms3rep/multi/opt/hq-rge-qualibat-93h-74x90-1920w.pn",
+        "https://irp.cdn-website.com/27a57583/import/clib/rabarot-freres_com/dms3rep/multi/opt/hq-rge-qualibat-1920x2329-1920w.pn",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/%C3%A9glise+3-1920w.jpg"
+      ],
+      "scripts_externes": 3,
+      "scripts_externes_domaines": [
+        "static.cdn-website.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "Duda",
+            "source": "traces dans le HTML",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "GeoCoordinates",
+        "LocalBusiness",
+        "OpeningHoursSpecification",
+        "PostalAddress",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 721,
+      "telephones_detectes": [
+        "02 37 99 52 16"
+      ],
+      "emails_detectes": [
+        "rabarot-freres@orange.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "3 Rue du Château",
+          "code_postal": "28310",
+          "ville": "Gommerville"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2025,
+      "departements_mentionnes": [],
+      "mention_zone": true
+    },
+    {
+      "role": "contact",
+      "url": "https://rabarot-freres.fr/contact",
+      "final_url": "https://rabarot-freres.fr/contact",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 117703,
+      "duree_s": 0.44,
+      "erreur": null,
+      "html": true,
+      "title": "Contact",
+      "title_longueur": 7,
+      "meta_description": null,
+      "meta_description_longueur": 0,
+      "meta_viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": null,
+      "lang": "fr",
+      "canonical": "https://www.rabarot-freres.fr/contact",
+      "h1": [
+        "Dites nous en plus sur votre projet !"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Remplissez notre formulaire de contact :"
+      ],
+      "h3": [
+        "",
+        "heures d'ouverture",
+        "Contactez une entreprise de bâtiment artisanale, située à Gommerville, et spécialisée dans les travaux de maçonnerie et "
+      ],
+      "liens_internes": 46,
+      "liens_externes": 2,
+      "liens_tel": [
+        "tel:02 37 99 52 16"
+      ],
+      "liens_mailto": [],
+      "images_total": 3,
+      "images_sans_alt": 3,
+      "images_sans_alt_exemples": [
+        "https://irp.cdn-website.com/md/dmtmpl/3ece4468-4a3e-4529-9ab6-841ddce4c28b/dms3rep/multi/Logo-861d487a.svg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT+Logo-sans+fond-1920w.png",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT-3a27cc2e-33886de8-1920w.png"
+      ],
+      "scripts_externes": 3,
+      "scripts_externes_domaines": [
+        "static.cdn-website.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "Duda",
+            "source": "traces dans le HTML",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 320,
+      "telephones_detectes": [
+        "02 37 99 52 16"
+      ],
+      "emails_detectes": [
+        "rabarot-freres@orange.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "3 Rue du Château",
+          "code_postal": "28310",
+          "ville": "Gommerville"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2025,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    },
+    {
+      "role": "a-propos",
+      "url": "https://rabarot-freres.fr/a-propos",
+      "final_url": "https://rabarot-freres.fr/a-propos",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 113439,
+      "duree_s": 0.05,
+      "erreur": null,
+      "html": true,
+      "title": "a-propos",
+      "title_longueur": 8,
+      "meta_description": null,
+      "meta_description_longueur": 0,
+      "meta_viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": null,
+      "lang": "fr",
+      "canonical": "https://www.rabarot-freres.fr/a-propos",
+      "h1": [
+        "SAS. RABAROT FRERES",
+        "",
+        "ENTREPRISE FAMILIALE DEPUIS 1948",
+        "Nos couvreurs et zingueurs à votre disposition proche de Pussay"
+      ],
+      "h1_nombre": 4,
+      "h2": [
+        "Une entreprise de couverture familiale certifiée à Angerville ﻿",
+        "Découvrez nos prestations",
+        "Les raisons de nous faire confiance",
+        ""
+      ],
+      "h3": [
+        "Entreprise familiale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité"
+      ],
+      "liens_internes": 48,
+      "liens_externes": 2,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 4,
+      "images_sans_alt": 4,
+      "images_sans_alt_exemples": [
+        "https://irp.cdn-website.com/md/dmtmpl/3ece4468-4a3e-4529-9ab6-841ddce4c28b/dms3rep/multi/Logo-861d487a.svg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT+Logo-sans+fond-1920w.png",
+        "https://irp.cdn-website.com/27a57583/import/clib/rabarot-freres_com/dms3rep/multi/opt/hq-rge-qualibat-1920x2329-1920w.pn",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT-3a27cc2e-33886de8-1920w.png"
+      ],
+      "scripts_externes": 3,
+      "scripts_externes_domaines": [
+        "static.cdn-website.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "Duda",
+            "source": "traces dans le HTML",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 542,
+      "telephones_detectes": [
+        "02 37 99 52 16"
+      ],
+      "emails_detectes": [
+        "rabarot-freres@orange.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "3 Rue du Château",
+          "code_postal": "28310",
+          "ville": "Gommerville"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2025,
+      "departements_mentionnes": [
+        "Eure-et-Loir"
+      ],
+      "mention_zone": true
+    },
+    {
+      "role": "navigation",
+      "url": "https://rabarot-freres.fr/agrandissement-maison",
+      "final_url": "https://rabarot-freres.fr/agrandissement-maison",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 118216,
+      "duree_s": 0.05,
+      "erreur": null,
+      "html": true,
+      "title": "Agrandissement de maison",
+      "title_longueur": 24,
+      "meta_description": null,
+      "meta_description_longueur": 0,
+      "meta_viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": null,
+      "lang": "fr",
+      "canonical": "https://www.rabarot-freres.fr/agrandissement-maison",
+      "h1": [
+        "SAS. RABAROT FRERES",
+        "",
+        "ENTREPRISE ARTISANALE DEPUIS 1948",
+        "Nos couvreurs et zingueurs à votre disposition proche de Pussay"
+      ],
+      "h1_nombre": 4,
+      "h2": [
+        "Découvrez nos prestations"
+      ],
+      "h3": [
+        "Entreprise artisanale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité"
+      ],
+      "liens_internes": 45,
+      "liens_externes": 2,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 8,
+      "images_sans_alt": 8,
+      "images_sans_alt_exemples": [
+        "https://irp.cdn-website.com/md/dmtmpl/3ece4468-4a3e-4529-9ab6-841ddce4c28b/dms3rep/multi/Logo-861d487a.svg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT+Logo-sans+fond-1920w.png",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/IMG_1876-1920w-960x1280-33a9125b-a2394b70-81afd14b-389cb125-c8274",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/IMG_1881-1920w-960x1280-1920w.jpg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/IMG_1016-1920w-1920x1440-1920w.jpg"
+      ],
+      "scripts_externes": 3,
+      "scripts_externes_domaines": [
+        "static.cdn-website.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "Duda",
+            "source": "traces dans le HTML",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 615,
+      "telephones_detectes": [
+        "02 37 99 52 16"
+      ],
+      "emails_detectes": [
+        "rabarot-freres@orange.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "3 Rue du Château",
+          "code_postal": "28310",
+          "ville": "Gommerville"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2025,
+      "departements_mentionnes": [
+        "Eure-et-Loir"
+      ],
+      "mention_zone": true
+    },
+    {
+      "role": "navigation",
+      "url": "https://rabarot-freres.fr/cloture",
+      "final_url": "https://rabarot-freres.fr/cloture",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 102493,
+      "duree_s": 0.05,
+      "erreur": null,
+      "html": true,
+      "title": "Terrassement à Angerville - Aménagement de terrain",
+      "title_longueur": 50,
+      "meta_description": "Notre équipe assure tous vos travaux de terrassement, du déblayage/remblayage à la mise à niveau du sol, pour réaliser tous vos projets. Contactez-nous !",
+      "meta_description_longueur": 153,
+      "meta_viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": "Terrassement à Angerville - Aménagement de terrain",
+      "lang": "fr",
+      "canonical": "https://www.rabarot-freres.fr/cloture",
+      "h1": [
+        "SAS. RABAROT FRERES",
+        "",
+        "ENTREPRISE FAMILIALE DEPUIS 1948",
+        "Nos couvreurs et zingueurs à votre disposition proche de Pussay"
+      ],
+      "h1_nombre": 4,
+      "h2": [
+        "Découvrez nos prestations",
+        "",
+        ""
+      ],
+      "h3": [
+        "Entreprise familiale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité"
+      ],
+      "liens_internes": 44,
+      "liens_externes": 2,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 4,
+      "images_sans_alt": 4,
+      "images_sans_alt_exemples": [
+        "https://irp.cdn-website.com/md/dmtmpl/3ece4468-4a3e-4529-9ab6-841ddce4c28b/dms3rep/multi/Logo-861d487a.svg",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT+Logo-sans+fond-1920w.png",
+        "https://irp.cdn-website.com/27a57583/import/clib/rabarot-freres_com/dms3rep/multi/opt/hq-rge-qualibat-1920x2329-1920w.pn",
+        "https://irp.cdn-website.com/27a57583/dms3rep/multi/opt/RABAROT-3a27cc2e-33886de8-1920w.png"
+      ],
+      "scripts_externes": 3,
+      "scripts_externes_domaines": [
+        "static.cdn-website.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "Duda",
+            "source": "traces dans le HTML",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 464,
+      "telephones_detectes": [
+        "02 37 99 52 16"
+      ],
+      "emails_detectes": [
+        "rabarot-freres@orange.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "3 Rue du Château",
+          "code_postal": "28310",
+          "ville": "Gommerville"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2025,
+      "departements_mentionnes": [
+        "Eure-et-Loir"
+      ],
+      "mention_zone": true
+    }
+  ],
+  "robots": {
+    "url": "https://rabarot-freres.fr/robots.txt",
+    "existe": true,
+    "status": 200,
+    "disallow_tout": false,
+    "sitemaps": [
+      "https://www.rabarot-freres.fr/sitemap.xml"
+    ],
+    "erreur": null
+  },
+  "sitemap": {
+    "url": "https://www.rabarot-freres.fr/sitemap.xml",
+    "existe": true,
+    "status": 200,
+    "type": "urlset",
+    "nb_urls": 23,
+    "nb_sitemaps": null,
+    "testees": [
+      {
+        "url": "https://www.rabarot-freres.fr/sitemap.xml",
+        "status": 200,
+        "erreur": null
+      }
+    ],
+    "erreur": null
+  },
+  "navigateur": {
+    "outil": "Playwright (Chromium headless)",
+    "date": "2026-11-05T21:59:01+00:00",
+    "url": "https://rabarot-freres.fr/",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "vues": {
+      "mobile": {
+        "viewport": "375x812",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 2.18,
+        "requetes": 50,
+        "octets_transferes": 2282425,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/mobile-375-fold.png",
+          "full": "captures/mobile-375-full.png"
+        },
+        "metriques": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 768,
+          "scrollHeight": 8922,
+          "debordement": true,
+          "appels": [
+            {
+              "texte": "Contactez nous",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1591688944 align center dm Button",
+              "top": 1169,
+              "bottom": 1224,
+              "left": 246,
+              "largeur": 276,
+              "hauteur": 55,
+              "dans_fold": false
+            },
+            {
+              "texte": "Contactez nous",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1339454418 align center dm Button",
+              "top": 7644,
+              "bottom": 7699,
+              "left": 271,
+              "largeur": 226,
+              "hauteur": 55,
+              "dans_fold": false
+            },
+            {
+              "texte": "Nous écrire",
+              "href": "/contact",
+              "tel": false,
+              "motif": "lien vers une page contact",
+              "fixe": false,
+              "classes": "u 1524873154 align center dm Button",
+              "top": 8710,
+              "bottom": 8750,
+              "left": 539,
+              "largeur": 149,
+              "hauteur": 41,
+              "dans_fold": false
+            },
+            {
+              "texte": "Nous appeler",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1465069049 align center dm Button",
+              "top": 8760,
+              "bottom": 8801,
+              "left": 539,
+              "largeur": 149,
+              "hauteur": 41,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 4,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": false,
+            "fixe_visible_sans_defiler": false,
+            "tel_present": false
+          },
+          "plus_petit_texte_px": 14,
+          "plus_petit_texte_exemple": "Nous écrire",
+          "textes_moins_12px": 0,
+          "elements_examines": 706,
+          "viewport_meta": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+          "titre_document": "Rabarot Frères - Couvreur RGE Qualibat à Angerville"
+        },
+        "erreurs_console_nombre": 0
+      },
+      "desktop": {
+        "viewport": "1440x900",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 1.71,
+        "requetes": 53,
+        "octets_transferes": 2295100,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/desktop-1440-fold.png",
+          "full": "captures/desktop-1440-full.png"
+        },
+        "metriques": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 6858,
+          "debordement": false,
+          "appels": [
+            {
+              "texte": "CONTACTEZ NOUS",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1797053108 align center dm Button",
+              "top": 35,
+              "bottom": 85,
+              "left": 1203,
+              "largeur": 234,
+              "hauteur": 50,
+              "dans_fold": true
+            },
+            {
+              "texte": "Contactez nous",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1591688944 align center dm Button",
+              "top": 1079,
+              "bottom": 1134,
+              "left": 582,
+              "largeur": 276,
+              "hauteur": 55,
+              "dans_fold": false
+            },
+            {
+              "texte": "Contactez nous",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1339454418 align center dm Button",
+              "top": 5598,
+              "bottom": 5653,
+              "left": 583,
+              "largeur": 274,
+              "hauteur": 55,
+              "dans_fold": false
+            },
+            {
+              "texte": "Nous écrire",
+              "href": "/contact",
+              "tel": false,
+              "motif": "lien vers une page contact",
+              "fixe": false,
+              "classes": "u 1524873154 align center dm Button",
+              "top": 6742,
+              "bottom": 6783,
+              "left": 1095,
+              "largeur": 156,
+              "hauteur": 41,
+              "dans_fold": false
+            },
+            {
+              "texte": "Nous appeler",
+              "href": "/contact",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "u 1465069049 align center dm Button",
+              "top": 6793,
+              "bottom": 6834,
+              "left": 1095,
+              "largeur": 156,
+              "hauteur": 41,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 5,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": true,
+            "fixe_visible_sans_defiler": false,
+            "tel_present": false
+          },
+          "plus_petit_texte_px": 14,
+          "plus_petit_texte_exemple": "Nous écrire",
+          "textes_moins_12px": 0,
+          "elements_examines": 704,
+          "viewport_meta": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+          "titre_document": "Rabarot Frères - Couvreur RGE Qualibat à Angerville"
+        },
+        "erreurs_console_nombre": 0
+      }
+    },
+    "erreur": null
+  },
+  "lighthouse": {
+    "outil": "Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé",
+    "date": "2026-11-05T21:59:11+00:00",
+    "url": "https://rabarot-freres.fr/",
+    "statut": "mesuré",
+    "raison": null,
+    "scores": {
+      "performance": 75,
+      "accessibility": 84,
+      "best-practices": 96,
+      "seo": 92
+    },
+    "metriques": {
+      "lcp_ms": 6873,
+      "cls": 0.025,
+      "tbt_ms": 42,
+      "fcp_ms": 1299,
+      "speed_index_ms": 3480,
+      "poids_total_octets": 995769
+    },
+    "fichier": "lighthouse.json",
+    "conditions": "mesure unique depuis un serveur (pas un téléphone réel), réseau et CPU simulés ; les valeurs varient d'une mesure à l'autre",
+    "commande": "npx -y lighthouse@12 https://rabarot-freres.fr/ --chrome-flags=--headless=new --no-sandbox --disable-gpu --form-factor=mobile --screenEmulation.mobile --throttling-method=simulate --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=/home/user/refonte-vitrine/pipeline/out/2026-11-05/rabarot-freres.fr/audit/lighthouse.json --quiet",
+    "version": "12.8.2",
+    "url_finale": "https://rabarot-freres.fr/"
+  },
+  "analyse": {
+    "constats": [
+      {
+        "id": "C01",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Versions avec et sans « www » servies toutes deux",
+        "preuve": {
+          "url": "https://www.rabarot-freres.fr/",
+          "valeur": "réponse 200 sur https://www.rabarot-freres.fr/ sans redirection vers https://rabarot-freres.fr/"
+        },
+        "consequence_possible": "Deux adresses pour le même contenu : Google peut hésiter sur la version à afficher.",
+        "correction": "Rediriger (301) l'une des deux versions vers l'autre."
+      },
+      {
+        "id": "C02",
+        "type": "mesure",
+        "gravite": "haute",
+        "titre": "Débordement horizontal à 375 px",
+        "preuve": {
+          "url": "https://rabarot-freres.fr/",
+          "valeur": "largeur défilable 768 px pour un écran de 375 px (Playwright, 2026-11-05T21:59:01+00:00)"
+        },
+        "consequence_possible": "Sur téléphone, une partie du contenu sort de l'écran ; textes et boutons peuvent être coupés, et il faut défiler sur le côté.",
+        "correction": "Corriger les éléments plus larges que l'écran (images, tableaux, blocs à largeur fixe) avec max-width:100 % et une mise en page fluide."
+      },
+      {
+        "id": "C03",
+        "type": "mesure",
+        "gravite": "moyenne",
+        "titre": "Performance mobile moyenne (Lighthouse)",
+        "preuve": {
+          "url": "https://rabarot-freres.fr/",
+          "valeur": "performance 75/100, LCP 6873 ms, CLS 0.025, TBT 42 ms (Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé, 2026-11-05T21:59:11+00:00)"
+        },
+        "consequence_possible": "L'affichage peut être perceptiblement lent sur un réseau mobile ordinaire.",
+        "correction": "Optimiser images et scripts ; viser un LCP sous 2,5 s."
+      },
+      {
+        "id": "C04",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Plusieurs titres H1 sur l'accueil",
+        "preuve": {
+          "url": "https://rabarot-freres.fr/",
+          "valeur": "5 balises <h1>"
+        },
+        "consequence_possible": "La hiérarchie des titres peut en être brouillée.",
+        "correction": "Garder un seul H1, passer les autres en H2."
+      },
+      {
+        "id": "C05",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Images sans attribut alt",
+        "preuve": {
+          "url": "https://rabarot-freres.fr/",
+          "valeur": "38 image(s) sans alt sur 5 page(s) consultée(s) (accueil : 19/19)"
+        },
+        "consequence_possible": "Ces photos risquent de ne pas remonter dans Google Images et restent muettes pour les lecteurs d'écran.",
+        "correction": "Décrire chaque photo en une phrase avec le métier et le lieu (ex. « Maçon à Gommerville : [ce que montre la photo] »)."
+      },
+      {
+        "id": "C06",
+        "type": "mesure",
+        "gravite": "moyenne",
+        "titre": "Aucun bouton de contact visible sans défiler à 375 px",
+        "preuve": {
+          "url": "https://rabarot-freres.fr/",
+          "valeur": "lien tel: présent plus bas dans la page, mais aucun lien d'appel ni bouton de contact sur le premier écran mobile (Playwright, 2026-11-05T21:59:01+00:00)"
+        },
+        "consequence_possible": "Le visiteur pressé risque de ne pas voir comment appeler sans défiler.",
+        "correction": "Placer un bouton « Appeler » dans l'en-tête ou une barre fixe en bas d'écran sur mobile."
+      }
+    ],
+    "non_verifie": [],
+    "verdict": "refonte pertinente",
+    "verdict_motif": "1 constat(s) de gravité haute et 2 moyenne(s)",
+    "gravites": {
+      "haute": 1,
+      "moyenne": 2,
+      "basse": 3
+    },
+    "ce_qui_fonctionne": [
+      "HTTPS actif et redirection http→https en place",
+      "En-tête HSTS présent (le navigateur force HTTPS après la première visite)",
+      "Balise viewport présente",
+      "Aucune erreur console au chargement mobile",
+      "Lighthouse SEO technique 92/100",
+      "Lighthouse bonnes pratiques 96/100",
+      "Titre présent (51 caractères)",
+      "Meta description présente (153 caractères)",
+      "Numéro cliquable (tel:) présent : tel:02 37 99 52 16",
+      "Ville ou zone d'intervention visible sur l'accueil (ville « GOMMERVILLE » trouvée sur l'accueil)",
+      "Données structurées LocalBusiness présentes (LocalBusiness)",
+      "Copyright à jour (© 2025)",
+      "Sitemap présent (https://www.rabarot-freres.fr/sitemap.xml, 23 URL)",
+      "robots.txt présent et non bloquant"
+    ],
+    "a_preserver": {
+      "pages_trouvees": [
+        {
+          "url": "https://rabarot-freres.fr/",
+          "role": "accueil",
+          "title": "Rabarot Frères - Couvreur RGE Qualibat à Angerville",
+          "status": 200
+        },
+        {
+          "url": "https://rabarot-freres.fr/contact",
+          "role": "contact",
+          "title": "Contact",
+          "status": 200
+        },
+        {
+          "url": "https://rabarot-freres.fr/a-propos",
+          "role": "a-propos",
+          "title": "a-propos",
+          "status": 200
+        },
+        {
+          "url": "https://rabarot-freres.fr/agrandissement-maison",
+          "role": "navigation",
+          "title": "Agrandissement de maison",
+          "status": 200
+        },
+        {
+          "url": "https://rabarot-freres.fr/cloture",
+          "role": "navigation",
+          "title": "Terrassement à Angerville - Aménagement de terrain",
+          "status": 200
+        }
+      ],
+      "menu": [
+        "Accueil",
+        "Maçonnerie",
+        "Agrandissement de maison",
+        "Ravalement",
+        "Terrassement",
+        "Couverture zinguerie",
+        "installation-toiture",
+        "renovation-toiture",
+        "demoussage",
+        "fenetre-toit",
+        "renovation-charpente",
+        "Platrerie-isolation",
+        "Pose-cloisons",
+        "faux-plafond",
+        "Carrelage faîence"
+      ],
+      "coordonnees": {
+        "telephones": [
+          "02 37 99 52 16"
+        ],
+        "emails": [
+          "rabarot-freres@orange.fr"
+        ],
+        "adresses": [
+          {
+            "rue": "3 Rue du Château",
+            "code_postal": "28310",
+            "ville": "Gommerville"
+          }
+        ]
+      },
+      "services_listes": [
+        "Entreprise familiale",
+        "RGE Qualibat",
+        "Garantie décennale",
+        "Écoute et proximité",
+        "Couverture",
+        "Menuiseries",
+        "Clôtures",
+        "Extension",
+        "Charpente",
+        "Plâtrerie",
+        "Fenêtre de toit",
+        "Maçonnerie"
+      ],
+      "note": "Inventaire limité aux pages consultées ; les intitulés de services sont les listes de prestations (ul/li) et les titres H2/H3 relevés hors formulaire sur les pages accueil/services (12 au plus), à vérifier avec le client."
+    },
+    "correspondance_entreprise": {
+      "elements_trouves": [
+        "nom",
+        "ville",
+        "cp"
+      ],
+      "elements_fournis": [
+        "nom",
+        "ville",
+        "cp",
+        "siren"
+      ],
+      "elements_non_trouves": [
+        "siren"
+      ],
+      "details": {
+        "nom": {
+          "fourni": true,
+          "valeur": "RABAROT FRERES",
+          "trouve": true,
+          "ou": "https://rabarot-freres.fr/",
+          "mode": "libellé entier"
+        },
+        "enseigne": {
+          "fourni": false
+        },
+        "ville": {
+          "fourni": true,
+          "valeur": "GOMMERVILLE",
+          "trouve": true,
+          "ou": "https://rabarot-freres.fr/"
+        },
+        "cp": {
+          "fourni": true,
+          "valeur": "28310",
+          "trouve": true,
+          "ou": "https://rabarot-freres.fr/"
+        },
+        "siren": {
+          "fourni": true,
+          "valeur": "500467279",
+          "trouve": false
+        }
+      },
+      "note": "Recherche sur les pages consultées (titre, description, H1, texte visible), sans accents ni casse ; nom et enseigne acceptés si le libellé entier ou tous ses mots significatifs figurent sur une même page."
+    }
+  },
+  "erreurs": [],
+  "journal_requetes": [
+    {
+      "type": "html",
+      "url": "https://rabarot-freres.fr",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/",
+      "duree_s": 0.42,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "http://rabarot-freres.fr/",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/",
+      "duree_s": 0.22,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.rabarot-freres.fr/",
+      "status": 200,
+      "final_url": "https://www.rabarot-freres.fr/",
+      "duree_s": 0.4,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://rabarot-freres.fr/contact",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/contact",
+      "duree_s": 0.44,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://rabarot-freres.fr/a-propos",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/a-propos",
+      "duree_s": 0.05,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://rabarot-freres.fr/agrandissement-maison",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/agrandissement-maison",
+      "duree_s": 0.05,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://rabarot-freres.fr/cloture",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/cloture",
+      "duree_s": 0.05,
+      "erreur": null
+    },
+    {
+      "type": "robots",
+      "url": "https://rabarot-freres.fr/robots.txt",
+      "status": 200,
+      "final_url": "https://rabarot-freres.fr/robots.txt",
+      "duree_s": 0.04,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "https://www.rabarot-freres.fr/sitemap.xml",
+      "status": 200,
+      "final_url": "https://www.rabarot-freres.fr/sitemap.xml",
+      "duree_s": 0.46,
+      "erreur": null
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+{
+  "meta": {
+    "outil": "audit_site.py",
+    "version": "1.1",
+    "date": "2026-11-05T21:53:21+00:00",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "parametres": {
+      "url": "https://clientsici.fr/",
+      "pages": 4,
+      "ville": "Landelles",
+      "cp": "28190",
+      "nom": "Clients Ici",
+      "enseigne": null,
+      "siren": "000000000",
+      "metier": null,
+      "timeout_s": 12,
+      "navigateur": true,
+      "lighthouse": true
+    },
+    "requetes_html": 7,
+    "requetes_autres": 2,
+    "duree_totale_s": 23.3
+  },
+  "cible": {
+    "url_demandee": "https://clientsici.fr/",
+    "domaine_demande": "clientsici.fr",
+    "url_finale": "https://clientsici.fr/",
+    "domaine_final": "clientsici.fr",
+    "hote_final": "clientsici.fr",
+    "status": 200,
+    "chaine": [],
+    "erreur": null
+  },
+  "http": {
+    "hsts": "max-age=31536000; includeSubDomains",
+    "test_http": {
+      "url": "http://clientsici.fr/",
+      "status": 200,
+      "final_url": "http://clientsici.fr/",
+      "chaine": [],
+      "erreur": null,
+      "duree_s": 0.58
+    },
+    "test_https": null,
+    "test_www": {
+      "url": "https://www.clientsici.fr/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/",
+      "chaine": [
+        {
+          "url": "https://www.clientsici.fr/",
+          "status": 301,
+          "location": "https://clientsici.fr/"
+        }
+      ],
+      "erreur": null,
+      "duree_s": 0.94
+    },
+    "serveur": "Apache"
+  },
+  "pages": [
+    {
+      "role": "accueil",
+      "url": "https://clientsici.fr/",
+      "final_url": "https://clientsici.fr/",
+      "status": 200,
+      "content_type": "text/html",
+      "taille_octets": 24899,
+      "duree_s": 0.83,
+      "erreur": null,
+      "html": true,
+      "title": "Fiche Google artisan corrigée en 48 h, 49 € payés après",
+      "title_longueur": 55,
+      "meta_description": "Fiche Google artisan corrigée en 48 h pour 49 €, payés après livraison. Plus de visibilité locale sur Google Maps et plus d'appels. Diagnostic gratuit.",
+      "meta_description_longueur": 151,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Fiche Google artisan corrigée en 48 h, 49 € payés après",
+      "lang": "fr",
+      "canonical": "https://clientsici.fr/",
+      "h1": [
+        "Votre fiche Google a un défaut qui vous coûte des appels. Je le corrige en 48 h — 49 €, payés après."
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Ce que je corrige le plus souvent",
+        "Fiche Google corrigée en 48 h",
+        "Comment ça marche",
+        "Recevoir le diagnostic gratuit de ma fiche",
+        "Test IA à 29 € : ChatGPT et Gemini vous recommandent-ils ?",
+        "Besoin d'un site en plus de la fiche ?",
+        "Qui est derrière Clients Ici",
+        "Questions fréquentes"
+      ],
+      "h3": [
+        "Vous m'envoyez le nom de votre entreprise",
+        "Je corrige en 48 h",
+        "Vous vérifiez, puis payez 49 €"
+      ],
+      "liens_internes": 18,
+      "liens_externes": 1,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:contact@clientsici.fr"
+      ],
+      "images_total": 1,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "Country",
+        "FAQPage",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "OfferCatalog",
+        "OpeningHoursSpecification",
+        "Person",
+        "PostalAddress",
+        "ProfessionalService",
+        "PropertyValue",
+        "Question",
+        "Service",
+        "UnitPriceSpecification",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 748,
+      "telephones_detectes": [
+        "07 56 97 45 75"
+      ],
+      "emails_detectes": [
+        "contact@clientsici.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "6 rue du Parc",
+          "code_postal": "28190",
+          "ville": "Landelles"
+        }
+      ],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": 2026,
+      "departements_mentionnes": [],
+      "mention_zone": true
+    },
+    {
+      "role": "services",
+      "url": "https://clientsici.fr/site-vitrine-artisan/",
+      "final_url": "https://clientsici.fr/site-vitrine-artisan/",
+      "status": 200,
+      "content_type": "text/html",
+      "taille_octets": 27536,
+      "duree_s": 0.84,
+      "erreur": null,
+      "html": true,
+      "title": "Site vitrine artisan clé en main à 79 €/mois | Clients Ici",
+      "title_longueur": 58,
+      "meta_description": "Site vitrine artisan clé en main à 79 €/mois sans engagement : rapide sur mobile, relié à votre fiche Google, pensé pour la visibilité locale et l'appel.",
+      "meta_description_longueur": 153,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Site vitrine artisan clé en main à 79 €/mois | Clients Ici",
+      "lang": "fr",
+      "canonical": "https://clientsici.fr/site-vitrine-artisan/",
+      "h1": [
+        "Votre site vitrine artisan clé en main à 79 €/mois. Sans engagement, rapide sur mobile et prêt pour Google Maps & l'IA."
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Pourquoi associer votre fiche Google Maps à un site rapide multiplie vos appels",
+        "Tout ce qui est inclus dans votre forfait à 79 € / mois (sans engagement)",
+        "Comparatif : Agence web classique (ou leasing 48 mois) vs Clients Ici",
+        "Associez votre site vitrine à nos 2 autres piliers de visibilité locale",
+        "À lire",
+        "Questions fréquentes sur le Site Vitrine Artisan à 79 €/mois"
+      ],
+      "h3": [
+        "Ce qu'un client vérifie en 8 secondes sur votre site",
+        "Site Vitrine Artisan Clé en Main",
+        "Fiche Google Artisan en 48 h (49 €)",
+        "Plombier, chauffagiste : arriver dans le top 3 local",
+        "Fiche Google absente de Maps : causes et solutions",
+        "Être recommandé par ChatGPT et Gemini : guide artisan",
+        "Y a-t-il un engagement de durée ou des frais de création cachés ?",
+        "En combien de temps mon site vitrine artisan est-il mis en ligne ?",
+        "Que se passe-t-il si j'ai déjà un vieux site en HTTP ou un nom de domaine ?",
+        "Comment mes clients me contactent-ils depuis le site ?",
+        "Les mises à jour de mes photos de chantiers et de mes textes sont-elles incluses ?"
+      ],
+      "liens_internes": 25,
+      "liens_externes": 0,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:contact@clientsici.fr",
+        "mailto:contact@clientsici.fr?subject=Site%20vitrine%20artisan"
+      ],
+      "images_total": 1,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "Answer",
+        "BreadcrumbList",
+        "Country",
+        "FAQPage",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "Person",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "UnitPriceSpecification",
+        "WebPage"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 1325,
+      "telephones_detectes": [
+        "07 56 97 45 75"
+      ],
+      "emails_detectes": [
+        "contact@clientsici.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "6 rue du Parc",
+          "code_postal": "28190",
+          "ville": "Landelles"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": true,
+      "copyright_annee": 2026,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    },
+    {
+      "role": "navigation",
+      "url": "https://clientsici.fr/blog/",
+      "final_url": "https://clientsici.fr/blog/",
+      "status": 200,
+      "content_type": "text/html",
+      "taille_octets": 15448,
+      "duree_s": 0.11,
+      "erreur": null,
+      "html": true,
+      "title": "Blog fiche Google artisan, SEO local et IA | Clients Ici",
+      "title_longueur": 56,
+      "meta_description": "Guides pour artisans : fiche Google, Google Maps, avis, SEO local et visibilité dans ChatGPT et Gemini. Gagnez en visibilité locale et en appels clients.",
+      "meta_description_longueur": 153,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Blog fiche Google artisan, SEO local et IA | Clients Ici",
+      "lang": "fr",
+      "canonical": "https://clientsici.fr/blog/",
+      "h1": [
+        "Blog Clients Ici : fiche Google, SEO local et IA pour artisans"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Être recommandé par ChatGPT et Gemini : comment un artisan devient visible dans l'IA",
+        "Pourquoi ma fiche Google n'apparaît pas sur Google Maps (artisan) : 9 causes et solutions",
+        "Fiche Google plombier/chauffagiste : comment arriver dans le top 3 local en 2026"
+      ],
+      "h3": [],
+      "liens_internes": 27,
+      "liens_externes": 0,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:contact@clientsici.fr"
+      ],
+      "images_total": 1,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "LocalBusiness",
+        "Person",
+        "PostalAddress",
+        "ProfessionalService"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 386,
+      "telephones_detectes": [
+        "07 56 97 45 75"
+      ],
+      "emails_detectes": [
+        "contact@clientsici.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "6 rue du Parc",
+          "code_postal": "28190",
+          "ville": "Landelles"
+        }
+      ],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": 2026,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    },
+    {
+      "role": "navigation",
+      "url": "https://clientsici.fr/fiche-google-artisan/",
+      "final_url": "https://clientsici.fr/fiche-google-artisan/",
+      "status": 200,
+      "content_type": "text/html",
+      "taille_octets": 34056,
+      "duree_s": 0.12,
+      "erreur": null,
+      "html": true,
+      "title": "Fiche Google artisan en 48 h : 49 € payés après livraison",
+      "title_longueur": 57,
+      "meta_description": "Remise en ordre de votre fiche Google artisan en 48 h : catégories, services, zone, avis. 49 € payés après livraison, Test IA à 29 €. Plus d'appels locaux.",
+      "meta_description_longueur": 155,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Fiche Google artisan en 48 h : 49 € payés après livraison",
+      "lang": "fr",
+      "canonical": "https://clientsici.fr/fiche-google-artisan/",
+      "h1": [
+        "Fiche Google Artisan remise en ordre en 48 h. 49 € payés uniquement après livraison."
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Pourquoi une fiche Google incomplète vous fait perdre des appels d'urgence chaque semaine",
+        "Tableau par métier : les catégories Google Business Profile exactes que nous configurons",
+        "Test IA à 29 € : est-ce que l'IA vous recommande ?",
+        "Les 8 points remis au carré en 48 h + votre Bonus Carnet Gemini",
+        "Comment se déroule la remise en ordre en 3 étapes simples",
+        "Option Vidéos courtes : environ 49 € par mois",
+        "Complétez votre fiche Google pour dominer votre zone locale",
+        "À lire",
+        "Questions fréquentes sur la Fiche Google Artisan en 48 h"
+      ],
+      "h3": [
+        "Les 5 signaux d'alerte sur votre fiche actuelle",
+        "Test IA : 29 €",
+        "Remise en ordre complète en 48 h",
+        "5 minutes par écrit",
+        "Mise au carré complète sous 48 h",
+        "Validation puis règlement de 49 €",
+        "Site vitrine artisan clé en main (79 €/mois)",
+        "Fiche Google absente de Maps : causes et solutions",
+        "Plombier, chauffagiste : arriver dans le top 3 local",
+        "Être recommandé par ChatGPT et Gemini : guide artisan",
+        "Dois-je payer les 49 € d'avance pour ma fiche Google artisan ?",
+        "Dois-je vous communiquer mon mot de passe Google ?",
+        "Que se passe-t-il si je n'ai pas encore de fiche Google Maps ou si elle n'est pas validée ?",
+        "Garantissez-vous la première place sur Google Maps dans ma ville ?",
+        "Y a-t-il un abonnement mensuel caché après la remise en ordre ?",
+        "Comment est calculé le score de visibilité IA sur 100 ?",
+        "Les 29 € du Test IA sont-ils remboursés si je commande ensuite ?"
+      ],
+      "liens_internes": 27,
+      "liens_externes": 3,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:contact@clientsici.fr"
+      ],
+      "images_total": 1,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "Answer",
+        "BreadcrumbList",
+        "Country",
+        "FAQPage",
+        "ListItem",
+        "LocalBusiness",
+        "Offer",
+        "Person",
+        "PostalAddress",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 1953,
+      "telephones_detectes": [
+        "07 56 97 45 75"
+      ],
+      "emails_detectes": [
+        "contact@clientsici.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "6 rue du Parc",
+          "code_postal": "28190",
+          "ville": "Landelles"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": true,
+      "copyright_annee": 2026,
+      "departements_mentionnes": [],
+      "mention_zone": true
+    },
+    {
+      "role": "navigation",
+      "url": "https://clientsici.fr/veille/",
+      "final_url": "https://clientsici.fr/veille/",
+      "status": 200,
+      "content_type": "text/html",
+      "taille_octets": 25424,
+      "duree_s": 0.12,
+      "erreur": null,
+      "html": true,
+      "title": "Veille Reprises de Commerces & Baux B2B | Clients Ici",
+      "title_longueur": 53,
+      "meta_description": "Veille B2B hebdomadaire (BODACC/Greffes) : rachats de fonds de commerce, baux et transferts de sièges. Exclusivité 1 partenaire/métier/ville — 149 €/mois sans engagement (0 % commission) ou 10 % au devis signé.",
+      "meta_description_longueur": 210,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Clients Ici — Veille Reprises de Commerces & Implantations B2B (Exclusivité par Ville)",
+      "lang": "fr",
+      "canonical": "https://clientsici.fr/veille/",
+      "h1": [
+        "Chaque lundi, les nouveaux commerces et locaux repris dans votre ville. Avant qu'ils ne cherchent leurs prestataires."
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Pourquoi les rachats de fonds et droits au bail sont vos meilleurs chantiers",
+        "Ce que contient chacune des fiches du lundi matin",
+        "Deux formules au choix, selon votre façon de travailler",
+        "Recevoir gratuitement le bulletin de ma ville",
+        "26 Métropoles déjà actives & ouverture à la demande",
+        "Qui est derrière Clients Ici",
+        "Questions fréquentes"
+      ],
+      "h3": [
+        "Exclusivité départementale illimitée",
+        "Commission uniquement au devis signé"
+      ],
+      "liens_internes": 14,
+      "liens_externes": 0,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:contact@clientsici.fr",
+        "mailto:contact@clientsici.fr?subject=Bulletin%20gratuit%20Veille%20B2B",
+        "mailto:guillaume@clientsici.fr?subject=Bulletin%20gratuit%20Veille%20B2B",
+        "mailto:guillaume@clientsici.fr?subject=Veille%20B2B"
+      ],
+      "images_total": 1,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "LocalBusiness",
+        "Service"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": true,
+      "texte_longueur_mots": 1502,
+      "telephones_detectes": [
+        "07 56 97 45 75"
+      ],
+      "emails_detectes": [
+        "guillaume@clientsici.fr",
+        "contact@clientsici.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": null,
+          "code_postal": "44800",
+          "ville": "Saint-Herblain"
+        },
+        {
+          "rue": "6 rue du Parc",
+          "code_postal": "28190",
+          "ville": "Landelles"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2026,
+      "departements_mentionnes": [
+        "Alpes-Maritimes",
+        "Bouches-du-Rhône",
+        "Calvados",
+        "Côte-d'Or",
+        "Finistère"
+      ],
+      "mention_zone": false
+    }
+  ],
+  "robots": {
+    "url": "https://clientsici.fr/robots.txt",
+    "existe": true,
+    "status": 200,
+    "disallow_tout": false,
+    "sitemaps": [
+      "https://clientsici.fr/sitemap.xml"
+    ],
+    "erreur": null
+  },
+  "sitemap": {
+    "url": "https://clientsici.fr/sitemap.xml",
+    "existe": true,
+    "status": 200,
+    "type": "urlset",
+    "nb_urls": 11,
+    "nb_sitemaps": null,
+    "testees": [
+      {
+        "url": "https://clientsici.fr/sitemap.xml",
+        "status": 200,
+        "erreur": null
+      }
+    ],
+    "erreur": null
+  },
+  "navigateur": {
+    "outil": "Playwright (Chromium headless)",
+    "date": "2026-11-05T21:53:25+00:00",
+    "url": "https://clientsici.fr/",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "vues": {
+      "mobile": {
+        "viewport": "375x812",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 1.59,
+        "requetes": 2,
+        "octets_transferes": 40245,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/mobile-375-fold.png",
+          "full": "captures/mobile-375-full.png"
+        },
+        "metriques": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "scrollHeight": 5842,
+          "debordement": false,
+          "appels": [
+            {
+              "texte": "notre adresse e-mail",
+              "href": "mailto:contact@clientsici.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 3270,
+              "bottom": 3307,
+              "left": 18,
+              "largeur": 318,
+              "hauteur": 36,
+              "dans_fold": false
+            },
+            {
+              "texte": "",
+              "href": "mailto:contact@clientsici.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 5804,
+              "bottom": 5818,
+              "left": 97,
+              "largeur": 111,
+              "hauteur": 14,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 2,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": false,
+            "fixe_visible_sans_defiler": false,
+            "tel_present": false
+          },
+          "plus_petit_texte_px": 11.48,
+          "plus_petit_texte_exemple": "Éditeur du site et contact",
+          "textes_moins_12px": 5,
+          "elements_examines": 143,
+          "viewport_meta": "width=device-width,initial-scale=1",
+          "titre_document": "Fiche Google artisan corrigée en 48 h, 49 € payés après"
+        },
+        "erreurs_console_nombre": 0
+      },
+      "desktop": {
+        "viewport": "1440x900",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 0.99,
+        "requetes": 2,
+        "octets_transferes": 40245,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/desktop-1440-fold.png",
+          "full": "captures/desktop-1440-full.png"
+        },
+        "metriques": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 3600,
+          "debordement": false,
+          "appels": [
+            {
+              "texte": "notre adresse e-mail",
+              "href": "mailto:contact@clientsici.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 1893,
+              "bottom": 1909,
+              "left": 434,
+              "largeur": 127,
+              "hauteur": 16,
+              "dans_fold": false
+            },
+            {
+              "texte": "",
+              "href": "mailto:contact@clientsici.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 3743,
+              "bottom": 3757,
+              "left": 297,
+              "largeur": 111,
+              "hauteur": 14,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 2,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": false,
+            "fixe_visible_sans_defiler": false,
+            "tel_present": false
+          },
+          "plus_petit_texte_px": 11.48,
+          "plus_petit_texte_exemple": "Éditeur du site et contact",
+          "textes_moins_12px": 5,
+          "elements_examines": 143,
+          "viewport_meta": "width=device-width,initial-scale=1",
+          "titre_document": "Fiche Google artisan corrigée en 48 h, 49 € payés après"
+        },
+        "erreurs_console_nombre": 0
+      }
+    },
+    "erreur": null
+  },
+  "lighthouse": {
+    "outil": "Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé",
+    "date": "2026-11-05T21:53:31+00:00",
+    "url": "https://clientsici.fr/",
+    "statut": "mesuré",
+    "raison": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metriques": {
+      "lcp_ms": 846,
+      "cls": 0,
+      "tbt_ms": 0,
+      "fcp_ms": 846,
+      "speed_index_ms": 1549,
+      "poids_total_octets": 47144
+    },
+    "fichier": "lighthouse.json",
+    "conditions": "mesure unique depuis un serveur (pas un téléphone réel), réseau et CPU simulés ; les valeurs varient d'une mesure à l'autre",
+    "commande": "npx -y lighthouse@12 https://clientsici.fr/ --chrome-flags=--headless=new --no-sandbox --disable-gpu --form-factor=mobile --screenEmulation.mobile --throttling-method=simulate --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=out/audit-lot2-clientsici/lighthouse.json --quiet",
+    "version": "12.8.2",
+    "url_finale": "https://clientsici.fr/"
+  },
+  "analyse": {
+    "constats": [
+      {
+        "id": "C01",
+        "type": "fait observé",
+        "gravite": "haute",
+        "titre": "Redirection http→https absente",
+        "preuve": {
+          "url": "http://clientsici.fr/",
+          "valeur": "réponse 200 servie en http sans redirection (URL finale http://clientsici.fr/)"
+        },
+        "consequence_possible": "Un visiteur qui tape l'adresse sans « https » ou suit un vieux lien peut rester sur la version non sécurisée, avec l'avertissement du navigateur et un contenu dupliqué pour Google.",
+        "correction": "Ajouter une redirection 301 de http:// vers https:// sur l'hébergement (fichier .htaccess ou réglage du panneau d'hébergement)."
+      },
+      {
+        "id": "C02",
+        "type": "mesure",
+        "gravite": "basse",
+        "titre": "Textes très petits sur mobile",
+        "preuve": {
+          "url": "https://clientsici.fr/",
+          "valeur": "plus petit texte 11.48 px (ex. « Éditeur du site et contact »), 5 éléments sous 12 px à 375 px"
+        },
+        "consequence_possible": "Ces textes peuvent être difficiles à lire sans zoomer, en particulier les coordonnées et les mentions pratiques.",
+        "correction": "Utiliser une taille de texte d'au moins 14 à 16 px pour le contenu et 12 px minimum pour les mentions secondaires."
+      },
+      {
+        "id": "C03",
+        "type": "fait observé",
+        "gravite": "moyenne",
+        "titre": "Aucun numéro de téléphone cliquable (lien tel:)",
+        "preuve": {
+          "url": "https://clientsici.fr/",
+          "valeur": "numéro affiché en texte : 07 56 97 45 75 ; aucun bouton de contact visible sans défiler à 375 px"
+        },
+        "consequence_possible": "Sur téléphone, le visiteur doit recopier le numéro ; une partie risque d'abandonner.",
+        "correction": "Transformer le numéro en lien <a href=\"tel:+33…\"> et le placer en haut de page."
+      },
+      {
+        "id": "C04",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Aucune mention « devis » sur l'accueil",
+        "preuve": {
+          "url": "https://clientsici.fr/",
+          "valeur": "mot « devis » absent du texte de l'accueil"
+        },
+        "consequence_possible": "Le visiteur peut ne pas voir comment demander un chiffrage.",
+        "correction": "Ajouter un bouton « Demander un devis » visible."
+      }
+    ],
+    "non_verifie": [],
+    "verdict": "aucune amélioration substantielle établie",
+    "verdict_motif": "1 haute, 1 moyenne(s), 2 basse(s)",
+    "gravites": {
+      "haute": 1,
+      "moyenne": 1,
+      "basse": 2
+    },
+    "ce_qui_fonctionne": [
+      "En-tête HSTS présent (le navigateur force HTTPS après la première visite)",
+      "Variante www / sans www redirigée correctement",
+      "Balise viewport présente",
+      "Aucun débordement horizontal à 375 px",
+      "Aucune erreur console au chargement mobile",
+      "Performance mobile Lighthouse 100/100 (LCP 846 ms)",
+      "Lighthouse accessibilité 100/100",
+      "Lighthouse SEO technique 100/100",
+      "Lighthouse bonnes pratiques 100/100",
+      "Titre présent (55 caractères)",
+      "Meta description présente (151 caractères)",
+      "H1 unique : « Votre fiche Google a un défaut qui vous coûte des appels. Je le corrig »",
+      "Toutes les images de l'accueil ont un attribut alt (1 images)",
+      "Ville ou zone d'intervention visible sur l'accueil (ville « Landelles » trouvée sur l'accueil)",
+      "Données structurées LocalBusiness présentes (LocalBusiness, ProfessionalService)",
+      "Copyright à jour (© 2026)",
+      "Sitemap présent (https://clientsici.fr/sitemap.xml, 11 URL)",
+      "robots.txt présent et non bloquant"
+    ],
+    "a_preserver": {
+      "pages_trouvees": [
+        {
+          "url": "https://clientsici.fr/",
+          "role": "accueil",
+          "title": "Fiche Google artisan corrigée en 48 h, 49 € payés après",
+          "status": 200
+        },
+        {
+          "url": "https://clientsici.fr/site-vitrine-artisan/",
+          "role": "services",
+          "title": "Site vitrine artisan clé en main à 79 €/mois | Clients Ici",
+          "status": 200
+        },
+        {
+          "url": "https://clientsici.fr/blog/",
+          "role": "navigation",
+          "title": "Blog fiche Google artisan, SEO local et IA | Clients Ici",
+          "status": 200
+        },
+        {
+          "url": "https://clientsici.fr/fiche-google-artisan/",
+          "role": "navigation",
+          "title": "Fiche Google artisan en 48 h : 49 € payés après livraison",
+          "status": 200
+        },
+        {
+          "url": "https://clientsici.fr/veille/",
+          "role": "navigation",
+          "title": "Veille Reprises de Commerces & Baux B2B | Clients Ici",
+          "status": 200
+        }
+      ],
+      "menu": [
+        "Clients Ici",
+        "Fiche Google 49 €",
+        "Site vitrine 79 €/mois",
+        "le formulaire",
+        "Mentions légales complètes",
+        "Accueil",
+        "Fiche Google (49 €)",
+        "Site vitrine artisan (79 €/mois)",
+        "Veille B2B",
+        "Blog",
+        "Mentions légales",
+        "CGV",
+        "Confidentialité",
+        "llms.txt"
+      ],
+      "coordonnees": {
+        "telephones": [
+          "07 56 97 45 75"
+        ],
+        "emails": [
+          "contact@clientsici.fr",
+          "guillaume@clientsici.fr"
+        ],
+        "adresses": [
+          {
+            "rue": "6 rue du Parc",
+            "code_postal": "28190",
+            "ville": "Landelles"
+          },
+          {
+            "rue": null,
+            "code_postal": "44800",
+            "ville": "Saint-Herblain"
+          }
+        ]
+      },
+      "services_listes": [
+        "Site Vitrine Artisan Clé en Main",
+        "À lire",
+        "Fiche Google corrigée en 48 h",
+        "Je corrige en 48 h",
+        "Vous vérifiez, puis payez 49 €",
+        "Qui est derrière Clients Ici",
+        "Questions fréquentes"
+      ],
+      "note": "Inventaire limité aux pages consultées ; les intitulés de services sont les listes de prestations (ul/li) et les titres H2/H3 relevés hors formulaire sur les pages accueil/services (12 au plus), à vérifier avec le client."
+    },
+    "correspondance_entreprise": {
+      "elements_trouves": [
+        "nom",
+        "ville",
+        "cp"
+      ],
+      "elements_fournis": [
+        "nom",
+        "ville",
+        "cp",
+        "siren"
+      ],
+      "elements_non_trouves": [
+        "siren"
+      ],
+      "details": {
+        "nom": {
+          "fourni": true,
+          "valeur": "Clients Ici",
+          "trouve": true,
+          "ou": "https://clientsici.fr/",
+          "mode": "libellé entier"
+        },
+        "enseigne": {
+          "fourni": false
+        },
+        "ville": {
+          "fourni": true,
+          "valeur": "Landelles",
+          "trouve": true,
+          "ou": "https://clientsici.fr/"
+        },
+        "cp": {
+          "fourni": true,
+          "valeur": "28190",
+          "trouve": true,
+          "ou": "https://clientsici.fr/"
+        },
+        "siren": {
+          "fourni": true,
+          "valeur": "000000000",
+          "trouve": false
+        }
+      },
+      "note": "Recherche sur les pages consultées (titre, description, H1, texte visible), sans accents ni casse ; nom et enseigne acceptés si le libellé entier ou tous ses mots significatifs figurent sur une même page."
+    }
+  },
+  "erreurs": [],
+  "journal_requetes": [
+    {
+      "type": "html",
+      "url": "https://clientsici.fr/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/",
+      "duree_s": 0.83,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "http://clientsici.fr/",
+      "status": 200,
+      "final_url": "http://clientsici.fr/",
+      "duree_s": 0.58,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.clientsici.fr/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/",
+      "duree_s": 0.94,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://clientsici.fr/site-vitrine-artisan/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/site-vitrine-artisan/",
+      "duree_s": 0.84,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://clientsici.fr/blog/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/blog/",
+      "duree_s": 0.11,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://clientsici.fr/fiche-google-artisan/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/fiche-google-artisan/",
+      "duree_s": 0.12,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://clientsici.fr/veille/",
+      "status": 200,
+      "final_url": "https://clientsici.fr/veille/",
+      "duree_s": 0.12,
+      "erreur": null
+    },
+    {
+      "type": "robots",
+      "url": "https://clientsici.fr/robots.txt",
+      "status": 200,
+      "final_url": "https://clientsici.fr/robots.txt",
+      "duree_s": 0.11,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "https://clientsici.fr/sitemap.xml",
+      "status": 200,
+      "final_url": "https://clientsici.fr/sitemap.xml",
+      "duree_s": 0.11,
+      "erreur": null
+    }
+  ]
+}

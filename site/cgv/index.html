@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CGV Clients Ici : fiche Google artisan et site vitrine</title>
+<meta name="description" content="CGV Clients Ici : fiche Google artisan en 48 h (49 € après livraison), Test IA à 29 €, site vitrine à 79 €/mois sans engagement. Pour artisans et TPE.">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="/favicon-32.png?v=20261028" type="image/png" sizes="32x32">
+<link rel="icon" href="/favicon-192.png?v=20261028" type="image/png" sizes="192x192">
+<link rel="shortcut icon" href="/favicon.ico?v=20261028">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261028" sizes="180x180">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Clients Ici">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://clientsici.fr/cgv/">
+<meta property="og:title" content="CGV Clients Ici : fiche Google artisan et site vitrine">
+<meta property="og:description" content="CGV Clients Ici : fiche Google artisan en 48 h (49 € après livraison), Test IA à 29 €, site vitrine à 79 €/mois sans engagement. Pour artisans et TPE.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://clientsici.fr/img/og-image.jpg">
+<meta property="og:image:secure_url" content="https://clientsici.fr/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Logo Clients Ici : monogramme CI bleu marine et doré, « Plus de clients près de vous »">
+<meta name="twitter:image" content="https://clientsici.fr/img/og-image.jpg">
+<meta name="twitter:image:alt" content="Logo Clients Ici : monogramme CI bleu marine et doré, « Plus de clients près de vous »">
+<style>
+:root{
+  --navy:#17324d;
+  --navy-2:#234a6b;
+  --cream:#fbf8f1;
+  --white:#ffffff;
+  --gold:#e1a93a;
+  --gold-soft:#f6deb0;
+  --sky:#dceef8;
+  --mint:#dff4ee;
+  --rose:#fde8e6;
+  --text:#223243;
+  --muted:#667789;
+  --line:#e7e1d5;
+  --shadow:0 18px 50px rgba(23,50,77,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  background:
+    radial-gradient(circle at top right, #eef7ff 0%, rgba(238,247,255,0) 28%),
+    radial-gradient(circle at top left, #fff2da 0%, rgba(255,242,218,0) 22%),
+    var(--cream);
+  color:var(--text);
+  line-height:1.55;
+}
+a{color:inherit}
+.wrap{max-width:1140px;margin:auto;padding:0 24px}
+header{
+  position:sticky;top:0;z-index:20;
+  background:rgba(251,248,241,.88);
+  backdrop-filter: blur(14px);
+  border-bottom:1px solid rgba(23,50,77,.08);
+}
+.nav{
+  height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.brand{
+  display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;
+  letter-spacing:-.02em;color:var(--navy);
+}
+.mark{
+  width:42px;height:42px;border-radius:13px;
+  background:linear-gradient(145deg,var(--navy),var(--navy-2));
+  color:#fff;display:grid;place-items:center;font-weight:900;
+  box-shadow:inset 0 -4px 0 rgba(225,169,58,.45);
+}
+.navlinks{display:flex;align-items:center;gap:18px}
+.navlinks a{text-decoration:none;color:var(--muted);font-size:14px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:800;
+  transition:.2s ease;border:1px solid transparent;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--navy),var(--navy-2));
+  color:#fff;
+  box-shadow:0 10px 28px rgba(23,50,77,.18);
+}
+.btn-primary:hover{transform:translateY(-1px)}
+.btn-secondary{
+  background:rgba(255,255,255,.7);
+  border-color:var(--line);
+}
+.hero{padding:88px 0 72px}
+.hero-grid{
+  display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center;
+}
+.badge{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 12px;border-radius:999px;
+  background:linear-gradient(90deg,#fff6df,#eef7ff);
+  color:#7a5b19;font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  border:1px solid rgba(225,169,58,.25);
+}
+h1{
+  font-size:clamp(42px,6vw,68px);line-height:1.02;letter-spacing:-.045em;
+  margin:18px 0 20px;color:var(--navy);
+}
+.hero p{
+  font-size:20px;color:var(--muted);max-width:680px;margin:0 0 24px;
+}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.micro{font-size:13px;color:var(--muted);margin-top:14px}
+.card{
+  background:rgba(255,255,255,.86);
+  border:1px solid rgba(23,50,77,.08);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+}
+.audit{padding:26px}
+.audit-top{
+  display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:16px;
+}
+.pill{
+  padding:7px 10px;border-radius:999px;font-size:12px;font-weight:800;
+  background:var(--mint);color:#226450;
+}
+.issue{
+  display:flex;gap:12px;padding:16px 0;border-top:1px solid var(--line);
+}
+.issue:first-of-type{border-top:none}
+.dot{
+  width:12px;height:12px;border-radius:999px;flex:0 0 auto;margin-top:7px;
+}
+.dot-red{background:#db6b6b}.dot-gold{background:#d9a33b}.dot-green{background:#2b8a65}
+.issue h4{margin:0 0 4px;font-size:16px}
+.issue p{margin:0;font-size:14px;color:var(--muted)}
+section{padding:76px 0}
+.section-head{max-width:740px;margin-bottom:34px}
+h2{
+  font-size:clamp(30px,4vw,46px);line-height:1.08;letter-spacing:-.035em;margin:0 0 14px;color:var(--navy);
+}
+.section-head p{font-size:18px;color:var(--muted);margin:0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{padding:26px;position:relative;overflow:hidden}
+.feature::after{
+  content:"";position:absolute;right:-10px;top:-10px;width:90px;height:90px;border-radius:999px;
+  opacity:.55;
+}
+.feature1::after{background:var(--sky)}
+.feature2::after{background:var(--gold-soft)}
+.feature3::after{background:var(--mint)}
+.num{
+  width:36px;height:36px;border-radius:11px;display:grid;place-items:center;
+  background:#eef3f8;color:var(--navy);font-weight:900;margin-bottom:16px;
+}
+.feature h3{margin:0 0 8px;font-size:20px;color:var(--navy)}
+.feature p{margin:0;color:var(--muted)}
+.band{
+  background:linear-gradient(145deg,var(--navy),var(--navy-2));
+  color:#fff;
+}
+.band h2{color:#fff}
+.band .section-head p{color:#d6dee7}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px}
+.check{
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);
+  padding:14px 16px;border-radius:14px;
+}
+.pricing{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.offer{padding:30px}
+.note{grid-column:1/-1}
+.label{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#86611a}
+.price{
+  font-size:62px;line-height:1;letter-spacing:-.05em;font-weight:900;margin:10px 0 6px;color:var(--navy)
+}
+.price small{font-size:16px;font-weight:700;color:var(--muted);letter-spacing:0}
+.offer ul{padding-left:18px;color:var(--muted)}
+.note{
+  padding:30px;border-radius:22px;
+  background:linear-gradient(180deg,#fffaf0,#fff);
+  border:1px solid #eedcb8;
+  box-shadow:var(--shadow);
+}
+.note h3{margin:0 0 10px;color:var(--navy)}
+.cta{
+  text-align:center;padding:44px;
+  background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(249,246,239,.96));
+}
+.cta p{max-width:680px;margin:10px auto 24px;color:var(--muted);font-size:18px}
+footer{padding:36px 0 56px;color:var(--muted);font-size:13px}
+.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px;text-align:left}
+.form-field{display:flex;flex-direction:column;gap:7px}
+.form-field.full{grid-column:1/-1}
+.form-field label{font-size:13px;font-weight:800;color:var(--navy)}
+.form-field input,.form-field textarea{
+  width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);
+  background:#fff;color:var(--text);font:inherit;outline:none;
+}
+.form-field input:focus,.form-field textarea:focus{
+  border-color:var(--navy2);box-shadow:0 0 0 3px rgba(36,87,122,.10)
+}
+.form-submit{margin-top:6px;width:100%;cursor:pointer}
+.form-note{font-size:12px;color:var(--muted);margin-top:10px;text-align:center}
+.thanks{
+  margin-top:18px;padding:15px 16px;border-radius:14px;background:var(--mint);
+  color:#23634f;display:none
+}
+.thanks:target{display:block}
+
+@media(max-width:860px){
+  .hero-grid,.pricing,.grid3,.checklist{grid-template-columns:1fr}
+  .navlinks a:not(.btn){display:none}
+  .hero{padding-top:60px}
+}
+
+/* --- ajouts GO1 confiance (même palette) --- */
+.navlinks a.btn-primary{color:#fff} /* corrige le bouton du menu, texte gris sur fond bleu sur le site actuel */
+.ph{background:#fff1a8;color:#6b4e00;border:1px dashed #d9a33b;border-radius:6px;padding:0 5px;font-weight:800;font-size:.92em;white-space:nowrap}
+.legal{max-width:820px;margin:0 auto;padding:56px 24px 24px}
+.legal h1{font-size:clamp(34px,5vw,48px);margin:0 0 8px}
+.legal h2{font-size:24px;letter-spacing:-.02em;margin:38px 0 10px}
+.legal p,.legal li,.legal td,.legal th{color:var(--text);font-size:16px}
+.legal em{color:var(--muted)}
+.legal a{color:var(--navy);font-weight:700}
+.legal ul{padding-left:20px}
+.legal table{width:100%;border-collapse:collapse;margin:14px 0;background:rgba(255,255,255,.8);border-radius:14px;overflow:hidden}
+.legal th,.legal td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line);font-size:14px}
+.legal th{background:#eef3f8;color:var(--navy)}
+.site-footer{border-top:1px solid var(--line);margin-top:40px;padding:36px 0 56px;color:var(--muted);font-size:14px}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:24px}
+.foot-grid strong{color:var(--navy)}
+.foot-grid a{color:var(--navy);text-decoration:none;font-weight:700}
+.foot-links{display:flex;flex-direction:column;gap:6px}
+.foot-copy{grid-column:1/-1;font-size:12px;color:var(--muted)}
+.who{padding:32px}
+.who h2{margin-top:0}
+.who p{color:var(--muted);margin:0 0 12px}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.faq .card{padding:24px}
+.faq h3{margin:0 0 8px;color:var(--navy);font-size:18px}
+.faq p{margin:0;color:var(--muted)}
+.notlist{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.notlist li{padding:12px 14px 12px 36px;position:relative;background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:12px}
+.notlist li:before{content:"✕";position:absolute;left:14px;color:#b54a4a;font-weight:900}
+.checkul{list-style:none;padding:0;margin:0}
+.checkul li{padding:10px 0 10px 28px;position:relative;border-bottom:1px solid var(--line)}
+.checkul li:before{content:"✓";position:absolute;left:0;color:#2a7a5c;font-weight:900}
+.price-row{display:flex;align-items:baseline;gap:10px;margin:8px 0 6px}
+.price-row .amount{font-size:52px;font-weight:900;color:var(--navy);letter-spacing:-.03em}
+.price-row .unit{color:var(--muted);font-weight:700}
+.tva{font-size:13px;color:var(--muted);margin:0 0 14px}
+@media(max-width:860px){.foot-grid,.faq,.notlist{grid-template-columns:1fr}}
+
+.trust-box{margin:22px 0 16px;padding:20px 22px;border-radius:18px;background:rgba(255,255,255,.9);border:1px solid var(--line,#e7e1d5);box-shadow:var(--shadow,0 18px 50px rgba(23,50,77,.10));text-align:left;font-size:15px;color:var(--text,#223243)}
+.trust-box p{margin:0 0 10px;line-height:1.5}
+.trust-box p:last-child{margin-bottom:0}
+.trust-box strong{color:var(--navy,#17324d)}
+.trust-box a{color:var(--navy,#17324d);font-weight:800;text-decoration:none}
+.trust-secure{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:var(--mint,#dff4ee);color:#226450;font-weight:800;font-size:13px}
+.trust-box .ph{background:#fff3c4;padding:0 4px;border-radius:4px}
+
+.hero .trust-box p{font-size:14px;color:var(--text);margin:0 0 8px;max-width:none}
+.hero p.micro,.hero p.tva{font-size:13px;margin-bottom:12px}
+
+/* === Bloc Exemple d'audit (fictif) === */
+.ex-wrap{max-width:1140px;margin:auto;padding:0 24px}
+.ex-section{padding:64px 0;scroll-margin-top:90px}
+.ex-head{max-width:760px;margin-bottom:28px}
+.ex-tag{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:#fde8e6;color:#8a3b33;border:1px solid rgba(219,107,107,.35);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.ex-head h2{font-size:clamp(28px,3.6vw,40px);line-height:1.1;letter-spacing:-.03em;margin:14px 0 12px;color:var(--navy,#17324d)}
+.ex-head p{font-size:17px;color:var(--muted,#667789);margin:0}
+.ex-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ex-card{background:rgba(255,255,255,.9);border:1px solid rgba(23,50,77,.08);border-radius:20px;box-shadow:0 18px 50px rgba(23,50,77,.08);padding:22px 22px 18px;position:relative}
+.ex-card h3{margin:0 0 4px;font-size:17px;color:var(--navy,#17324d);padding-right:58px}
+.ex-src{font-size:12px;color:var(--muted,#667789);margin:0 0 14px}
+.ex-mark{position:absolute;top:16px;right:16px;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8a3b33;background:#fde8e6;border-radius:999px;padding:4px 8px}
+.ex-kv{display:grid;grid-template-columns:92px 1fr;gap:6px 12px;font-size:14px;margin:0}
+.ex-kv dt{font-weight:800;color:var(--muted,#667789)}
+.ex-kv dd{margin:0;color:var(--text,#223243)}
+.ex-sub{font-size:13px;font-weight:800;color:var(--text,#223243);margin:14px 0 6px}
+.ex-sub:first-of-type{margin-top:0}
+.ex-table{width:100%;border-collapse:collapse;font-size:13.5px}
+.ex-table td{padding:8px 6px;border-top:1px solid var(--line,#e7e1d5);vertical-align:top}
+.ex-table tr:first-child td{border-top:none}
+.ex-st{display:inline-block;white-space:nowrap;font-size:11.5px;font-weight:800;border-radius:999px;padding:3px 8px}
+.ex-ok{background:#dff4ee;color:#226450}
+.ex-fix{background:#fff1d6;color:#7a5b19}
+.ex-na{background:#eef3f8;color:#4d6072}
+.ex-note{font-size:12px;color:var(--muted,#667789);margin:12px 0 0;line-height:1.45}
+.ex-prio{list-style:none;counter-reset:p;padding:0;margin:0}
+.ex-prio li{counter-increment:p;position:relative;padding:10px 0 10px 40px;border-top:1px solid var(--line,#e7e1d5);font-size:14px;color:var(--muted,#667789)}
+.ex-prio li:first-child{border-top:none}
+.ex-prio li:before{content:counter(p);position:absolute;left:0;top:10px;width:28px;height:28px;border-radius:9px;display:grid;place-items:center;background:#eef3f8;color:var(--navy,#17324d);font-weight:900}
+.ex-prio strong{display:block;color:var(--text,#223243)}
+.ex-foot{margin-top:22px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;border-radius:20px;background:linear-gradient(180deg,#fffaf0,#fff);border:1px solid #eedcb8}
+.ex-foot p{margin:0;font-size:14px;color:var(--muted,#667789);flex:1 1 360px;max-width:640px}
+.ex-actions{display:flex;gap:10px;flex-wrap:wrap;flex:0 0 auto}
+.ex-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:800;font-size:15px;border:1px solid transparent}
+.ex-btn-dl{background:#fff;border-color:var(--line,#e7e1d5);color:var(--navy,#17324d)}
+.ex-btn-buy{background:linear-gradient(135deg,var(--navy,#17324d),var(--navy-2,#234a6b));color:#fff;box-shadow:0 10px 28px rgba(23,50,77,.18)}
+@media(max-width:860px){.ex-grid{grid-template-columns:1fr}.ex-section{padding:48px 0}.ex-kv{grid-template-columns:96px 1fr}.ex-foot{flex-direction:column;align-items:stretch}.ex-foot p{flex:0 0 auto;max-width:none}.ex-actions{flex-direction:column}.ex-btn{width:100%}}
+</style>
+<link rel="canonical" href="https://clientsici.fr/cgv/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "ProfessionalService",
+        "LocalBusiness"
+      ],
+      "@id": "https://clientsici.fr/#organization",
+      "name": "Clients Ici",
+      "url": "https://clientsici.fr/",
+      "logo": "https://clientsici.fr/favicon-192.png",
+      "image": "https://clientsici.fr/img/og-image.jpg",
+      "priceRange": "49€ - 79€/mois",
+      "identifier": "88954634700010",
+      "taxID": "889 546 347 00010",
+      "founder": {
+        "@type": "Person",
+        "name": "Guillaume"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Centre-Val de Loire",
+        "addressCountry": "FR"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "France"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://clientsici.fr/cgv/#webpage",
+      "url": "https://clientsici.fr/cgv/",
+      "name": "Conditions générales de vente (CGV) | Clients Ici",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://clientsici.fr/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://clientsici.fr/cgv/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil Clients Ici",
+          "item": "https://clientsici.fr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Conditions générales de vente (CGV)",
+          "item": "https://clientsici.fr/cgv/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style id="ed-contact-css">html body details.ed-contact{display:inline-block;font-size:.82em;opacity:.85;margin:2px 0;padding:0;background:none;border:0;box-shadow:none;color:inherit}html body details.ed-contact summary{padding:0;font-weight:400;color:inherit;background:none}html body details.ed-contact a{color:inherit}html body .ed-contact summary{cursor:pointer;text-decoration:underline;text-underline-offset:2px}html body .ed-contact summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}html body .ed-contact .ed-body{margin-top:6px;line-height:1.55;font-size:1em}</style></head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img class="mark" src="/favicon-192.png?v=20261028" alt="Logo Clients Ici" width="42" height="42" style="width:42px;height:42px;border-radius:10px;display:block;object-fit:contain;background:#fdfcf9;box-shadow:0 2px 6px rgba(23,50,77,.10);border:1px solid rgba(23,50,77,.08)"><span>Clients Ici</span></a>
+    <nav class="navlinks">
+      <a href="/">Accueil</a>
+      <a href="/#diagnostic">Diagnostic gratuit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<article class="legal">
+<h1>Conditions générales de vente</h1>
+<p><em>Version du 6 novembre 2026</em></p>
+<h2>1. Qui vend</h2>
+<p>Les prestations sont vendues sous le nom commercial <strong>Clients Ici</strong> par son éditeur, entrepreneur individuel (EI), micro-entrepreneur, dont l'identité et les coordonnées complètes (nom, SIRET, adresse, téléphone, e-mail) figurent dans les <a href="/mentions-legales/">mentions légales</a> et sous le lien « Éditeur du site et contact » en bas de page (ci-après « Clients Ici »).</p>
+<h2>2. À qui s'adressent ces conditions</h2>
+<p>Les prestations Clients Ici sont réservées aux <strong>professionnels</strong> (entreprises, artisans, commerçants, professions libérales) qui les achètent pour les besoins de leur activité. En commandant, le client confirme agir à titre professionnel. Ces conditions s'appliquent à toute commande et prévalent sur tout autre document, sauf accord écrit contraire.</p>
+<h2>3. Les prestations</h2>
+<p>Clients Ici propose actuellement :</p>
+<ul>
+<li><strong>Fiche Google corrigée en 48 h</strong> : prestation ponctuelle, <strong>paiement unique de 49 €</strong> après livraison, sans abonnement ni renouvellement automatique (voir article 15).</li>
+<li><strong>Site vitrine artisan</strong> : <strong>79 € par mois</strong>, abonnement mensuel sans engagement, prélevé via Stripe à la date anniversaire de la souscription et résiliable à tout moment par e-mail à <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#99;&#108;&#105;&#101;&#110;&#116;&#115;&#105;&#99;&#105;&#46;&#102;&#114;">notre adresse e-mail</a> ; la résiliation prend effet à la fin de la période mensuelle en cours.</li>
+<li><strong>Refonte de site vitrine</strong> (page /refonte-site-vitrine/) : <strong>79 € par mois</strong>, aux mêmes conditions que le site vitrine artisan (abonnement mensuel sans engagement, 0 € de frais de création, résiliable à tout moment par e-mail) ; un audit écrit du site existant et une maquette de la nouvelle page d'accueil sont remis <strong>avant</strong> toute souscription (voir article 17).</li>
+<li><strong>Veille B2B</strong> (page /veille/) : selon les conditions indiquées sur sa page et confirmées par écrit avant tout démarrage.</li>
+</ul>
+<h2>4. Prix</h2>
+<p>Les prix sont indiqués en euros. <strong>TVA non applicable, art. 293 B du CGI</strong> : le prix affiché est le prix total payé, aucune TVA n'est ajoutée.</p>
+<p>Le prix applicable est celui affiché sur la page de paiement au moment de la commande.</p>
+<h2>5. Commande et paiement</h2>
+<p>La commande est confirmée par écrit (e-mail). Le paiement se fait par lien de paiement sécurisé <strong>Stripe</strong>. Pour la fiche Google, le paiement est dû après la livraison (article 15). Pour le site vitrine, le paiement est prélevé chaque mois ; en cas d'échec de paiement, la prestation est suspendue jusqu'à régularisation. Un reçu est envoyé par e-mail.</p>
+<p>En cas de retard de paiement convenu après livraison, des pénalités au taux de trois fois le taux d'intérêt légal ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40 € sont dues de plein droit (articles L. 441-10 et D. 441-5 du Code de commerce).</p>
+<h2>6. Engagements du client</h2>
+<p>Le client fournit des informations exactes et les éléments nécessaires (lien de la fiche, accès, photos, horaires, etc.). Les délais de livraison ne courent qu'à compter de leur réception. Le client reste seul responsable des informations qu'il valide et de la gestion de ses outils (fiche Google, site, etc.) après la prestation.</p>
+<p>Contenus fournis (photos, vidéos, enregistrements) : le client garantit qu'il détient les droits sur les contenus qu'il transmet et qu'il a obtenu l'accord des personnes identifiables qui y apparaissent (visage, voix) ainsi que, le cas échéant, des propriétaires ou occupants des lieux filmés. Clients Ici s'engage à ne pas diffuser de visage, d'adresse lisible ni de plaque d'immatriculation de tiers sans cet accord, et à flouter ou couper en cas de doute. Le client autorise Clients Ici à utiliser ces contenus uniquement pour réaliser et publier les prestations commandées sur ses propres comptes. Le client garantit Clients Ici contre toute réclamation d'un tiers liée aux contenus qu'il a fournis. Toute utilisation d'une voix ou d'un visage du client générés ou reproduits par intelligence artificielle nécessite son accord écrit préalable.</p>
+<h2>7. Pas de garantie de classement ni de résultat</h2>
+<p>Clients Ici s'engage à réaliser la prestation avec soin (<strong>obligation de moyens</strong>). Clients Ici <strong>ne garantit aucune position dans Google ou Google Maps, aucun volume d'appels, de demandes de devis, de rendez-vous, de messages ou de clients</strong>. L'affichage et le classement des fiches dépendent de Google seul. La diffusion et la portée des vidéos publiées (fiche Google, Instagram, Facebook, YouTube, TikTok) dépendent des algorithmes de ces plateformes : <strong>aucun nombre de vues ni aucun résultat n'est garanti</strong>. Google, Meta, YouTube et TikTok peuvent modifier leurs règles, suspendre un compte ou un service, ou refuser une modification à tout moment.</p>
+<h2>8. Livraison et réclamations</h2>
+<p>Les livrables sont envoyés par e-mail depuis l'adresse e-mail de Clients Ici. Le client dispose de 7 jours après la livraison pour signaler par e-mail une erreur factuelle ; Clients Ici la corrige alors sans frais.</p>
+<h2>9. Annulation et remboursement</h2>
+<p>Fiche Google : rien n'est dû si le client refuse la livraison (article 15). Une fois la livraison acceptée et payée, aucun remboursement n'est possible.</p>
+<p>Site vitrine : la résiliation prend effet à la fin de la période mensuelle en cours ; le mois entamé n'est pas remboursé.</p>
+<p>Les prestations étant réservées aux professionnels, le droit de rétractation prévu par le Code de la consommation pour les consommateurs ne s'applique pas.</p>
+<h2>10. Responsabilité</h2>
+<p>La responsabilité de Clients Ici est limitée aux dommages directs et prouvés, et plafonnée au montant payé pour la prestation concernée. Pour une formule mensuelle, ce montant correspond au montant payé pour le mois au cours duquel le fait générateur du dommage s'est produit, frais de mise en service éventuels inclus si ce mois est le premier mois de l'abonnement. Clients Ici n'est pas responsable des pertes indirectes (perte de chiffre d'affaires, de clientèle, d'image) ni des décisions prises par Google, Meta, YouTube ou TikTok.</p>
+<h2>11. Propriété des livrables</h2>
+<p>Après paiement complet, le client peut utiliser librement les livrables pour les besoins de son entreprise. Clients Ici conserve ses méthodes, modèles et outils.</p>
+<p><strong>Site vitrine et refonte (abonnement)</strong> : le <strong>nom de domaine reste au nom du client</strong> ; Clients Ici ne le transfère pas et ne l'enregistre pas à son nom. Si le client met fin à l'abonnement, Clients Ici lui remet, sur demande et dans les 30 jours suivant la fin de la période en cours, une <strong>copie de son site</strong> (fichiers HTML, feuilles de style et images fournies par lui) pour l'héberger où il le souhaite, sans frais ni rétention. Les contenus fournis par le client (textes, photos, logo) restent sa propriété.</p>
+<h2>12. Références</h2>
+<p>Clients Ici ne cite un client comme référence, et ne publie un témoignage, qu'avec son <strong>accord écrit préalable</strong>.</p>
+<h2>13. Données personnelles</h2>
+<p>Voir la <a href="/confidentialite/">politique de confidentialité</a>.</p>
+<h2>14. Droit applicable et litiges</h2>
+<p>Ces conditions sont soumises au droit français. En cas de difficulté, les parties recherchent d'abord une solution amiable en écrivant à l'adresse e-mail de Clients Ici. À défaut, le litige est porté devant les juridictions compétentes selon les règles de droit commun.</p>
+<h2>15. Offre « Fiche Google corrigée en 48 h » : 49 €, payée après livraison</h2>
+<ul>
+<li>Prix : <strong>49 €</strong>, paiement unique. <strong>TVA non applicable, art. 293 B du CGI.</strong> Aucun engagement, aucun abonnement.</li>
+<li>Le client ne paie <strong>qu'après la livraison</strong> des corrections de sa fiche Google, et seulement s'il les accepte.</li>
+<li>Livraison : sous <strong>48 heures ouvrées</strong> à compter de l'accès à la fiche accordé par le client.</li>
+<li>Paiement : dû <strong>sous 7 jours après la livraison</strong>, par lien de paiement <strong>Stripe</strong>.</li>
+<li>Si le client refuse la livraison et que rien n'est payé, Clients Ici peut annuler les modifications effectuées sur la fiche.</li>
+</ul>
+<h2>16. Offre « Veille B2B Commerces &amp; Implantations » : 149 €/mois ou 10 % au devis signé</h2>
+<ul>
+<li>Objet : un bulletin hebdomadaire, envoyé par e-mail, des reprises de fonds de commerce, cessions de droits au bail et transferts de sièges sociaux publiés au BODACC, aux Greffes et dans SIRENE, sur la métropole ou le département choisi.</li>
+<li>Pour qui : professionnels uniquement (Enseignistes, Agenceurs, Cuisinistes CHR / Frigoristes, Miroitiers). Exclusivité : <strong>1 seul partenaire par métier et par métropole</strong>, confirmée par écrit avant le début.</li>
+<li>Essai : le <strong>premier bulletin est envoyé gratuitement</strong>, sans carte bancaire et sans engagement.</li>
+<li>Formule 1 : <strong>149 € par mois</strong>, sans engagement de durée, <strong>sans commission</strong> sur les chantiers signés. Arrêt sur simple message écrit, effectif à la fin du mois en cours.</li>
+<li>Formule 2 : <strong>0 € d'abonnement</strong> ; commission d'apporteur d'affaires de <strong>10 % du montant HT</strong> d'un devis signé et encaissé avec un repreneur transmis, payable après encaissement de l'acompte par le client. Accord écrit simple, résiliable à tout moment.</li>
+<li>Tout se fait <strong>100 % par écrit</strong>, sans appel téléphonique. <strong>TVA non applicable, art. 293 B du CGI.</strong></li>
+<li>Les informations transmises proviennent de publications légales ; Clients Ici ne garantit ni la signature d'un chantier ni un volume de dossiers.</li>
+</ul>
+<h2>17. Offre « Refonte de site vitrine » : audit et maquette avant engagement</h2>
+<ul>
+<li><strong>Avant toute commande</strong>, Clients Ici remet par e-mail un audit écrit du site existant du client (affichage sur téléphone, sécurité HTTPS, vitesse, coordonnées, titres) puis une maquette de la nouvelle page d'accueil, construite à partir des informations publiques du site et de la fiche Google. L'audit et la maquette sont <strong>gratuits et sans engagement</strong> ; le client reste libre de ne pas donner suite.</li>
+<li><strong>Prix et conditions</strong> : 79 € par mois, abonnement mensuel sans engagement, 0 € de frais de création ; hébergement, certificat HTTPS, redirections depuis les anciennes adresses et mises à jour par e-mail inclus. Les articles 3, 9 et 11 s'appliquent (résiliation à la fin de la période mensuelle en cours, nom de domaine conservé par le client, copie du site remise à l'arrêt).</li>
+<li><strong>Reprise de l'existant</strong> : les textes et photos du site actuel sont repris et vérifiés avec le client avant mise en ligne ; les adresses des pages utiles sont conservées ou redirigées (redirections 301). Clients Ici ne promet aucune position dans Google (article 7).</li>
+<li><strong>Maquettes non commandées</strong> : lorsqu'une maquette est préparée sans demande préalable, dans le cadre de la prospection décrite dans la politique de confidentialité, elle n'est pas indexée par les moteurs de recherche, n'est accessible que par un lien privé, ne collecte aucune donnée et n'utilise que des informations publiques de l'entreprise. Elle reste la propriété de Clients Ici, n'est jamais présentée comme le site officiel de l'entreprise, et est <strong>supprimée sur simple demande</strong> ou, sans suite, au plus tard 90 jours après son envoi.</li>
+<li>Tout se fait <strong>100 % par écrit</strong>. <strong>TVA non applicable, art. 293 B du CGI.</strong></li>
+</ul>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <strong>Clients Ici</strong><br>
+      TVA non applicable, art. 293 B du CGI
+    </div>
+    <div><details class="ed-contact"><summary>Éditeur du site et contact</summary><div class="ed-body">&#67;&#108;&#105;&#101;&#110;&#116;&#115;&#32;&#73;&#99;&#105;&#32;&#8212;&#32;&#71;&#117;&#105;&#108;&#108;&#97;&#117;&#109;&#101;&#32;&#83;&#97;&#109;&#97;&#109;&#97;&#44;&#32;&#101;&#110;&#116;&#114;&#101;&#112;&#114;&#101;&#110;&#101;&#117;&#114;&#32;&#105;&#110;&#100;&#105;&#118;&#105;&#100;&#117;&#101;&#108;&#32;&#40;&#69;&#73;&#41;&#44;&#32;&#109;&#105;&#99;&#114;&#111;&#45;&#101;&#110;&#116;&#114;&#101;&#112;&#114;&#101;&#110;&#101;&#117;&#114;<br>&#83;&#73;&#82;&#69;&#84;&#32;&#56;&#56;&#57;&#32;&#53;&#52;&#54;&#32;&#51;&#52;&#55;&#32;&#48;&#48;&#48;&#49;&#48;&#32;&#183;&#32;&#82;&#67;&#83;&#32;&#67;&#104;&#97;&#114;&#116;&#114;&#101;&#115;<br>&#54;&#32;&#114;&#117;&#101;&#32;&#100;&#117;&#32;&#80;&#97;&#114;&#99;&#44;&#32;&#50;&#56;&#49;&#57;&#48;&#32;&#76;&#97;&#110;&#100;&#101;&#108;&#108;&#101;&#115;&#44;&#32;&#70;&#114;&#97;&#110;&#99;&#101;<br>&#84;&#233;&#108;&#46;&#32;&#48;&#55;&#32;&#53;&#54;&#32;&#57;&#55;&#32;&#52;&#53;&#32;&#55;&#53;&#32;&#40;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#32;&#100;&#101;&#32;&#112;&#114;&#233;&#102;&#233;&#114;&#101;&#110;&#99;&#101;&#32;&#112;&#97;&#114;&#32;&#233;&#99;&#114;&#105;&#116;&#41;<br>&#69;&#45;&#109;&#97;&#105;&#108;&#32;&#58;&#32;<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#99;&#108;&#105;&#101;&#110;&#116;&#115;&#105;&#99;&#105;&#46;&#102;&#114;">&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#99;&#108;&#105;&#101;&#110;&#116;&#115;&#105;&#99;&#105;&#46;&#102;&#114;</a><br>Le plus simple : <a href="/#diagnostic">le formulaire</a> · <a href="/mentions-legales/">Mentions légales complètes</a></div></details></div>
+    <div class="foot-links">
+      <a href="/">Accueil</a>
+      <a href="/fiche-google-artisan/">Fiche Google Artisan (49 €)</a>
+      <a href="/site-vitrine-artisan/">Site Vitrine Artisan (79 €/mois)</a>
+      <a href="/refonte-site-vitrine/">Refonte de site vitrine</a>
+      <a href="/veille/">Veille Commerces B2B</a> · <a href="/blog/">Blog</a>
+      
+      <a href="/mentions-legales/">Mentions légales</a>
+      <a href="/cgv/">Conditions générales de vente</a>
+      <a href="/confidentialite/">Confidentialité</a>
+    </div>
+    <div class="foot-copy">© 2026 Clients Ici · Aucune promesse de position Google ni de volume de clients.</div>
+  </div>
+</footer>
+</body>
+</html>

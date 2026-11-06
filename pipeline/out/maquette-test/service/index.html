@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="fr" data-palette="service" data-objectif="appel">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Salon de coiffure à Dreux | Exemple Coiffure (maquette)</title>
+<meta name="description" content="Salon de coiffure à Dreux. Exemple Coiffure. Maquette de discussion, non officielle.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="generator" content="Clients Ici — maquette de discussion">
+<link rel="icon" href="data:,">
+<style>
+/* ---------- Jetons communs ---------- */
+:root{
+  --bg:#f6f3ec;--surface:#ffffff;--ink:#17202b;--muted:#4a5765;
+  --brand:#163a5c;--brand-ink:#ffffff;--accent:#d08a2a;--accent-ink:#17202b;
+  --line:#d9d3c7;--focus:#163a5c;--radius:6px;--radius-lg:10px;
+  --font:"Inter","Helvetica Neue",Arial,sans-serif;
+  --h-weight:800;--h-track:-0.02em;--h-lh:1.05;
+  --measure:62ch;
+}
+/* Bâtiment : bleu profond / ocre, grotesque lourde, ruban hachuré */
+:root[data-palette="batiment"]{
+  --bg:#f6f3ec;--surface:#ffffff;--ink:#17202b;--muted:#4a5765;
+  --brand:#163a5c;--brand-ink:#ffffff;--accent:#d08a2a;--accent-ink:#17202b;
+  --line:#d9d3c7;--focus:#163a5c;--radius:6px;--radius-lg:10px;
+  --font:"Inter","Helvetica Neue",Arial,sans-serif;--h-weight:800;--h-track:-0.025em;--h-lh:1.02;
+}
+/* Commerce : vert foncé / crème, serif de boutique, store banne */
+:root[data-palette="commerce"]{
+  --bg:#f7f1e4;--surface:#fffdf8;--ink:#1d2a24;--muted:#4d5a53;
+  --brand:#1e4d3b;--brand-ink:#ffffff;--accent:#c89f5c;--accent-ink:#1d2a24;
+  --line:#dccfb6;--focus:#1e4d3b;--radius:4px;--radius-lg:8px;
+  --font:Georgia,"Iowan Old Style","Bitstream Charter",Caladea,"DejaVu Serif","Times New Roman",serif;
+  --h-weight:400;--h-track:-0.01em;--h-lh:1.1;--measure:66ch;
+}
+/* Service : prune / sable, humaniste arrondie, disque doux */
+:root[data-palette="service"]{
+  --bg:#f3ece2;--surface:#fffaf3;--ink:#2a1f2e;--muted:#5b4f5f;
+  --brand:#4b2a4f;--brand-ink:#ffffff;--accent:#c99a63;--accent-ink:#2a1f2e;
+  --line:#dccfbf;--focus:#4b2a4f;--radius:14px;--radius-lg:22px;
+  --font:"Trebuchet MS","Segoe UI","Gill Sans","Noto Sans",system-ui,sans-serif;
+  --h-weight:600;--h-track:0;--h-lh:1.1;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:1.0625rem;line-height:1.6;min-height:100vh}
+:root[data-palette="commerce"] body{line-height:1.68}
+img,svg{max-width:100%}
+a{color:var(--brand)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:2px}
+.wrap{width:min(100% - 32px,1040px);margin-inline:auto}
+h1,h2,h3{font-weight:var(--h-weight);letter-spacing:var(--h-track);line-height:var(--h-lh);color:var(--brand);margin:0 0 .5em;text-wrap:balance}
+h1{font-size:clamp(2.25rem,8.5vw,4.5rem)}
+h2{font-size:clamp(1.6rem,4.2vw,2.4rem)}
+h3{font-size:1.15rem;line-height:1.3}
+p{margin:0 0 1em;max-width:var(--measure)}
+ul{padding-left:1.2em}
+.skip{position:absolute;left:-999px;top:8px;background:var(--brand);color:var(--brand-ink);padding:10px 14px;z-index:100;text-decoration:none}
+.skip:focus{left:8px}
+
+/* ---------- Bandeau « proposition non officielle » ---------- */
+.avis{background:var(--ink);color:#fff;font-size:.9rem;line-height:1.45}
+.avis .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;padding:9px 0}
+.avis strong{font-weight:700}
+.avis details{font-size:.86rem}
+.avis summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.avis .audit{margin:8px 0 2px;padding-left:1.1em}
+.avis .audit li{margin:.25em 0}
+
+/* ---------- En-tête ---------- */
+.site-header{border-bottom:1px solid var(--line);background:var(--surface)}
+.site-header .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 20px;padding:14px 0}
+.marque{font-weight:var(--h-weight);letter-spacing:var(--h-track);color:var(--brand);text-decoration:none;font-size:1.2rem;line-height:1.2}
+:root[data-palette="commerce"] .marque{font-style:italic;font-size:1.35rem}
+.site-nav{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.98rem}
+.site-nav a{text-decoration:none;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent}
+.site-nav a:hover{border-bottom-color:var(--accent)}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:48px 0 40px;overflow:hidden}
+.hero .surtitre{color:var(--muted);margin:0 0 .6em;font-size:1.05rem}
+.hero .lead{font-size:1.2rem;max-width:34em}
+:root[data-palette="commerce"] .hero .lead{font-style:italic;font-size:1.3rem}
+.actions{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center;margin-top:22px}
+.btn{display:inline-block;padding:15px 24px;border-radius:var(--radius);font-weight:700;text-decoration:none;font-size:1.05rem;line-height:1.2;border:2px solid transparent;cursor:pointer;font-family:inherit}
+.btn-main{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.btn-main:hover{filter:brightness(1.08)}
+:root[data-palette="batiment"] .btn-main{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn-sec{background:var(--surface);color:var(--brand);border-color:var(--line)}
+.contact-inline{font-size:1.05rem;color:var(--ink)}
+.contact-inline .val{font-weight:700;white-space:nowrap;border-bottom:2px dotted var(--muted);cursor:help}
+
+/* Ruban hachuré (bâtiment) */
+:root[data-palette="batiment"] .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:16px;
+  background:repeating-linear-gradient(135deg,var(--accent) 0 14px,var(--brand) 14px 28px)}
+:root[data-palette="batiment"] .hero{padding-bottom:64px}
+/* Store banne (commerce) */
+:root[data-palette="commerce"] .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34px;
+  background:
+    radial-gradient(circle at 50% 100%,transparent 11px,var(--bg) 12px) 0 22px/36px 14px repeat-x,
+    repeating-linear-gradient(90deg,var(--brand) 0 18px,var(--accent) 18px 36px)}
+:root[data-palette="commerce"] .hero{padding-bottom:84px}
+/* Disque sable (service) */
+:root[data-palette="service"] .hero::before{content:"";position:absolute;z-index:-1;right:-26vw;top:-34vw;width:70vw;height:70vw;max-width:680px;max-height:680px;border-radius:50%;
+  background:radial-gradient(circle at 40% 40%,var(--accent) 0 62%,transparent 63%);opacity:.28}
+:root[data-palette="service"] .hero{isolation:isolate}
+
+/* ---------- Sections ---------- */
+section{padding:44px 0}
+section + section{border-top:1px solid var(--line)}
+.intro{color:var(--muted)}
+.liste{list-style:none;padding:0;margin:0;display:grid;gap:14px 28px}
+@media (min-width:700px){.liste{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){.liste.trois{grid-template-columns:1fr 1fr 1fr}}
+.liste li{padding:4px 0 4px 18px;border-left:4px solid var(--accent)}
+:root[data-palette="service"] .liste li{border-left:0;padding:14px 18px;background:var(--surface);border-radius:var(--radius)}
+:root[data-palette="commerce"] .liste li{border-left:1px solid var(--brand);padding-left:16px}
+.liste strong{display:block;color:var(--brand);font-weight:700}
+:root[data-palette="commerce"] .liste strong{font-weight:400;font-size:1.15rem;font-style:italic}
+.liste .detail{color:var(--muted);font-size:.98rem}
+.horaires{display:grid;gap:6px;max-width:34em;list-style:none;padding:0;margin:0}
+.horaires li{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:1px dashed var(--line)}
+
+/* ---------- Contact ---------- */
+.contact-grid{display:grid;gap:28px}
+@media (min-width:860px){.contact-grid{grid-template-columns:1fr 1.2fr;gap:48px}}
+.coord{margin:0}
+.coord dt{color:var(--muted);font-size:.92rem;margin-top:14px}
+.coord dd{margin:2px 0 0;font-size:1.1rem}
+.coord .val{border-bottom:2px dotted var(--muted);cursor:help;font-weight:700}
+.coord address{font-style:normal}
+.form{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);padding:22px}
+.form .demo{background:var(--bg);border-left:4px solid var(--accent);padding:10px 14px;margin:0 0 18px;font-size:.95rem}
+.form label{display:block;margin:0 0 14px}
+.form .lib{display:block;margin-bottom:6px;font-weight:600}
+.form input,.form textarea{display:block;width:100%;font:inherit;color:var(--ink);background:#fff;border:1px solid #8a8f98;border-radius:var(--radius);padding:12px 14px;min-height:48px}
+.form textarea{min-height:110px;resize:vertical}
+.form .erreur{color:#8f1d1d;font-size:.92rem;margin-top:5px;display:none}
+.form label.invalide .erreur{display:block}
+.form label.invalide input,.form label.invalide textarea{border-color:#8f1d1d;border-width:2px}
+.form button{width:100%;margin-top:4px}
+.form [role="status"]{margin-top:14px;font-weight:700;min-height:1.5em}
+.form .mention{color:var(--muted);font-size:.9rem;margin:12px 0 0}
+
+/* ---------- Pied de page ---------- */
+.site-footer{background:var(--brand);color:var(--brand-ink);padding:34px 0 40px;margin-top:20px;font-size:.95rem;line-height:1.65}
+.site-footer p{max-width:none}
+.site-footer .mention{opacity:.9;border-top:1px solid rgba(255,255,255,.3);padding-top:16px;margin-top:16px}
+:root[data-palette="batiment"] .site-footer{border-top:16px solid transparent;border-image:repeating-linear-gradient(135deg,var(--accent) 0 14px,var(--brand) 14px 28px) 16}
+
+/* ---------- Barre mobile ---------- */
+.barre-mobile{display:none}
+@media (max-width:760px){
+  .barre-mobile{display:block;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line)}
+  .barre-mobile .btn{display:block;text-align:center;width:100%}
+  body{padding-bottom:84px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<div class="avis" role="note" aria-label="Avertissement sur cette page">
+  <div class="wrap">
+    <span><strong>Proposition non officielle — aperçu pour discussion.</strong> Maquette préparée par Clients Ici ; ce n'est pas le site de Exemple Coiffure.</span>
+    
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="marque" href="#contenu">Exemple Coiffure</a>
+    <nav class="site-nav" aria-label="Sections de la page">
+      <a href="#prestations">Prestations</a>
+      
+      
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+  <section class="hero" aria-labelledby="titre-principal">
+    <div class="wrap">
+      <p class="surtitre">Exemple Coiffure, Dreux</p>
+      <h1 id="titre-principal">Salon de coiffure à Dreux</h1>
+      <p class="lead">Exemple Coiffure, salon de coiffure, à Dreux.</p>
+      <div class="actions">
+        <a class="btn btn-main" href="#contact">Nous joindre</a>
+        <span class="contact-inline">Téléphone&nbsp;: <span class="val" title="Numéro affiché à titre d&#x27;aperçu : volontairement non cliquable dans cette maquette, pour ne provoquer aucun appel réel.">02 00 00 00 02</span></span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="prestations" aria-labelledby="titre-prestations">
+    <div class="wrap">
+      <h2 id="titre-prestations">Prestations</h2>
+      <p class="intro">Telles qu'elles figurent sur le site actuel de Exemple Coiffure.</p>
+      <ul class="liste ">
+        <li><strong>Coupe femme</strong></li><li><strong>Coupe homme</strong></li><li><strong>Couleur et mèches</strong></li><li><strong>Coiffure de mariage</strong></li>
+      </ul>
+    </div>
+  </section>
+  
+
+  
+
+  
+
+  
+
+  <section id="contact" aria-labelledby="titre-contact">
+    <div class="wrap">
+      <h2 id="titre-contact">Nous joindre</h2>
+      <div class="contact-grid">
+        <div>
+          <dl class="coord">
+            <dt>Téléphone</dt><dd><span class="val" title="Numéro affiché à titre d&#x27;aperçu : volontairement non cliquable dans cette maquette, pour ne provoquer aucun appel réel.">02 00 00 00 02</span></dd>
+            <dt>E-mail</dt><dd><span class="val" title="Adresse affichée à titre d&#x27;aperçu : volontairement non cliquable dans cette maquette, pour n&#x27;envoyer aucun e-mail réel.">salon@exemple-coiffure.example</span></dd>
+            
+            
+          </dl>
+          <p class="intro" style="margin-top:18px">Dans cette maquette, le numéro et l'adresse e-mail sont affichés mais volontairement non cliquables.</p>
+        </div>
+        <form class="form" id="formulaire" novalidate aria-describedby="demo-note">
+          <p class="demo" id="demo-note">Formulaire de démonstration&nbsp;: aucune information n'est envoyée ni enregistrée.</p>
+          <label><span class="lib">Votre nom</span><input type="text" name="nom" autocomplete="name" required aria-required="true"><span class="erreur">Indiquez votre nom.</span></label>
+          <label><span class="lib">Votre téléphone</span><input type="tel" name="tel" autocomplete="tel" inputmode="tel" required aria-required="true"><span class="erreur">Indiquez un numéro à 10 chiffres.</span></label>
+          
+          <label><span class="lib">Le motif de votre appel</span><textarea name="message" required aria-required="true"></textarea><span class="erreur">Quelques mots suffisent.</span></label>
+          <button class="btn btn-main" type="submit">Demander à être rappelé</button>
+          <p role="status" aria-live="polite" id="statut"></p>
+          <p class="mention">Sur le site réel, ce formulaire enverrait un e-mail à Exemple Coiffure. Ici, il ne fait rien.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Exemple Coiffure</strong> — Salon de coiffure</p>
+    <p class="mention">Maquette réalisée par Clients Ici à partir des informations publiques de Exemple Coiffure ; aucune donnée collectée. Proposition non officielle, hors moteurs de recherche, supprimée sur simple demande. Date : 05/11/2026.</p>
+  </div>
+</footer>
+
+<div class="barre-mobile"><a class="btn btn-main" href="#contact">Nous joindre</a></div>
+
+<script>
+(function(){
+  var f=document.getElementById('formulaire'),s=document.getElementById('statut');
+  if(!f)return;
+  function champ(n){return f.querySelector('[name="'+n+'"]');}
+  function marque(el,ok){var l=el.closest('label');if(l){l.classList.toggle('invalide',!ok);}el.setAttribute('aria-invalid',ok?'false':'true');return ok;}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();e.stopPropagation();
+    var ok=true,premier=null;
+    var nom=champ('nom');if(nom){var v=nom.value.trim().length>=2;ok=marque(nom,v)&&ok;if(!v&&!premier)premier=nom;}
+    var tel=champ('tel');if(tel){var d=tel.value.replace(/\D/g,'');var v2=d.length>=10;ok=marque(tel,v2)&&ok;if(!v2&&!premier)premier=tel;}
+    var em=champ('email');if(em){var v3=/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(em.value.trim());ok=marque(em,v3)&&ok;if(!v3&&!premier)premier=em;}
+    var msg=champ('message');if(msg){var v4=msg.value.trim().length>=3;ok=marque(msg,v4)&&ok;if(!v4&&!premier)premier=msg;}
+    if(!ok){s.textContent='Certains champs sont à compléter.';if(premier)premier.focus();return false;}
+    s.textContent='Démonstration : ce formulaire n\'envoie rien.';
+    return false;
+  });
+})();
+</script>
+</body>
+</html>

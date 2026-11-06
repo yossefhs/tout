@@ -1,0 +1,37 @@
+{
+  "_commentaire": "Audit FACTICE minimal pour tester build_email.py : aucun site réel. Schéma conforme à audit_site.py (analyse.constats, analyse.verdict, pages, cible).",
+  "meta": {"outil": "audit_site.py", "version": "1.0", "date": "2026-11-05T12:00:00+00:00",
+           "parametres": {"url": "https://exemple-plomberie.example/"}},
+  "cible": {"url_demandee": "https://exemple-plomberie.example/", "url_finale": "https://exemple-plomberie.example/", "status": 200},
+  "pages": [
+    {"role": "accueil", "url": "https://exemple-plomberie.example/", "status": 200, "title": "Accueil", "h1": [], "liens_tel": []}
+  ],
+  "analyse": {
+    "verdict": "refonte pertinente",
+    "verdict_motif": "1 constat(s) de gravité haute et 3 moyenne(s)",
+    "gravites": {"haute": 1, "moyenne": 3, "basse": 2},
+    "constats": [
+      {"id": "C01", "type": "fait observé", "gravite": "haute", "titre": "Redirection http→https absente (HTTPS disponible mais non forcé)",
+       "preuve": {"url": "http://exemple-plomberie.example/", "valeur": "URL finale en http (réponse 200) alors que https répond 200"},
+       "consequence_possible": "Le visiteur qui arrive sans « https » voit « Non sécurisé ».", "correction": "Rediriger (301) http vers https."},
+      {"id": "C02", "type": "mesure", "gravite": "moyenne", "titre": "Performance mobile moyenne (Lighthouse)",
+       "preuve": {"url": "https://exemple-plomberie.example/", "valeur": "score 61/100, LCP 4,2 s"},
+       "consequence_possible": "Affichage perceptiblement lent sur réseau mobile ordinaire.", "correction": "Optimiser images et scripts."},
+      {"id": "C03", "type": "fait observé", "gravite": "moyenne", "titre": "Aucun numéro de téléphone cliquable (lien tel:)",
+       "preuve": {"url": "https://exemple-plomberie.example/", "valeur": "aucun lien tel: sur les pages consultées"},
+       "consequence_possible": "Sur téléphone, le visiteur doit recopier le numéro.", "correction": "Transformer le numéro en lien tel:."},
+      {"id": "C04", "type": "fait observé", "gravite": "moyenne", "titre": "Meta description absente sur l'accueil",
+       "preuve": {"url": "https://exemple-plomberie.example/", "valeur": "aucune <meta name=\"description\">"},
+       "consequence_possible": "Google compose lui-même l'extrait.", "correction": "Rédiger une description."},
+      {"id": "C05", "type": "fait observé", "gravite": "basse", "titre": "Aucun titre H1 sur l'accueil",
+       "preuve": {"url": "https://exemple-plomberie.example/", "valeur": "0 balise <h1>"},
+       "consequence_possible": "Le message principal n'est pas identifié.", "correction": "Ajouter un H1 unique."},
+      {"id": "C06", "type": "fait observé", "gravite": "basse", "titre": "Site construit avec un générateur grand public (information)",
+       "preuve": {"url": "https://exemple-plomberie.example/", "valeur": "Wix"},
+       "consequence_possible": "Marges de manœuvre limitées.", "correction": "Information pour l'échange."}
+    ],
+    "non_verifie": [],
+    "ce_qui_fonctionne": ["Balise viewport présente"],
+    "a_preserver": {"pages_trouvees": [], "coordonnees": {"telephones": ["02 00 00 00 00"], "emails": ["contact@exemple-plomberie.example"]}}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nom": "Rabarot Frères",
+  "metier": "Travaux de maçonnerie générale et gros œuvre de bâtiment",
+  "metier_court": "Entreprise de maçonnerie",
+  "ville": "Gommerville",
+  "tel": "02 37 99 52 16",
+  "email": "rabarot-freres@orange.fr",
+  "adresse": "3 Rue du Château, 28310 Gommerville",
+  "slogan": "Travaux de rénovation - maçonnerie - couverture du bâtiment",
+  "services": [
+    "Maçonnerie",
+    "Couverture",
+    "Charpente",
+    "Plâtrerie",
+    "Menuiseries",
+    "Extension"
+  ],
+  "preuves_verifiees": [
+    "RGE Qualibat mentionné sur le site",
+    "Garantie décennale mentionnée sur le site",
+    "Entreprise familiale depuis 1948 (mention du site)"
+  ],
+  "palette": "batiment",
+  "objectif": "devis",
+  "domaine_source": "rabarot-freres.fr"
+}

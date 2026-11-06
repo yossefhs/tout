@@ -1,0 +1,23 @@
+{
+  "nom": "Exemple Plomberie",
+  "metier": "Travaux d'installation d'eau et de gaz en tous locaux",
+  "metier_court": "Plombier chauffagiste",
+  "ville": "Chartres",
+  "zone": "Chartres et les communes voisines, dans un rayon de 30 km (texte repris du site).",
+  "tel": "02 00 00 00 00",
+  "email": "contact@exemple-plomberie.example",
+  "adresse": "1 rue de l'Exemple, 28000 Chartres",
+  "slogan": "Dépannage, installation et entretien de vos équipements sanitaires.",
+  "services": [
+    {"titre": "Dépannage plomberie", "detail": "Fuites, canalisations bouchées, robinetterie."},
+    {"titre": "Chauffage", "detail": "Installation et entretien de chaudières gaz."},
+    {"titre": "Salle de bains", "detail": "Rénovation complète, douche, baignoire."},
+    "Chauffe-eau",
+    "Adoucisseur d'eau"
+  ],
+  "horaires": ["Lundi–vendredi : 8 h – 18 h", "Samedi : 9 h – 12 h", {"jours": "Dimanche", "heures": "Fermé"}],
+  "preuves_verifiees": ["SIRET affiché sur le site", "Assurance décennale mentionnée", "Qualification gaz mentionnée"],
+  "palette": "batiment",
+  "objectif": "devis",
+  "domaine_source": "exemple-plomberie.example"
+}

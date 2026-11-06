@@ -1,0 +1,1299 @@
+{
+  "meta": {
+    "outil": "audit_site.py",
+    "version": "1.1",
+    "date": "2026-11-05T21:53:45+00:00",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "parametres": {
+      "url": "https://www.gre-enr.fr/",
+      "pages": 4,
+      "ville": "TOURY",
+      "cp": "28310",
+      "nom": "GROUPE ROY ENERGIE",
+      "enseigne": null,
+      "siren": "819855206",
+      "metier": "installateur photovoltaïque",
+      "timeout_s": 12,
+      "navigateur": true,
+      "lighthouse": true
+    },
+    "requetes_html": 7,
+    "requetes_autres": 2,
+    "duree_totale_s": 85.3
+  },
+  "cible": {
+    "url_demandee": "https://www.gre-enr.fr/",
+    "domaine_demande": "gre-enr.fr",
+    "url_finale": "https://www.gre-enr.fr/",
+    "domaine_final": "gre-enr.fr",
+    "hote_final": "www.gre-enr.fr",
+    "status": 200,
+    "chaine": [],
+    "erreur": null
+  },
+  "http": {
+    "hsts": null,
+    "test_http": {
+      "url": "http://www.gre-enr.fr/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/",
+      "chaine": [
+        {
+          "url": "http://www.gre-enr.fr/",
+          "status": 301,
+          "location": "https://www.gre-enr.fr/"
+        }
+      ],
+      "erreur": null,
+      "duree_s": 0.61
+    },
+    "test_https": null,
+    "test_www": {
+      "url": "https://gre-enr.fr/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/",
+      "chaine": [
+        {
+          "url": "https://gre-enr.fr/",
+          "status": 301,
+          "location": "https://www.gre-enr.fr/"
+        }
+      ],
+      "erreur": null,
+      "duree_s": 1.82
+    },
+    "serveur": "Apache/2.4.68 (Debian)"
+  },
+  "pages": [
+    {
+      "role": "accueil",
+      "url": "https://www.gre-enr.fr/",
+      "final_url": "https://www.gre-enr.fr/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 352557,
+      "duree_s": 0.74,
+      "erreur": null,
+      "html": true,
+      "title": "GROUPE ROY ÉNERGIE, expert photovoltaïque",
+      "title_longueur": 41,
+      "meta_description": "Découvrez GROUPE ROY ÉNERGIE, acteur majeur du photovoltaïque en France. Installateur et constructeur de panneaux photovoltaïques. Nous vous accompagnons, particulier ou professionnel, dans votre projet photovoltaïque.",
+      "meta_description_longueur": 218,
+      "meta_viewport": "width=device-width, initial-scale=1",
+      "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta_generator": "WordPress 7.1.4",
+      "og_title": "GROUPE ROY ÉNERGIE, expert photovoltaïque",
+      "lang": "fr-FR",
+      "canonical": "https://www.gre-enr.fr/",
+      "h1": [
+        "GROUPE ROY ÉNERGIE Installateur de panneaux photovoltaïques"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Ensemble,",
+        "NOS SOLUTIONS",
+        "Ils nous font confiance",
+        "GROUPE ROY ÉNERGIE vous accompagne de A à Z dans votre projet",
+        "Réalisations",
+        "POINT CONSEIL Conseils, astuces et actualités de la filière photovoltaïque",
+        "Panneaux photovoltaïques : arrêtons de regarder uniquement le contenant, regardons surtout l’énergie qu’ils produisent",
+        "Pilotage de charges énergétique : optimisez vos coûts",
+        "Fin de la prime à l’autoconsommation : ce qui change vraiment pour vous",
+        "GROUPE ROY ÉNERGIE DÉMOCRATISE LE PHOTOVOLTAÏQUE",
+        "SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX",
+        "Rejoignez un groupe en forte croissance",
+        "Vos coordonnées",
+        "Informations sur votre projet",
+        "Nom et prénom de la personne qui vous a recommandé Groupe Roy Énergie",
+        "Demander une étude personnalisée",
+        "OBTENEZ VOTRE RENDEZ-VOUS PERSONNALISÉ À DISTANCE"
+      ],
+      "h3": [
+        "Nous sommes à votre écoute",
+        "En vidéo",
+        "Témoignages clients",
+        "Conseil & Étude",
+        "Dimensionnement & Validation technique",
+        "Démarches administratives",
+        "Pose & Installation",
+        "Suivi & Maintenance",
+        "Comment se déroule un projet d’installation de panneaux photovoltaïques ?",
+        "Comment fonctionne une cellule photovoltaïque ?",
+        "Qu’est-ce qu’une centrale photovoltaïque ?",
+        "Panneaux photovoltaïques vs. panneaux solaires, quelles différences ?",
+        "Contactez notre agence énergétique d’Orléans : 02 38 46 15 67"
+      ],
+      "liens_internes": 133,
+      "liens_externes": 26,
+      "liens_tel": [
+        "tel:02 38 801 801",
+        "tel:0238461567",
+        "tel:0238801801"
+      ],
+      "liens_mailto": [
+        "mailto:contact@gre-enr.fr"
+      ],
+      "images_total": 198,
+      "images_sans_alt": 109,
+      "images_sans_alt_exemples": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2023/01/groupe_roy_energie_logo.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20719%20630'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2025/08/visuel-chiffres-page-daccueil-GRE-1-719x630.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20186%2077'%3E%3C/svg%3E"
+      ],
+      "scripts_externes": 5,
+      "scripts_externes_domaines": [
+        "app.mailjet.com",
+        "cdn.trustindex.io",
+        "consent.cookiebot.com",
+        "maps.googleapis.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "WordPress 7.1.4",
+            "source": "meta generator",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "AggregateRating",
+        "Brand",
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "PropertyValueSpecification",
+        "Rating",
+        "ReadAction",
+        "Review",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 3323,
+      "telephones_detectes": [
+        "02 38 46 15 67",
+        "02 38 80 18 01"
+      ],
+      "emails_detectes": [
+        "contact@gre-enr.fr"
+      ],
+      "adresses_detectees": [],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2024,
+      "departements_mentionnes": [],
+      "mention_zone": true
+    },
+    {
+      "role": "contact",
+      "url": "https://www.gre-enr.fr/contact/",
+      "final_url": "https://www.gre-enr.fr/contact/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 207299,
+      "duree_s": 0.66,
+      "erreur": null,
+      "html": true,
+      "title": "Vous avez un projet photovoltaïque ? Contactez-nous ! | Groupe Roy Énergie",
+      "title_longueur": 74,
+      "meta_description": "Contactez-nous GROUPE ROY ÉNERGIE afin que nous puissions étudier ensemble et en détails votre projet photovoltaïque.",
+      "meta_description_longueur": 117,
+      "meta_viewport": "width=device-width, initial-scale=1",
+      "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta_generator": "WordPress 7.1.4",
+      "og_title": "Vous avez un projet photovoltaïque ? Contactez-nous ! | Groupe Roy Énergie",
+      "lang": "fr-FR",
+      "canonical": "https://www.gre-enr.fr/contact/",
+      "h1": [
+        "Contact"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Vous avez un projet ? Une question ?",
+        "Demande de Rappel",
+        "Ils nous font confiance",
+        "Vos coordonnées",
+        "Informations sur votre projet",
+        "Nom et prénom de la personne qui vous a recommandé Groupe Roy Énergie",
+        "Demander une étude personnalisée",
+        "OBTENEZ VOTRE RENDEZ-VOUS PERSONNALISÉ À DISTANCE"
+      ],
+      "h3": [
+        "Témoignages clients",
+        "Contactez notre agence énergétique d’Orléans : 02 38 46 15 67"
+      ],
+      "liens_internes": 60,
+      "liens_externes": 12,
+      "liens_tel": [
+        "tel:02 38 801 801",
+        "tel:0238461567",
+        "tel:0238801801"
+      ],
+      "liens_mailto": [
+        "mailto:contact@gre-enr.fr"
+      ],
+      "images_total": 96,
+      "images_sans_alt": 18,
+      "images_sans_alt_exemples": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201026%20588'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2021/02/Groupe-roy-energie-footer-partenaire-e1673534508846.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2063%2089'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2020/04/groupe-roy-energie-qualibat.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2063%2089'%3E%3C/svg%3E"
+      ],
+      "scripts_externes": 5,
+      "scripts_externes_domaines": [
+        "app.mailjet.com",
+        "cdn.trustindex.io",
+        "consent.cookiebot.com",
+        "maps.googleapis.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "WordPress 7.1.4",
+            "source": "meta generator",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "AggregateRating",
+        "Brand",
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "PropertyValueSpecification",
+        "Rating",
+        "ReadAction",
+        "Review",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 1704,
+      "telephones_detectes": [
+        "02 38 46 15 67",
+        "02 38 80 18 01"
+      ],
+      "emails_detectes": [
+        "contact@gre-enr.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": "23 rue Gondrelier Z.A de la Haute Borne",
+          "code_postal": "28310",
+          "ville": "TOURY"
+        }
+      ],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2024,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    },
+    {
+      "role": "realisations",
+      "url": "https://www.gre-enr.fr/realisations/",
+      "final_url": "https://www.gre-enr.fr/realisations/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 355500,
+      "duree_s": 0.89,
+      "erreur": null,
+      "html": true,
+      "title": "Nos Réalisations photovoltaïques | Groupe Roy Énergie",
+      "title_longueur": 53,
+      "meta_description": "Découvrez toutes nos réalisations de projets photovoltaïques en photos. Découvrez différents exemples de panneaux solaires installés.",
+      "meta_description_longueur": 133,
+      "meta_viewport": "width=device-width, initial-scale=1",
+      "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta_generator": "WordPress 7.1.4",
+      "og_title": "Nos Réalisations photovoltaïques | Groupe Roy Énergie",
+      "lang": "fr-FR",
+      "canonical": "https://www.gre-enr.fr/realisations/",
+      "h1": [
+        "Nos réalisations"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Sélectionnez un filtre",
+        "NOTRE ENGAGEMENT ÉCORESPONSABLE",
+        "VOTRE RENDEZ-VOUS PERSONNALISÉ",
+        "Vos coordonnées",
+        "Informations sur votre projet",
+        "Nom et prénom de la personne qui vous a recommandé Groupe Roy Énergie",
+        "Demander une étude personnalisée",
+        "OBTENEZ VOTRE RENDEZ-VOUS PERSONNALISÉ À DISTANCE"
+      ],
+      "h3": [
+        "3 kWc",
+        "4 kWc + batterie",
+        "157 kWc",
+        "422 kWc",
+        "333 kWc",
+        "5 kWc",
+        "9,2 kWc",
+        "334 kWc",
+        "6 kWc + borne",
+        "11 kWc",
+        "172 kWc",
+        "130 kWc",
+        "6 kWc",
+        "3 kWc",
+        "100 kWc",
+        "230 kWc",
+        "6 kWc",
+        "301 kWc",
+        "35 kWc",
+        "15 kWc + Batterie",
+        "6 kWc",
+        "109 kWc",
+        "3 kWc",
+        "15 kWc",
+        "330 kWc",
+        "147 kWc",
+        "3 kWc",
+        "3 kWc",
+        "7 kWc",
+        "3 kWc"
+      ],
+      "liens_internes": 260,
+      "liens_externes": 10,
+      "liens_tel": [
+        "tel:02 38 801 801",
+        "tel:0238461567",
+        "tel:0238801801"
+      ],
+      "liens_mailto": [
+        "mailto:contact@gre-enr.fr"
+      ],
+      "images_total": 20,
+      "images_sans_alt": 18,
+      "images_sans_alt_exemples": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201026%20588'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2021/02/Groupe-roy-energie-footer-partenaire-e1673534508846.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2063%2089'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2020/04/groupe-roy-energie-qualibat.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2063%2089'%3E%3C/svg%3E"
+      ],
+      "scripts_externes": 4,
+      "scripts_externes_domaines": [
+        "app.mailjet.com",
+        "cdn.trustindex.io",
+        "consent.cookiebot.com",
+        "maps.googleapis.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "WordPress 7.1.4",
+            "source": "meta generator",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 1292,
+      "telephones_detectes": [
+        "02 38 46 15 67",
+        "02 38 80 18 01"
+      ],
+      "emails_detectes": [
+        "contact@gre-enr.fr"
+      ],
+      "adresses_detectees": [
+        {
+          "rue": null,
+          "code_postal": "28250",
+          "ville": "Digny"
+        },
+        {
+          "rue": null,
+          "code_postal": "28157",
+          "ville": "Fontenay-sur-Conie"
+        },
+        {
+          "rue": null,
+          "code_postal": "28700",
+          "ville": "Maisons"
+        },
+        {
+          "rue": null,
+          "code_postal": "68420",
+          "ville": "Gueberschwihr"
+        },
+        {
+          "rue": null,
+          "code_postal": "89116",
+          "ville": "Précy-sur-Vrin"
+        }
+      ],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": 2024,
+      "departements_mentionnes": [
+        "Cher",
+        "Eure",
+        "Eure-et-Loir",
+        "Indre-et-Loire",
+        "Loir-et-Cher"
+      ],
+      "mention_zone": false
+    },
+    {
+      "role": "tarifs",
+      "url": "https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite",
+      "final_url": "https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 152056,
+      "duree_s": 0.63,
+      "erreur": null,
+      "html": true,
+      "title": "Revente d'électricité photovoltaïque | Groupe Roy Énergie",
+      "title_longueur": 57,
+      "meta_description": "Vous disposez de panneaux photovoltaïques et vous souhaitez revendre en totalité ou en partie votre électricité produite ? Voici les tarifs.",
+      "meta_description_longueur": 140,
+      "meta_viewport": "width=device-width, initial-scale=1",
+      "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta_generator": "WordPress 7.1.4",
+      "og_title": "Revente d'électricité photovoltaïque | Groupe Roy Énergie",
+      "lang": "fr-FR",
+      "canonical": "https://www.gre-enr.fr/revente-delectricite/",
+      "h1": [
+        "Revente d’électricité photovoltaïque"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Peut-on revendre de l’électricité produite par des panneaux photovoltaïques ?",
+        "Comment fonctionne la revente d’électricité ?",
+        "De la production à la revente de l’électricité photovoltaïque",
+        "Quels sont les avantages de la revente totale d’électricité ?",
+        "Pourquoi choisir l’autoconsommation avec revente d’électricité d’origine photovoltaïque ?",
+        "Vente d’électricité à EDF, le contrat EDF Obligation d’Achat (EDF OA)",
+        "Quel est le prix de rachat de l’électricité photovoltaïque ?",
+        "Tarifs de rachat en revente totale",
+        "Tarifs de rachat du surplus de production",
+        "En savoir plus sur la revente d’électricité et le photovoltaïque",
+        "Vos coordonnées",
+        "Informations sur votre projet",
+        "Nom et prénom de la personne qui vous a recommandé Groupe Roy Énergie",
+        "Demander une étude personnalisée",
+        "OBTENEZ VOTRE RENDEZ-VOUS PERSONNALISÉ À DISTANCE"
+      ],
+      "h3": [
+        "Connaître le montant de la prime à l’autoconsommation",
+        "Tarif de rachat du kWh",
+        "Évolution des tarifs d’achat de l’électricité (en vente totale)",
+        "Tarif de rachat du kWh (kilowatt-heure) en vente de surplus depuis le 5 juin 2026",
+        "Évolution des tarifs de rachat de l’électricité photovoltaïque (surplus)",
+        "Contactez notre agence énergétique d’Orléans : 02 38 46 15 67"
+      ],
+      "liens_internes": 80,
+      "liens_externes": 11,
+      "liens_tel": [
+        "tel:02 38 801 801",
+        "tel:0238461567",
+        "tel:0238801801"
+      ],
+      "liens_mailto": [
+        "mailto:contact@gre-enr.fr"
+      ],
+      "images_total": 42,
+      "images_sans_alt": 22,
+      "images_sans_alt_exemples": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20221'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2020/07/france-renov-cazenave-1030x221.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20260%20185'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2021/07/investissement-photovoltaique-260x185.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201026%20588'%3E%3C/svg%3E"
+      ],
+      "scripts_externes": 4,
+      "scripts_externes_domaines": [
+        "app.mailjet.com",
+        "cdn.trustindex.io",
+        "consent.cookiebot.com",
+        "maps.googleapis.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "WordPress 7.1.4",
+            "source": "meta generator",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 1623,
+      "telephones_detectes": [
+        "02 38 46 15 67",
+        "02 38 80 18 01"
+      ],
+      "emails_detectes": [
+        "contact@gre-enr.fr"
+      ],
+      "adresses_detectees": [],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": 2024,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    },
+    {
+      "role": "navigation",
+      "url": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+      "final_url": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 162994,
+      "duree_s": 0.63,
+      "erreur": null,
+      "html": true,
+      "title": "Autoconsommation photovoltaïque | Groupe Roy Énergie",
+      "title_longueur": 52,
+      "meta_description": "Découvrez l'autoconsommation solaire avec GROUPE ROY ÉNERGIE ! Les panneaux solaire alimentent votre maison pour réduire votre facture.",
+      "meta_description_longueur": 135,
+      "meta_viewport": "width=device-width, initial-scale=1",
+      "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "meta_generator": "WordPress 7.1.4",
+      "og_title": "Autoconsommation photovoltaïque | Groupe Roy Énergie",
+      "lang": "fr-FR",
+      "canonical": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+      "h1": [
+        "L’autoconsommation photovoltaïque"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "L’autoconsommation, un choix gagnant !",
+        "L’autoconsommation photovoltaïque , qu’est-ce que c’est ?",
+        "Comment fonctionnent les panneaux photovoltaïques en autoconsommation ?",
+        "Pourquoi choisir l’ autoconsommation photovoltaïque ?",
+        "Vos avantages avec l’autoconsommation photovoltaïque :",
+        "Comment dimensionner une installation photovoltaïque en autoconsommation ?",
+        "Est-ce rentable d’installer des panneaux solaires photovoltaïques en autoconsommation ?",
+        "Les étapes de votre projet",
+        "Que se passe-t-il si votre consommation est supérieure à votre production d’électricité ?",
+        "Que se passe-t-il si votre production d’énergie est plus importante que votre consommation ?",
+        "Les aides à l’installation de panneaux photovoltaïques en autoconsommation : qu’est-ce que la prime à l’autoconsommation",
+        "En savoir plus sur l’autoconsommation et le photovoltaïque",
+        "Vos coordonnées",
+        "Informations sur votre projet",
+        "Nom et prénom de la personne qui vous a recommandé Groupe Roy Énergie",
+        "Demander une étude personnalisée",
+        "OBTENEZ VOTRE RENDEZ-VOUS PERSONNALISÉ À DISTANCE"
+      ],
+      "h3": [
+        "Vous ne supportez plus les hausses d’électricité de votre fournisseur",
+        "Vous réduisez votre facture annuelle d’électricité",
+        "Vous avez un mode de vie plus responsable",
+        "L’autoconsommation avec revente",
+        "L’autoconsommation avec stockage en batterie",
+        "Contactez notre agence énergétique d’Orléans : 02 38 46 15 67"
+      ],
+      "liens_internes": 79,
+      "liens_externes": 11,
+      "liens_tel": [
+        "tel:02 38 801 801",
+        "tel:0238461567",
+        "tel:0238801801"
+      ],
+      "liens_mailto": [
+        "mailto:contact@gre-enr.fr"
+      ],
+      "images_total": 48,
+      "images_sans_alt": 28,
+      "images_sans_alt_exemples": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2086%2086'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2020/04/autoconsommation-photovoltaique-hausse-electricite-groupe-roy-energie.",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2086%2086'%3E%3C/svg%3E",
+        "https://www.gre-enr.fr/wp-content/uploads/2020/04/autoconsommation-photovoltaique-facture-electricite-groupe-roy-energie",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2086%2086'%3E%3C/svg%3E"
+      ],
+      "scripts_externes": 4,
+      "scripts_externes_domaines": [
+        "app.mailjet.com",
+        "cdn.trustindex.io",
+        "consent.cookiebot.com",
+        "maps.googleapis.com"
+      ],
+      "generateur": {
+        "detectes": [
+          {
+            "nom": "WordPress 7.1.4",
+            "source": "meta generator",
+            "gratuit": false
+          }
+        ],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 1724,
+      "telephones_detectes": [
+        "02 38 46 15 67",
+        "02 38 80 18 01"
+      ],
+      "emails_detectes": [
+        "contact@gre-enr.fr"
+      ],
+      "adresses_detectees": [],
+      "mention_devis": true,
+      "mention_urgence": false,
+      "copyright_annee": 2024,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    }
+  ],
+  "robots": {
+    "url": "https://www.gre-enr.fr/robots.txt",
+    "existe": true,
+    "status": 200,
+    "disallow_tout": false,
+    "sitemaps": [
+      "https://www.gre-enr.fr/sitemap_index.xml"
+    ],
+    "erreur": null
+  },
+  "sitemap": {
+    "url": "https://www.gre-enr.fr/sitemap_index.xml",
+    "existe": true,
+    "status": 200,
+    "type": "index",
+    "nb_urls": null,
+    "nb_sitemaps": 9,
+    "testees": [
+      {
+        "url": "https://www.gre-enr.fr/sitemap_index.xml",
+        "status": 200,
+        "erreur": null
+      }
+    ],
+    "erreur": null
+  },
+  "navigateur": {
+    "outil": "Playwright (Chromium headless)",
+    "date": "2026-11-05T21:53:51+00:00",
+    "url": "https://www.gre-enr.fr/",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "vues": {
+      "mobile": {
+        "viewport": "375x812",
+        "status": null,
+        "erreur": "networkidle non atteint en 30 s (page analysée en l'état)",
+        "networkidle_atteint": false,
+        "temps_chargement_s": 30.0,
+        "requetes": 173,
+        "octets_transferes": 9282864,
+        "erreurs_console": [
+          "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+          "JS: Cannot read properties of null (reading 'style')",
+          "requestStorageAccess: Permission denied."
+        ],
+        "captures": {
+          "fold": "captures/mobile-375-fold.png",
+          "full": "captures/mobile-375-full.png"
+        },
+        "metriques": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "scrollHeight": 10522,
+          "debordement": false,
+          "appels": [
+            {
+              "texte": "",
+              "href": "https://www.gre-enr.fr/rendez-vous-personnalise-a-distance/",
+              "tel": false,
+              "motif": "lien vers une page contact",
+              "fixe": true,
+              "classes": "btn rdv personnalise",
+              "top": 730,
+              "bottom": 790,
+              "left": 300,
+              "largeur": 60,
+              "hauteur": 60,
+              "dans_fold": true
+            },
+            {
+              "texte": "02 38 801 801",
+              "href": "tel:02 38 801 801",
+              "tel": true,
+              "motif": "lien tel:",
+              "fixe": false,
+              "classes": "",
+              "top": 9841,
+              "bottom": 9869,
+              "left": 142,
+              "largeur": 92,
+              "hauteur": 28,
+              "dans_fold": false
+            },
+            {
+              "texte": "PRENEZ RENDEZ-VOUS",
+              "href": "https://www.gre-enr.fr/contact/",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "",
+              "top": 3577,
+              "bottom": 3619,
+              "left": 48,
+              "largeur": 133,
+              "hauteur": 42,
+              "dans_fold": false
+            },
+            {
+              "texte": "contact@gre-enr.fr",
+              "href": "mailto:contact@gre-enr.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 9867,
+              "bottom": 9895,
+              "left": 124,
+              "largeur": 128,
+              "hauteur": 28,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 4,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": true,
+            "fixe_visible_sans_defiler": true,
+            "tel_present": true
+          },
+          "plus_petit_texte_px": 14,
+          "plus_petit_texte_exemple": "© 2024 GROUPE ROY ÉNERGIE - Tous droits réservés",
+          "textes_moins_12px": 0,
+          "elements_examines": 2610,
+          "viewport_meta": "width=device-width, initial-scale=1",
+          "titre_document": "GROUPE ROY ÉNERGIE, expert photovoltaïque"
+        },
+        "erreurs_console_nombre": 3
+      },
+      "desktop": {
+        "viewport": "1440x900",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 6.39,
+        "requetes": 169,
+        "octets_transferes": 15335057,
+        "erreurs_console": [
+          "Failed to load resource: the server responded with a status of 400 (Bad Request)",
+          "JS: Cannot read properties of null (reading 'style')",
+          "requestStorageAccess: Permission denied."
+        ],
+        "captures": {
+          "fold": "captures/desktop-1440-fold.png",
+          "full": "captures/desktop-1440-full.png"
+        },
+        "metriques": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 9116,
+          "debordement": false,
+          "appels": [
+            {
+              "texte": "CONTACT",
+              "href": "https://www.gre-enr.fr/contact/",
+              "tel": false,
+              "motif": "texte",
+              "fixe": true,
+              "classes": "mega menu link",
+              "top": 57,
+              "bottom": 147,
+              "left": 947,
+              "largeur": 79,
+              "hauteur": 90,
+              "dans_fold": true
+            },
+            {
+              "texte": "",
+              "href": "https://www.gre-enr.fr/rendez-vous-personnalise-a-distance/",
+              "tel": false,
+              "motif": "lien vers une page contact",
+              "fixe": true,
+              "classes": "btn rdv personnalise",
+              "top": 818,
+              "bottom": 878,
+              "left": 1365,
+              "largeur": 60,
+              "hauteur": 60,
+              "dans_fold": true
+            },
+            {
+              "texte": "02 38 801 801",
+              "href": "tel:02 38 801 801",
+              "tel": true,
+              "motif": "lien tel:",
+              "fixe": false,
+              "classes": "",
+              "top": 8567,
+              "bottom": 8595,
+              "left": 208,
+              "largeur": 92,
+              "hauteur": 28,
+              "dans_fold": false
+            },
+            {
+              "texte": "PRENEZ RENDEZ-VOUS",
+              "href": "https://www.gre-enr.fr/contact/",
+              "tel": false,
+              "motif": "texte",
+              "fixe": false,
+              "classes": "",
+              "top": 2888,
+              "bottom": 2936,
+              "left": 308,
+              "largeur": 210,
+              "hauteur": 48,
+              "dans_fold": false
+            },
+            {
+              "texte": "contact@gre-enr.fr",
+              "href": "mailto:contact@gre-enr.fr",
+              "tel": false,
+              "motif": "lien de messagerie",
+              "fixe": false,
+              "classes": "",
+              "top": 8593,
+              "bottom": 8621,
+              "left": 190,
+              "largeur": 128,
+              "hauteur": 28,
+              "dans_fold": false
+            }
+          ],
+          "bouton_contact": {
+            "candidats": 5,
+            "tel_visible_sans_defiler": false,
+            "contact_visible_sans_defiler": true,
+            "fixe_visible_sans_defiler": true,
+            "tel_present": true
+          },
+          "plus_petit_texte_px": 13,
+          "plus_petit_texte_exemple": "03/11/2026",
+          "textes_moins_12px": 0,
+          "elements_examines": 2610,
+          "viewport_meta": "width=device-width, initial-scale=1",
+          "titre_document": "GROUPE ROY ÉNERGIE, expert photovoltaïque"
+        },
+        "erreurs_console_nombre": 3
+      }
+    },
+    "erreur": null
+  },
+  "lighthouse": {
+    "outil": "Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé",
+    "date": "2026-11-05T21:54:34+00:00",
+    "url": "https://www.gre-enr.fr/",
+    "statut": "mesuré",
+    "raison": null,
+    "scores": {
+      "performance": 26,
+      "accessibility": 85,
+      "best-practices": 75,
+      "seo": 85
+    },
+    "metriques": {
+      "lcp_ms": 13684,
+      "cls": 0.07,
+      "tbt_ms": 2439,
+      "fcp_ms": 7341,
+      "speed_index_ms": 16244,
+      "poids_total_octets": 14184001
+    },
+    "fichier": "lighthouse.json",
+    "conditions": "mesure unique depuis un serveur (pas un téléphone réel), réseau et CPU simulés ; les valeurs varient d'une mesure à l'autre",
+    "commande": "npx -y lighthouse@12 https://www.gre-enr.fr/ --chrome-flags=--headless=new --no-sandbox --disable-gpu --form-factor=mobile --screenEmulation.mobile --throttling-method=simulate --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=out/audit-lot2-gre-enr/lighthouse.json --quiet",
+    "version": "12.8.2",
+    "url_finale": "https://www.gre-enr.fr/"
+  },
+  "analyse": {
+    "constats": [
+      {
+        "id": "C01",
+        "type": "mesure",
+        "gravite": "basse",
+        "titre": "Erreurs JavaScript ou ressources en échec au chargement",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "3 erreur(s) console à 375 px, ex. : Failed to load resource: the server responded with a status of 400 (Bad Request)"
+        },
+        "consequence_possible": "Des fonctions (menu, formulaire, carrousel) peuvent ne pas marcher chez certains visiteurs.",
+        "correction": "Corriger ou retirer les scripts en erreur ; vérifier les ressources en erreur (4xx)."
+      },
+      {
+        "id": "C02",
+        "type": "mesure",
+        "gravite": "moyenne",
+        "titre": "Page d'accueil lourde sur mobile",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "9.3 Mo transférés, 173 requêtes (Playwright, 2026-11-05T21:53:51+00:00)"
+        },
+        "consequence_possible": "Le chargement risque d'être long en 4G ou en zone mal couverte ; une partie des visiteurs peut partir avant l'affichage.",
+        "correction": "Compresser et redimensionner les images (WebP), supprimer les scripts inutiles, activer la mise en cache."
+      },
+      {
+        "id": "C03",
+        "type": "mesure",
+        "gravite": "haute",
+        "titre": "Performance mobile faible (Lighthouse)",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "performance 26/100, LCP 13684 ms, CLS 0.07, TBT 2439 ms (Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé, 2026-11-05T21:54:34+00:00)"
+        },
+        "consequence_possible": "La page s'affiche lentement sur téléphone ; des visiteurs venus de Google Maps risquent de repartir avant d'avoir vu le numéro.",
+        "correction": "Réduire le poids des images, limiter les scripts et polices, servir le site depuis un hébergement rapide avec cache."
+      },
+      {
+        "id": "C04",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Meta description trop longue",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "218 caractères"
+        },
+        "consequence_possible": "L'extrait peut être tronqué dans les résultats.",
+        "correction": "Ramener à 120–155 caractères."
+      },
+      {
+        "id": "C05",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Images sans attribut alt",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "195 image(s) sans alt sur 5 page(s) consultée(s) (accueil : 109/198)"
+        },
+        "consequence_possible": "Ces photos risquent de ne pas remonter dans Google Images et restent muettes pour les lecteurs d'écran.",
+        "correction": "Décrire chaque photo en une phrase avec le métier et le lieu (ex. « Installateur photovoltaïque à TOURY : [ce que montre la photo] »)."
+      },
+      {
+        "id": "C06",
+        "type": "mesure",
+        "gravite": "basse",
+        "titre": "Bouton de contact visible sans défiler à 375 px, mais sans lien d'appel direct",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "bouton « https://www.gre-enr.fr/rendez-vous-personnalise-a-distance/ » (fixe à l’écran) visible sur le premier écran mobile, repéré par lien vers une page contact ; lien tel: présent plus bas dans la page (Playwright, 2026-11-05T21:53:51+00:00)"
+        },
+        "consequence_possible": "Le visiteur pressé peut avoir à passer par une page ou un formulaire avant de pouvoir appeler.",
+        "correction": "Donner à ce bouton (ou à un bouton voisin) un lien d'appel direct <a href=\"tel:+33…\"> pour appeler en un appui."
+      },
+      {
+        "id": "C07",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Données structurées LocalBusiness absentes",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "types JSON-LD trouvés : AggregateRating, Brand, BreadcrumbList, EntryPoint, ImageObject, ListItem, Organization, Person, PropertyValueSpecification, Rating, ReadAction, Review, SearchAction, WebPage, WebSite"
+        },
+        "consequence_possible": "Google doit deviner nom, adresse, téléphone et horaires au lieu de les lire ; ils peuvent manquer dans les résultats.",
+        "correction": "Ajouter un bloc JSON-LD LocalBusiness (nom, adresse, téléphone, horaires, zone) cohérent avec la fiche Google."
+      },
+      {
+        "id": "C08",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Année de copyright ancienne (indice de site non mis à jour)",
+        "preuve": {
+          "url": "https://www.gre-enr.fr/",
+          "valeur": "© 2024 (année courante 2026)"
+        },
+        "consequence_possible": "Le visiteur peut croire que l'entreprise n'est plus active.",
+        "correction": "Mettre l'année à jour automatiquement ou la retirer."
+      }
+    ],
+    "non_verifie": [],
+    "verdict": "aucune amélioration substantielle établie",
+    "verdict_motif": "1 haute, 1 moyenne(s), 6 basse(s)",
+    "gravites": {
+      "haute": 1,
+      "moyenne": 1,
+      "basse": 6
+    },
+    "ce_qui_fonctionne": [
+      "HTTPS actif et redirection http→https en place",
+      "Variante www / sans www redirigée correctement",
+      "Balise viewport présente",
+      "Aucun débordement horizontal à 375 px",
+      "Titre présent (41 caractères)",
+      "H1 unique : « GROUPE ROY ÉNERGIE Installateur de panneaux photovoltaïques »",
+      "Numéro cliquable (tel:) présent : tel:02 38 801 801",
+      "Ville ou zone d'intervention visible sur l'accueil (formulation de zone d'intervention détectée)",
+      "Sitemap présent (https://www.gre-enr.fr/sitemap_index.xml, 9 sous-sitemaps URL)",
+      "robots.txt présent et non bloquant"
+    ],
+    "a_preserver": {
+      "pages_trouvees": [
+        {
+          "url": "https://www.gre-enr.fr/",
+          "role": "accueil",
+          "title": "GROUPE ROY ÉNERGIE, expert photovoltaïque",
+          "status": 200
+        },
+        {
+          "url": "https://www.gre-enr.fr/contact/",
+          "role": "contact",
+          "title": "Vous avez un projet photovoltaïque ? Contactez-nous ! | Groupe Roy Énergie",
+          "status": 200
+        },
+        {
+          "url": "https://www.gre-enr.fr/realisations/",
+          "role": "realisations",
+          "title": "Nos Réalisations photovoltaïques | Groupe Roy Énergie",
+          "status": 200
+        },
+        {
+          "url": "https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite",
+          "role": "tarifs",
+          "title": "Revente d'électricité photovoltaïque | Groupe Roy Énergie",
+          "status": 200
+        },
+        {
+          "url": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+          "role": "navigation",
+          "title": "Autoconsommation photovoltaïque | Groupe Roy Énergie",
+          "status": 200
+        }
+      ],
+      "menu": [
+        "Dépannage et Maintenance",
+        "Tarifs de rachat",
+        "Recrutement",
+        "Point conseil",
+        "Le Groupe",
+        "Nos engagements RSE",
+        "Nos Partenariats",
+        "Comprendre le photovoltaïque",
+        "Autoconsommation",
+        "Revente totale",
+        "Location de toiture",
+        "Calculer vos économies",
+        "Tarif de rachat",
+        "Agriculteur",
+        "Industriel et tertiaire"
+      ],
+      "coordonnees": {
+        "telephones": [
+          "02 38 80 18 01",
+          "02 38 46 15 67"
+        ],
+        "emails": [
+          "contact@gre-enr.fr"
+        ],
+        "adresses": [
+          {
+            "rue": "23 rue Gondrelier Z.A de la Haute Borne",
+            "code_postal": "28310",
+            "ville": "TOURY"
+          },
+          {
+            "rue": null,
+            "code_postal": "28250",
+            "ville": "Digny"
+          },
+          {
+            "rue": null,
+            "code_postal": "28157",
+            "ville": "Fontenay-sur-Conie"
+          }
+        ]
+      },
+      "services_listes": [
+        "Conseil & Étude",
+        "Dimensionnement & Validation technique",
+        "Démarches administratives",
+        "Pose & Installation",
+        "Suivi & Maintenance"
+      ],
+      "note": "Inventaire limité aux pages consultées ; les intitulés de services sont les listes de prestations (ul/li) et les titres H2/H3 relevés hors formulaire sur les pages accueil/services (12 au plus), à vérifier avec le client."
+    },
+    "correspondance_entreprise": {
+      "elements_trouves": [
+        "nom",
+        "ville",
+        "cp"
+      ],
+      "elements_fournis": [
+        "nom",
+        "ville",
+        "cp",
+        "siren"
+      ],
+      "elements_non_trouves": [
+        "siren"
+      ],
+      "details": {
+        "nom": {
+          "fourni": true,
+          "valeur": "GROUPE ROY ENERGIE",
+          "trouve": true,
+          "ou": "https://www.gre-enr.fr/",
+          "mode": "libellé entier"
+        },
+        "enseigne": {
+          "fourni": false
+        },
+        "ville": {
+          "fourni": true,
+          "valeur": "TOURY",
+          "trouve": true,
+          "ou": "https://www.gre-enr.fr/contact/"
+        },
+        "cp": {
+          "fourni": true,
+          "valeur": "28310",
+          "trouve": true,
+          "ou": "https://www.gre-enr.fr/contact/"
+        },
+        "siren": {
+          "fourni": true,
+          "valeur": "819855206",
+          "trouve": false
+        }
+      },
+      "note": "Recherche sur les pages consultées (titre, description, H1, texte visible), sans accents ni casse ; nom et enseigne acceptés si le libellé entier ou tous ses mots significatifs figurent sur une même page."
+    }
+  },
+  "erreurs": [],
+  "journal_requetes": [
+    {
+      "type": "html",
+      "url": "https://www.gre-enr.fr/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/",
+      "duree_s": 0.74,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "http://www.gre-enr.fr/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/",
+      "duree_s": 0.61,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://gre-enr.fr/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/",
+      "duree_s": 1.82,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.gre-enr.fr/contact/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/contact/",
+      "duree_s": 0.66,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.gre-enr.fr/realisations/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/realisations/",
+      "duree_s": 0.89,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite",
+      "duree_s": 0.63,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/autoconsommation-photovoltaique/",
+      "duree_s": 0.63,
+      "erreur": null
+    },
+    {
+      "type": "robots",
+      "url": "https://www.gre-enr.fr/robots.txt",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/robots.txt",
+      "duree_s": 0.12,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "https://www.gre-enr.fr/sitemap_index.xml",
+      "status": 200,
+      "final_url": "https://www.gre-enr.fr/sitemap_index.xml",
+      "duree_s": 0.12,
+      "erreur": null
+    }
+  ]
+}

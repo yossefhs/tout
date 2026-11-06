@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "date": "2026-11-05",
+  "graine": 4097632185,
+  "lead": {
+    "siren": "000000000",
+    "nom": "Exemple Plomberie",
+    "domaine": "exemple-plomberie.example",
+    "email": "contact@exemple-plomberie.example",
+    "ville": "Chartres"
+  },
+  "objets": [
+    "votre site exemple-plomberie.example",
+    "vitesse de exemple-plomberie.example sur mobile"
+  ],
+  "corps": "Bonjour,\n\nJ'ai examiné exemple-plomberie.example comme le ferait quelqu'un qui vient de vous trouver sur Google, sur téléphone. Quand on tape votre adresse sans « https », le navigateur affiche « Non sécurisé », alors que la version sécurisée existe bien. Autre point : la page s'affiche un peu lentement sur téléphone : rien de grave, mais on peut faire plus léger.\n\nPour un client pressé, tout se joue dans les premières secondes : page rapide, numéro cliquable, métier et ville visibles sans défiler.\n\nVoici une maquette de votre page d'accueil, faite avec vos informations publiques : https://clientsici.fr/apercu/abcdefghij0123456789/. Privée, hors de Google, supprimée sur simple demande.\n\nQu'en pensez-vous ?",
+  "signature": "Guillaume Samama\nClients Ici\nhttps://clientsici.fr/refonte-site-vitrine/\ncontact@clientsici.fr\n6 rue du Parc, 28190 Landelles",
+  "bloc_information": "Pourquoi ce message : vos coordonnées viennent de votre site exemple-plomberie.example, qui est public.\nPour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.\nConfidentialité : https://clientsici.fr/confidentialite/",
+  "texte_complet": "Bonjour,\n\nJ'ai examiné exemple-plomberie.example comme le ferait quelqu'un qui vient de vous trouver sur Google, sur téléphone. Quand on tape votre adresse sans « https », le navigateur affiche « Non sécurisé », alors que la version sécurisée existe bien. Autre point : la page s'affiche un peu lentement sur téléphone : rien de grave, mais on peut faire plus léger.\n\nPour un client pressé, tout se joue dans les premières secondes : page rapide, numéro cliquable, métier et ville visibles sans défiler.\n\nVoici une maquette de votre page d'accueil, faite avec vos informations publiques : https://clientsici.fr/apercu/abcdefghij0123456789/. Privée, hors de Google, supprimée sur simple demande.\n\nQu'en pensez-vous ?\n\nGuillaume Samama\nClients Ici\nhttps://clientsici.fr/refonte-site-vitrine/\ncontact@clientsici.fr\n6 rue du Parc, 28190 Landelles\n\n--\nPourquoi ce message : vos coordonnées viennent de votre site exemple-plomberie.example, qui est public.\nPour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.\nConfidentialité : https://clientsici.fr/confidentialite/\n",
+  "nb_mots_corps": 104,
+  "nb_mots_total": 155,
+  "constats_utilises": [
+    {
+      "id": "C01",
+      "categorie": "https_non_force",
+      "gravite": "haute",
+      "titre": "Redirection http→https absente (HTTPS disponible mais non forcé)"
+    },
+    {
+      "id": "C02",
+      "categorie": "perf_moyenne",
+      "gravite": "moyenne",
+      "titre": "Performance mobile moyenne (Lighthouse)"
+    }
+  ],
+  "constats_disponibles": 5,
+  "verdict_audit": "refonte pertinente",
+  "maquette_url": "https://clientsici.fr/apercu/abcdefghij0123456789/",
+  "whatsapp": {
+    "texte": "Bonjour, Guillaume de Clients Ici (Landelles). J'ai testé votre site exemple-plomberie.example sur téléphone : l'adresse tapée sans https affiche « Non sécurisé ». Je peux vous montrer une maquette de votre page d'accueil, sans engagement. Vous voulez la voir ?",
+    "statut": "brouillon — conditions de contact à vérifier",
+    "nb_caracteres": 261
+  },
+  "sms": {
+    "texte": "Bonjour, Guillaume (Clients Ici). Sur votre site exemple-plomberie.example : l'adresse tapée sans https affiche « Non sécurisé ». Maquette de votre page d'accueil possible, sans engagement. Intéressé ? STOP pour ne plus recevoir.",
+    "statut": "brouillon — conditions de contact à vérifier",
+    "nb_caracteres": 229
+  },
+  "controles": {
+    "ok": true,
+    "problemes": []
+  },
+  "avertissements": [],
+  "format": "text/plain",
+  "suivi": "aucun pixel, aucun lien raccourci"
+}

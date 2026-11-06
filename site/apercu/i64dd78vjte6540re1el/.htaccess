@@ -1,0 +1,24 @@
+# .htaccess posé dans chaque dossier d'aperçu site/apercu/<jeton>/ (copié par publish_maquette.py).
+# Objectif : maquette consultable par lien privé, jamais indexée, jamais listée.
+
+# Hors moteurs de recherche et hors archives (Google respecte X-Robots-Tag sur les réponses HTML)
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
+  Header set Referrer-Policy "no-referrer"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Cache-Control "private, no-store"
+</IfModule>
+
+# Pas de listage de répertoire
+Options -Indexes
+
+# Page par défaut
+DirectoryIndex index.html
+
+# Protection par mot de passe (facultatif) : décommenter et créer le fichier .htpasswd
+# hors de la racine web (chemin absolu à adapter ; chez OVH : /home/<login>/.htpasswd),
+# par exemple avec : htpasswd -c /home/<login>/.htpasswd apercu
+# AuthType Basic
+# AuthName "Aperçu privé"
+# AuthUserFile /home/<login>/.htpasswd
+# Require valid-user

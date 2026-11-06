@@ -1,0 +1,33 @@
+{
+ "ko_total": 0,
+ "maquettes": {
+  "maquette": {
+   "ko": [],
+   "captures": [
+    "/home/user/refonte-vitrine/pipeline/out/2026-11-05/rabarot-freres.fr/maquette/captures/maquette-375.png",
+    "/home/user/refonte-vitrine/pipeline/out/2026-11-05/rabarot-freres.fr/maquette/captures/maquette-768.png",
+    "/home/user/refonte-vitrine/pipeline/out/2026-11-05/rabarot-freres.fr/maquette/captures/maquette-1440.png"
+   ],
+   "requetes_reseau": [
+    "http://127.0.0.1:44457/index.html"
+   ],
+   "requetes_externes": [],
+   "parcours_clavier": [
+    "A:Aller au contenu",
+    "SUMMARY:Points relevés sur le site act",
+    "A:Rabarot Frères",
+    "A:Prestations",
+    "A:Contact",
+    "A:Demander un devis",
+    "INPUT:nom",
+    "INPUT:tel",
+    "INPUT:email",
+    "TEXTAREA:message",
+    "BUTTON:Envoyer ma demande de devis",
+    "A:Demander un devis"
+   ],
+   "h1": 1,
+   "texte_min_px": 13.76
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "date": "2026-11-05",
+  "graine": 368549400,
+  "lead": {
+    "siren": "819855206",
+    "nom": "GROUPE ROY ENERGIE",
+    "domaine": "gre-enr.fr",
+    "email": "contact@gre-enr.fr",
+    "ville": "TOURY"
+  },
+  "objets": [
+    "votre site vitrine sur téléphone",
+    "vitesse de gre-enr.fr sur mobile"
+  ],
+  "corps": "Bonjour,\n\nJ'ai passé gre-enr.fr dans un outil de test mobile et je vous écris pour ce que j'y ai relevé. Mesurée avec un outil, votre page d'accueil s'affiche lentement sur téléphone ; les visiteurs venus de Google Maps n'attendent pas toujours. Autre point : votre page d'accueil est lourde à charger sur téléphone ; en zone mal couverte, elle s'affiche tard.\n\nQuand ces points sont réglés, le visiteur venu de Google trouve tout de suite comment vous joindre, et vous gardez votre nom de domaine et vos textes.\n\nSi vous le souhaitez, je vous prépare une maquette de votre nouvelle page d'accueil à partir de vos informations publiques, sans engagement : vous regardez, puis vous décidez.\n\nCela vous intéresse-t-il de la voir ?",
+  "signature": "Guillaume Samama\nClients Ici\nhttps://clientsici.fr/refonte-site-vitrine/\ncontact@clientsici.fr\n6 rue du Parc, 28190 Landelles",
+  "bloc_information": "Pourquoi ce message : vos coordonnées viennent de votre site gre-enr.fr, qui est public.\nPour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.\nConfidentialité : https://clientsici.fr/confidentialite/",
+  "texte_complet": "Bonjour,\n\nJ'ai passé gre-enr.fr dans un outil de test mobile et je vous écris pour ce que j'y ai relevé. Mesurée avec un outil, votre page d'accueil s'affiche lentement sur téléphone ; les visiteurs venus de Google Maps n'attendent pas toujours. Autre point : votre page d'accueil est lourde à charger sur téléphone ; en zone mal couverte, elle s'affiche tard.\n\nQuand ces points sont réglés, le visiteur venu de Google trouve tout de suite comment vous joindre, et vous gardez votre nom de domaine et vos textes.\n\nSi vous le souhaitez, je vous prépare une maquette de votre nouvelle page d'accueil à partir de vos informations publiques, sans engagement : vous regardez, puis vous décidez.\n\nCela vous intéresse-t-il de la voir ?\n\nGuillaume Samama\nClients Ici\nhttps://clientsici.fr/refonte-site-vitrine/\ncontact@clientsici.fr\n6 rue du Parc, 28190 Landelles\n\n--\nPourquoi ce message : vos coordonnées viennent de votre site gre-enr.fr, qui est public.\nPour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.\nConfidentialité : https://clientsici.fr/confidentialite/\n",
+  "nb_mots_corps": 119,
+  "nb_mots_total": 171,
+  "constats_utilises": [
+    {
+      "id": "C03",
+      "categorie": "perf_faible",
+      "gravite": "haute",
+      "titre": "Performance mobile faible (Lighthouse)"
+    },
+    {
+      "id": "C02",
+      "categorie": "poids",
+      "gravite": "moyenne",
+      "titre": "Page d'accueil lourde sur mobile"
+    }
+  ],
+  "constats_disponibles": 8,
+  "verdict_audit": "refonte pertinente",
+  "maquette_url": null,
+  "whatsapp": {
+    "texte": "Bonjour, je suis Guillaume, Clients Ici. Sur gre-enr.fr, la page met longtemps à s'afficher sur mobile. Si cela vous parle, je vous envoie une maquette de votre page d'accueil, sans engagement. Je vous l'envoie ?",
+    "statut": "brouillon — conditions de contact à vérifier",
+    "nb_caracteres": 212
+  },
+  "sms": {
+    "texte": "Bonjour, Guillaume de Clients Ici. gre-enr.fr : la page met longtemps à s'afficher sur mobile. Je peux vous montrer une maquette, sans engagement. Je vous l'envoie ? STOP = fin des messages.",
+    "statut": "brouillon — conditions de contact à vérifier",
+    "nb_caracteres": 190
+  },
+  "controles": {
+    "ok": true,
+    "problemes": []
+  },
+  "avertissements": [],
+  "format": "text/plain",
+  "suivi": "aucun pixel, aucun lien raccourci"
+}

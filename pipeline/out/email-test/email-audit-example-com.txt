@@ -1,0 +1,23 @@
+Objet 1 : le cadenas de example.com
+Objet 2 : example.com sur téléphone
+
+Bonjour,
+
+En regardant example.com sur un téléphone, j'ai relevé un point précis. Votre site existe en version sécurisée, mais l'adresse tapée sans « https » n'y renvoie pas et affiche « Non sécurisé ». Autre point : sous le titre, Google n'a pas de description à afficher pour votre site et improvise un extrait.
+
+Pour un client pressé, tout se joue dans les premières secondes : page rapide, numéro cliquable, métier et ville visibles sans défiler.
+
+Si cela vous intéresse, je vous montre à quoi ressemblerait votre page d'accueil refaite, avant toute décision et sans frais.
+
+Voulez-vous que je vous l'envoie ?
+
+Guillaume Samama
+Clients Ici
+https://clientsici.fr/refonte-site-vitrine/
+contact@clientsici.fr
+6 rue du Parc, 28190 Landelles
+
+--
+Pourquoi ce message : vos coordonnées viennent de votre site example.com, qui est public.
+Pour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.
+Confidentialité : https://clientsici.fr/confidentialite/

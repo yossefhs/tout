@@ -1,0 +1,491 @@
+{
+  "_commentaire": "Banque de phrases pour build_email.py. Variables : {domaine} {nom} {ville} {url}. Les motifs sont des expressions régulières testées sur le titre du constat (audit_site.py). Pas de tiret cadratin, pas de chiffre ni de score d'outil (la lenteur se dit « s'affiche lentement »), pas de majuscules criardes, aucune prétention de visite humaine (« je suis passé… », « depuis mon téléphone ») : tout vient d'un test automatisé. Objets sans « site vitrine » : on ne sait pas si c'en est un.",
+  "salutations": [
+    "Bonjour,"
+  ],
+  "ouvertures": [
+    "J'ai testé l'affichage de {domaine} sur téléphone, comme le verrait un client qui vous cherche.",
+    "En testant {domaine} sur un écran de téléphone, j'ai relevé un point précis.",
+    "J'ai passé {domaine} dans un outil de test mobile et je vous écris pour ce que j'y ai relevé.",
+    "J'ai examiné {domaine} comme le ferait quelqu'un qui vient de vous trouver sur Google, sur téléphone."
+  ],
+  "liaisons": [
+    "Autre point :",
+    "J'ai aussi noté ceci :",
+    "Et, plus discret :"
+  ],
+  "benefices": [
+    "Une page qui s'affiche vite, avec votre métier, votre ville et un numéro cliquable en haut, c'est un visiteur qui vous appelle au lieu de revenir à la liste.",
+    "Pour un client pressé, tout se joue dans les premières secondes : page rapide, numéro cliquable, métier et ville visibles sans défiler.",
+    "Quand ces points sont réglés, le visiteur venu de Google trouve tout de suite comment vous joindre, et vous gardez votre nom de domaine et vos textes.",
+    "Réglés, ces points font qu'un visiteur pressé trouve votre numéro sans chercher, et vous gardez vos textes et votre nom de domaine."
+  ],
+  "maquette_avec_url": [
+    "Pour que ce soit concret, j'ai préparé une maquette de votre page d'accueil à partir de vos informations publiques : {url}. Elle est privée, hors de Google, et je la supprime sur simple demande.",
+    "J'ai préparé une maquette de votre future page d'accueil, uniquement avec ce qui figure déjà sur votre site : {url}. Elle reste privée et disparaît si vous ne donnez pas suite.",
+    "Voici une maquette de votre page d'accueil, faite avec vos informations publiques : {url}. Privée, hors de Google, supprimée sur simple demande."
+  ],
+  "maquette_sans_url": [
+    "Si vous le souhaitez, je vous prépare une maquette de votre nouvelle page d'accueil à partir de vos informations publiques, sans engagement : vous regardez, puis vous décidez.",
+    "Je peux vous envoyer une maquette de votre page d'accueil, construite avec vos textes et vos coordonnées actuels, sans engagement de votre part.",
+    "Si cela vous intéresse, je vous montre à quoi ressemblerait votre page d'accueil refaite, avant toute décision et sans frais.",
+    "Je peux vous préparer une maquette de votre page d'accueil avec vos informations actuelles, sans engagement."
+  ],
+  "questions_avec_url": [
+    "Est-ce que cela vaut un coup d'œil de votre côté ?",
+    "Qu'en pensez-vous ?",
+    "Souhaitez-vous que je vous détaille ce que j'y ai changé ?"
+  ],
+  "questions_sans_url": [
+    "Voulez-vous que je vous l'envoie ?",
+    "Est-ce que je vous la prépare ?",
+    "Cela vous intéresse-t-il de la voir ?"
+  ],
+  "objets_generiques": [
+    "votre site {domaine}",
+    "{domaine} sur téléphone",
+    "un point sur votre site",
+    "affichage de {domaine} sur mobile"
+  ],
+  "whatsapp": [
+    "Bonjour, Guillaume de Clients Ici (Landelles). J'ai testé votre site {domaine} sur téléphone : {constat_court}. Je peux vous montrer une maquette de votre page d'accueil, sans engagement. Vous voulez la voir ?",
+    "Bonjour, je suis Guillaume, Clients Ici. Sur {domaine}, {constat_court}. Si cela vous parle, je vous envoie une maquette de votre page d'accueil, sans engagement. Je vous l'envoie ?"
+  ],
+  "sms": [
+    "Bonjour, Guillaume (Clients Ici). Sur votre site {domaine} : {constat_court}. Maquette de votre page d'accueil possible, sans engagement. Intéressé ? STOP pour ne plus recevoir.",
+    "Bonjour, Guillaume de Clients Ici. {domaine} : {constat_court}. Je peux vous montrer une maquette, sans engagement. Je vous l'envoie ? STOP = fin des messages."
+  ],
+  "categories": {
+    "https_absent": {
+      "motifs": [
+        "servi sans HTTPS"
+      ],
+      "constats": [
+        "le navigateur affiche « Non sécurisé » à côté de votre adresse, parce que le site n'est pas en https.",
+        "votre site s'ouvre sans cadenas : la mention « Non sécurisé » apparaît dans la barre d'adresse."
+      ],
+      "courts": [
+        "il s'affiche « Non sécurisé » (pas de https)"
+      ],
+      "objets": [
+        "« non sécurisé » sur {domaine}",
+        "le cadenas de {domaine}"
+      ]
+    },
+    "https_non_force": {
+      "motifs": [
+        "Redirection http"
+      ],
+      "constats": [
+        "quand on tape votre adresse sans « https », le navigateur affiche « Non sécurisé », alors que la version sécurisée existe bien.",
+        "votre site existe en version sécurisée, mais l'adresse tapée sans « https » n'y renvoie pas et affiche « Non sécurisé »."
+      ],
+      "courts": [
+        "l'adresse tapée sans https affiche « Non sécurisé »"
+      ],
+      "objets": [
+        "le cadenas de {domaine}",
+        "« non sécurisé » sur {domaine}"
+      ]
+    },
+    "viewport": {
+      "motifs": [
+        "viewport absente"
+      ],
+      "constats": [
+        "sur téléphone, la page s'affiche en version réduite : il faut zoomer pour lire ou appuyer sur un bouton.",
+        "le site n'est pas prévu pour l'écran d'un téléphone : tout apparaît en petit et il faut zoomer."
+      ],
+      "courts": [
+        "sur téléphone, il faut zoomer pour lire"
+      ],
+      "objets": [
+        "{domaine} sur téléphone",
+        "lecture de {domaine} sur mobile"
+      ]
+    },
+    "debordement": {
+      "motifs": [
+        "Débordement horizontal"
+      ],
+      "constats": [
+        "sur téléphone, une partie de la page sort de l'écran : textes et boutons sont coupés et il faut défiler sur le côté.",
+        "sur un écran de téléphone, la page déborde à droite et certains textes sont coupés."
+      ],
+      "courts": [
+        "la page déborde de l'écran du téléphone"
+      ],
+      "objets": [
+        "{domaine} sur téléphone",
+        "affichage mobile de {domaine}"
+      ]
+    },
+    "perf_faible": {
+      "motifs": [
+        "Performance mobile faible"
+      ],
+      "constats": [
+        "sur une connexion mobile ordinaire, la page met longtemps à s'afficher, et une partie des visiteurs part avant d'avoir vu votre numéro.",
+        "votre page d'accueil s'affiche lentement sur téléphone ; les visiteurs venus de Google Maps n'attendent pas toujours."
+      ],
+      "courts": [
+        "la page met longtemps à s'afficher sur mobile"
+      ],
+      "objets": [
+        "vitesse de {domaine} sur mobile",
+        "{domaine} sur téléphone"
+      ]
+    },
+    "perf_moyenne": {
+      "motifs": [
+        "Performance mobile moyenne"
+      ],
+      "constats": [
+        "sur téléphone, la page met un peu de temps à s'afficher ; ce n'est pas bloquant, mais un visiteur pressé le sent.",
+        "la page s'affiche un peu lentement sur téléphone : rien de grave, mais on peut faire plus léger."
+      ],
+      "courts": [
+        "la page est un peu lente sur mobile"
+      ],
+      "objets": [
+        "vitesse de {domaine} sur mobile",
+        "{domaine} sur téléphone"
+      ]
+    },
+    "noindex": {
+      "motifs": [
+        "noindex"
+      ],
+      "constats": [
+        "votre page d'accueil demande à Google de ne pas l'afficher dans les résultats (balise « noindex »), ce qui est rarement voulu."
+      ],
+      "courts": [
+        "la page d'accueil est exclue de Google (noindex)"
+      ],
+      "objets": [
+        "{domaine} et Google",
+        "votre accueil dans Google"
+      ]
+    },
+    "robots": {
+      "motifs": [
+        "Disallow",
+        "robots"
+      ],
+      "constats": [
+        "un petit fichier technique (robots.txt) interdit à Google d'explorer votre site ; vos pages ne peuvent pas ressortir."
+      ],
+      "courts": [
+        "Google n'a pas le droit d'explorer le site"
+      ],
+      "objets": [
+        "{domaine} et Google",
+        "exploration de {domaine}"
+      ]
+    },
+    "title": {
+      "motifs": [
+        "<title>",
+        "Même titre",
+        "Titre trop long",
+        "titre .*trop long"
+      ],
+      "constats": [
+        "le titre que Google affiche pour votre site ne dit ni votre métier ni votre ville ; c'est pourtant ce que lit la personne qui cherche.",
+        "dans les résultats Google, le titre de votre page ne reprend pas votre métier et votre ville."
+      ],
+      "courts": [
+        "le titre vu dans Google ne dit ni le métier ni la ville"
+      ],
+      "objets": [
+        "votre titre dans Google",
+        "{domaine} dans les résultats Google"
+      ]
+    },
+    "description": {
+      "motifs": [
+        "Meta description absente"
+      ],
+      "constats": [
+        "il manque le petit texte que Google affiche sous votre titre ; il compose alors lui-même un extrait, souvent sans votre zone ni votre offre.",
+        "sous le titre, Google n'a pas de description à afficher pour votre site et improvise un extrait."
+      ],
+      "courts": [
+        "pas de description sous le titre dans Google"
+      ],
+      "objets": [
+        "{domaine} dans les résultats Google",
+        "votre extrait dans Google"
+      ]
+    },
+    "description_longue": {
+      "motifs": [
+        "Meta description trop longue"
+      ],
+      "constats": [
+        "le texte affiché sous votre titre dans Google est coupé avant la fin."
+      ],
+      "courts": [
+        "l'extrait Google est coupé"
+      ],
+      "objets": [
+        "votre extrait dans Google"
+      ]
+    },
+    "tel": {
+      "motifs": [
+        "téléphone cliquable"
+      ],
+      "constats": [
+        "sur téléphone, votre numéro ne se compose pas d'un appui : il faut le recopier, et une partie des visiteurs abandonne.",
+        "votre numéro est affiché mais pas cliquable depuis un téléphone ; le visiteur doit le noter ou le recopier."
+      ],
+      "courts": [
+        "le numéro n'est pas cliquable depuis un téléphone"
+      ],
+      "objets": [
+        "votre numéro sur {domaine}",
+        "appeler depuis {domaine}"
+      ]
+    },
+    "appel_fold": {
+      "motifs": [
+        "Aucun bouton de contact visible sans défiler",
+        "Bouton d'appel non visible"
+      ],
+      "constats": [
+        "sur téléphone, il faut faire défiler la page avant de trouver comment vous appeler.",
+        "le bouton d'appel existe, mais il n'apparaît pas sur le premier écran d'un téléphone."
+      ],
+      "courts": [
+        "le numéro n'est pas visible sans faire défiler"
+      ],
+      "objets": [
+        "appeler depuis {domaine}",
+        "votre numéro sur {domaine}"
+      ]
+    },
+    "contact_sans_appel": {
+      "motifs": [
+        "Bouton de contact visible sans défiler .* sans lien d'appel direct"
+      ],
+      "constats": [
+        "sur téléphone, votre bouton de contact est bien visible, mais il n'appelle pas : le visiteur passe par une page ou un formulaire avant de trouver votre numéro.",
+        "le bouton de contact apparaît dès le premier écran d'un téléphone, sans lien d'appel direct ; un appui devrait suffire pour vous joindre."
+      ],
+      "courts": [
+        "le bouton de contact n'appelle pas directement"
+      ],
+      "objets": [
+        "appeler depuis {domaine}",
+        "votre bouton de contact sur {domaine}"
+      ]
+    },
+    "ville": {
+      "motifs": [
+        "Aucune ville"
+      ],
+      "constats": [
+        "sur la page d'accueil, on ne voit ni votre ville ni votre zone d'intervention ; le visiteur ne sait pas si vous venez chez lui.",
+        "votre page d'accueil ne dit pas où vous intervenez, et Google ne relie pas le site à votre secteur."
+      ],
+      "courts": [
+        "la ville et la zone d'intervention n'apparaissent pas sur l'accueil"
+      ],
+      "objets": [
+        "votre zone sur {domaine}",
+        "{domaine} et votre secteur"
+      ]
+    },
+    "canonical": {
+      "motifs": [
+        "Canonical"
+      ],
+      "constats": [
+        "une balise technique indique à Google que votre page appartient à un autre site, ce qui peut lui faire attribuer la page ailleurs."
+      ],
+      "courts": [
+        "une balise renvoie Google vers un autre site"
+      ],
+      "objets": [
+        "{domaine} et Google"
+      ]
+    },
+    "lien_erreur": {
+      "motifs": [
+        "page en erreur"
+      ],
+      "constats": [
+        "un lien de votre menu mène à une page d'erreur ; le visiteur tombe sur un message au lieu de l'information cherchée.",
+        "depuis le menu, un lien aboutit à une page qui n'existe plus."
+      ],
+      "courts": [
+        "un lien du menu mène à une page d'erreur"
+      ],
+      "objets": [
+        "un lien cassé sur {domaine}",
+        "votre menu sur {domaine}"
+      ]
+    },
+    "poids": {
+      "motifs": [
+        "lourde sur mobile"
+      ],
+      "constats": [
+        "votre page d'accueil est lourde à charger sur téléphone ; en zone mal couverte, elle s'affiche tard."
+      ],
+      "courts": [
+        "la page est lourde à charger sur mobile"
+      ],
+      "objets": [
+        "vitesse de {domaine} sur mobile"
+      ]
+    },
+    "h1": {
+      "motifs": [
+        "H1"
+      ],
+      "constats": [
+        "le titre principal de la page (métier et ville) n'est pas identifié comme tel pour Google et les lecteurs d'écran."
+      ],
+      "courts": [
+        "le titre principal n'est pas reconnu par Google"
+      ],
+      "objets": [
+        "votre titre sur {domaine}"
+      ]
+    },
+    "alt": {
+      "motifs": [
+        "sans attribut alt"
+      ],
+      "constats": [
+        "vos photos n'ont pas de description texte : Google Images et les personnes malvoyantes ne savent pas ce qu'elles montrent."
+      ],
+      "courts": [
+        "les photos n'ont pas de description texte"
+      ],
+      "objets": [
+        "vos photos sur {domaine}"
+      ]
+    },
+    "localbusiness": {
+      "motifs": [
+        "LocalBusiness"
+      ],
+      "constats": [
+        "Google doit deviner votre nom, votre adresse et vos horaires au lieu de les lire directement dans la page."
+      ],
+      "courts": [
+        "Google doit deviner nom, adresse et horaires"
+      ],
+      "objets": [
+        "{domaine} et votre fiche Google"
+      ]
+    },
+    "copyright": {
+      "motifs": [
+        "copyright"
+      ],
+      "constats": [
+        "l'année affichée en bas de page est ancienne ; un visiteur peut croire que l'activité s'est arrêtée."
+      ],
+      "courts": [
+        "l'année en bas de page est ancienne"
+      ],
+      "objets": [
+        "la date sur {domaine}"
+      ]
+    },
+    "lang": {
+      "motifs": [
+        "lang absent"
+      ],
+      "constats": [
+        "la langue de la page n'est pas déclarée ; traducteurs et lecteurs d'écran la devinent."
+      ],
+      "courts": [
+        "la langue de la page n'est pas déclarée"
+      ],
+      "objets": [
+        "un détail technique sur {domaine}"
+      ]
+    },
+    "texte_petit": {
+      "motifs": [
+        "petit",
+        "Texte"
+      ],
+      "constats": [
+        "certains textes sont trop petits pour être lus sur téléphone sans zoomer."
+      ],
+      "courts": [
+        "des textes trop petits sur téléphone"
+      ],
+      "objets": [
+        "lecture de {domaine} sur mobile"
+      ]
+    },
+    "console": {
+      "motifs": [
+        "JavaScript",
+        "ressources en échec"
+      ],
+      "constats": [
+        "au chargement, des éléments de la page tombent en erreur ; menu ou formulaire peuvent ne pas fonctionner chez certains visiteurs."
+      ],
+      "courts": [
+        "des éléments de la page tombent en erreur"
+      ],
+      "objets": [
+        "un détail technique sur {domaine}"
+      ]
+    },
+    "devis": {
+      "motifs": [
+        "devis"
+      ],
+      "constats": [
+        "sur l'accueil, rien n'indique comment demander un devis ; le visiteur ne sait pas quelle est l'étape suivante."
+      ],
+      "courts": [
+        "rien n'indique comment demander un devis"
+      ],
+      "objets": [
+        "demander un devis sur {domaine}"
+      ]
+    },
+    "www": {
+      "motifs": [
+        "www"
+      ],
+      "constats": [
+        "votre site répond sous deux adresses (avec et sans « www ») sans en choisir une ; Google peut hésiter sur la version à afficher."
+      ],
+      "courts": [
+        "deux adresses pour le même site"
+      ],
+      "objets": [
+        "{domaine} et Google"
+      ]
+    },
+    "score_lh": {
+      "motifs": [
+        "Score Lighthouse"
+      ],
+      "constats": [
+        "un test automatisé relève des défauts techniques (contrastes, libellés) qui gênent une partie des visiteurs."
+      ],
+      "courts": [
+        "des défauts techniques relevés par un test automatisé"
+      ],
+      "objets": [
+        "un point sur {domaine}"
+      ]
+    }
+  },
+  "categories_exclues": [
+    "générateur grand public",
+    "Page d'accueil non chargée"
+  ]
+}

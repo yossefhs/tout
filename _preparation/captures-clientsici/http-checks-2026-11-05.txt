@@ -1,0 +1,6 @@
+/refonte-site-vitrine/   404 
+/maquette/               403 
+/apercu/                 403 
+/crm/                    401 
+/llms-full.txt           200 
+/refonte/                404 

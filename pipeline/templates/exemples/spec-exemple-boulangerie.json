@@ -1,0 +1,12 @@
+{
+  "nom": "Exemple Boulangerie",
+  "metier": "Boulangerie-pâtisserie",
+  "ville": "Nogent-le-Rotrou",
+  "tel": "02 00 00 00 01",
+  "adresse": "2 place de l'Exemple, 28400 Nogent-le-Rotrou",
+  "slogan": "Pain au levain cuit chaque matin.",
+  "services": ["Pains de tradition", "Viennoiseries", "Pâtisseries", "Sandwichs du midi", "Gâteaux sur commande", "Pièces montées"],
+  "horaires": [{"jours": "Mardi–samedi", "heures": "6 h 30 – 19 h 30"}, {"jours": "Dimanche", "heures": "7 h – 13 h"}],
+  "palette": "commerce",
+  "objectif": "contact"
+}

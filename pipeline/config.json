@@ -1,0 +1,83 @@
+{
+  "depts": [
+    "28"
+  ],
+  "nafs_artisans": [
+    "43.22A",
+    "43.22B",
+    "43.21A",
+    "43.32A",
+    "43.34Z",
+    "43.91A",
+    "43.99C"
+  ],
+  "nafs_commerces": [
+    "96.02A",
+    "10.71C",
+    "47.24Z",
+    "56.10A"
+  ],
+  "max_par_requete": 100,
+  "exclure_ei": false,
+  "max_enrichissement": 60,
+  "concurrence_enrichissement": 3,
+  "utiliser_ddg": true,
+  "siege_uniquement": true,
+  "categorie": "PME",
+  "expediteur": {
+    "nom": "Guillaume Samama",
+    "entreprise": "Clients Ici",
+    "email": "contact@clientsici.fr",
+    "tel": "07 56 97 45 75",
+    "adresse": "6 rue du Parc, 28190 Landelles",
+    "url_offre": "https://clientsici.fr/refonte-site-vitrine/",
+    "url_confidentialite": "https://clientsici.fr/confidentialite/",
+    "agence": "Clients Ici",
+    "email_reponse": "contact@clientsici.fr",
+    "email_envoi": "guillaume@clientsici.fr"
+  },
+  "mode": "review",
+  "plafond_quotidien": 10,
+  "plafond_horaire": 4,
+  "heures_envoi": {
+    "debut": "09:00",
+    "fin": "18:00",
+    "jours": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "fuseau": "Europe/Paris"
+  },
+  "page_refonte": "https://clientsici.fr/refonte-site-vitrine/",
+  "maquette_base_url": "https://clientsici.fr",
+  "libelle_gmail": "Prospection",
+  "relance": {
+    "activee": false,
+    "delai_jours": 7,
+    "max": 1
+  },
+  "accuser_reception_stop": false,
+  "reponses_auto": "jamais",
+  "maquette_lien_dans_email": false,
+  "envoi": {
+    "fournisseur": "gmail-draft",
+    "_options": "gmail-draft = brouillons dans le compte Gmail connecté (aucun envoi) ; brevo = envoi réel par l'API Brevo depuis email_envoi (clé API : secret réseau api.brevo.com, en-tête api-key, ou variable BREVO_API_KEY)",
+    "email_envoi": "guillaume@clientsici.fr",
+    "email_reponse": "contact@clientsici.fr",
+    "boite_travail_gmail": "samama.g@gmail.com",
+    "note": "Le connecteur Gmail de la session envoie depuis le compte Google connecté à claude.ai ; il ne permet pas de choisir l'expéditeur. Pour envoyer depuis guillaume@clientsici.fr, utiliser brevo (SPF/DKIM du domaine à configurer chez OVH) et faire suivre contact@/guillaume@ vers la boîte Gmail connectée pour la lecture des réponses."
+  },
+  "cible_tpe": {
+    "effectif_max_code": "11",
+    "ca_max": 2000000,
+    "nb_etablissements_max": 2,
+    "motifs_exclus_nom": [
+      "GROUPE",
+      "HOLDING",
+      "SAS INTERNATIONAL"
+    ]
+  }
+}

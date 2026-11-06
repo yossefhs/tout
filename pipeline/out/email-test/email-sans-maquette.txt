@@ -1,0 +1,23 @@
+Objet 1 : « non sécurisé » sur exemple-plomberie.example
+Objet 2 : exemple-plomberie.example sur téléphone
+
+Bonjour,
+
+J'ai examiné exemple-plomberie.example comme le ferait quelqu'un qui vient de vous trouver sur Google, sur téléphone. Votre site existe en version sécurisée, mais l'adresse tapée sans « https » n'y renvoie pas et affiche « Non sécurisé ». Autre point : la page s'affiche un peu lentement sur téléphone : rien de grave, mais on peut faire plus léger.
+
+Une page qui s'affiche vite, avec votre métier, votre ville et un numéro cliquable en haut, c'est un visiteur qui vous appelle au lieu de revenir à la liste.
+
+Si cela vous intéresse, je vous montre à quoi ressemblerait votre page d'accueil refaite, avant toute décision et sans frais.
+
+Voulez-vous que je vous l'envoie ?
+
+Guillaume Samama
+Clients Ici
+https://clientsici.fr/refonte-site-vitrine/
+contact@clientsici.fr
+6 rue du Parc, 28190 Landelles
+
+--
+Pourquoi ce message : vos coordonnées viennent de votre site exemple-plomberie.example, qui est public.
+Pour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.
+Confidentialité : https://clientsici.fr/confidentialite/

@@ -1,0 +1,23 @@
+Objet 1 : votre site exemple-plomberie.example
+Objet 2 : vitesse de exemple-plomberie.example sur mobile
+
+Bonjour,
+
+J'ai examiné exemple-plomberie.example comme le ferait quelqu'un qui vient de vous trouver sur Google, sur téléphone. Quand on tape votre adresse sans « https », le navigateur affiche « Non sécurisé », alors que la version sécurisée existe bien. Autre point : la page s'affiche un peu lentement sur téléphone : rien de grave, mais on peut faire plus léger.
+
+Pour un client pressé, tout se joue dans les premières secondes : page rapide, numéro cliquable, métier et ville visibles sans défiler.
+
+Voici une maquette de votre page d'accueil, faite avec vos informations publiques : https://clientsici.fr/apercu/abcdefghij0123456789/. Privée, hors de Google, supprimée sur simple demande.
+
+Qu'en pensez-vous ?
+
+Guillaume Samama
+Clients Ici
+https://clientsici.fr/refonte-site-vitrine/
+contact@clientsici.fr
+6 rue du Parc, 28190 Landelles
+
+--
+Pourquoi ce message : vos coordonnées viennent de votre site exemple-plomberie.example, qui est public.
+Pour ne plus recevoir de message, répondez STOP et je vous retire de ma liste.
+Confidentialité : https://clientsici.fr/confidentialite/

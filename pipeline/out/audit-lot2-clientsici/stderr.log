@@ -1,0 +1,9 @@
+[audit] GET https://clientsici.fr/
+[audit] test http : http://clientsici.fr/
+[audit] test www : https://www.clientsici.fr/
+[audit] page interne (services) : https://clientsici.fr/site-vitrine-artisan/
+[audit] page interne (navigation) : https://clientsici.fr/blog/
+[audit] page interne (navigation) : https://clientsici.fr/fiche-google-artisan/
+[audit] page interne (navigation) : https://clientsici.fr/veille/
+[audit] navigateur Playwright (375×812 puis 1440×900)
+[audit] Lighthouse mobile (≈20 s)

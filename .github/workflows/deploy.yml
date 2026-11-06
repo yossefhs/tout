@@ -1,0 +1,77 @@
+# Déploiement du dossier site/ vers l'hébergement OVH par FTP/SFTP à chaque push sur main.
+# À copier dans le dépôt du site sous .github/workflows/deploy.yml
+# Secrets à créer dans le dépôt (Settings > Secrets and variables > Actions) :
+#   FTP_SERVER   ex. ftp.cluster0xx.hosting.ovh.net  (ou le serveur SFTP OVH)
+#   FTP_USERNAME identifiant FTP OVH
+#   FTP_PASSWORD mot de passe FTP OVH
+# NON TESTÉ : aucun dépôt ni accès FTP dans la session qui a écrit ce fichier.
+name: Déploiement OVH (site/)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simulation : lister les fichiers sans rien envoyer"
+        type: boolean
+        default: false
+
+concurrency:
+  group: deploy-ovh
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # l'action FTP compare les états entre deux déploiements
+
+      - name: Contrôles avant envoi
+        run: |
+          test -d site || { echo "dossier site/ absent"; exit 1; }
+          # aucune maquette d'aperçu sans son .htaccess (noindex + pas de listage)
+          for d in site/apercu/*/; do
+            [ -d "$d" ] || continue
+            [ -f "$d/.htaccess" ] || { echo "$d : .htaccess manquant"; exit 1; }
+            grep -q "noindex" "$d/.htaccess" || { echo "$d : noindex absent du .htaccess"; exit 1; }
+          done
+          echo "Fichiers à déployer :"; find site -type f | sort | head -200
+
+      - name: Envoi FTP/SFTP vers OVH
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # OVH mutualisé : FTP explicite sur TLS (ftps) ; mettre "sftp" si l'hébergement l'offre (port 22).
+          protocol: ftps
+          port: 21
+          local-dir: ./site/
+          # Racine web OVH mutualisé : généralement ./www/ ; adapter au dossier racine du domaine.
+          server-dir: ./www/
+          state-name: .ftp-deploy-sync-state.json
+          dangerous-clean-slate: false
+          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true }}
+          log-level: standard
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/*.map
+            **/.DS_Store
+            **/Thumbs.db
+            **/*.tmp
+            **/.maquette-*
+            **/README*.md
+            **/captures/**

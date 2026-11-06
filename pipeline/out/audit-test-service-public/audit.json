@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "outil": "audit_site.py",
+    "version": "1.0",
+    "date": "2026-11-05T20:53:34+00:00",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "parametres": {
+      "url": "https://www.service-public.fr/",
+      "pages": 1,
+      "ville": null,
+      "cp": null,
+      "timeout_s": 12,
+      "navigateur": true,
+      "lighthouse": true
+    },
+    "requetes_html": 4,
+    "requetes_autres": 2,
+    "duree_totale_s": 90.6
+  },
+  "cible": {
+    "url_demandee": "https://www.service-public.fr/",
+    "url_finale": "https://www.service-public.gouv.fr/",
+    "status": 200,
+    "chaine": [
+      {
+        "url": "https://www.service-public.fr/",
+        "status": 301,
+        "location": "https://www.service-public.gouv.fr/"
+      }
+    ],
+    "erreur": null
+  },
+  "http": {
+    "hsts": "max-age=63072000; includeSubDomains; preload",
+    "test_http": {
+      "url": "http://www.service-public.gouv.fr/",
+      "status": null,
+      "final_url": null,
+      "chaine": [],
+      "erreur": "délai dépassé (12 s)",
+      "duree_s": 12.02
+    },
+    "test_https": null,
+    "test_www": {
+      "url": "https://service-public.gouv.fr/",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/",
+      "chaine": [
+        {
+          "url": "https://service-public.gouv.fr/",
+          "status": 301,
+          "location": "https://www.service-public.fr/"
+        },
+        {
+          "url": "https://www.service-public.fr/",
+          "status": 301,
+          "location": "https://www.service-public.gouv.fr/"
+        }
+      ],
+      "erreur": null,
+      "duree_s": 1.17
+    },
+    "serveur": null
+  },
+  "pages": [
+    {
+      "role": "accueil",
+      "url": "https://www.service-public.fr/",
+      "final_url": "https://www.service-public.gouv.fr/",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 53172,
+      "duree_s": 1.49,
+      "erreur": null,
+      "html": true,
+      "title": "Accueil | Service Public",
+      "title_longueur": 24,
+      "meta_description": "Service Public - Vos droits et démarches plus simplement",
+      "meta_description_longueur": 56,
+      "meta_viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "meta_robots": "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+      "meta_generator": null,
+      "og_title": "Service Public - Vos droits et démarches plus simplement",
+      "lang": "fr",
+      "canonical": "https://www.service-public.gouv.fr",
+      "h1": [
+        "Bienvenue sur le site officiel d’information et de démarches administratives"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Fiches pratiques par événement de vie",
+        "France Services",
+        "Fiches pratiques les plus lues",
+        "Démarches et outils",
+        "Actualité de vos droits et démarches",
+        "Recevoir la lettre de Service Public",
+        "Suivez-nous sur les réseaux sociaux"
+      ],
+      "h3": [
+        "Je déménage",
+        "Je deviens parent",
+        "Je recherche un emploi",
+        "Je prépare ma retraite",
+        "Besoin d’aide près de chez vous ?",
+        "Calendrier des vacances scolaires 2026-2027 et 2027-2028",
+        "Renouvellement du passeport d'un majeur",
+        "Durée de conservation des papiers",
+        "Aides pour financer le permis de conduire",
+        "Bruits de voisinage",
+        "Inscription au registre des Français établis hors de France",
+        "Signaler son changement d'adresse en ligne",
+        "Calculer le coût d’une carte grise",
+        "Vérifier combien de temps conserver un document",
+        "Création d'une association (e-création)",
+        "Estimer le montant des droits de succession",
+        "Trouver une mission de bénévolat",
+        "Calculer les indemnités d'entretien de l'assistante maternelle",
+        "Estimer la part du locataire pour le paiement des frais d’agence",
+        "Informer son employeur de la prise du congé supplémentaire de naissance",
+        "Une couverture prévoyance obligatoire pour les agents territoriaux d’ici 2029",
+        "Recensement de la population : quand et où a-t-il lieu en 2027 ?",
+        "Le thermostat programmable devient obligatoire pour les nouvelles constructions à partir de 2027"
+      ],
+      "liens_internes": 83,
+      "liens_externes": 18,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 16,
+      "images_sans_alt": 10,
+      "images_sans_alt_exemples": [
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo-rf-top.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo-rf-bottom.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/situation/icone-demenagement.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/situation/icone-attente-enfant.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/situation/icone-recherche-emploi.svg"
+      ],
+      "scripts_externes": 1,
+      "scripts_externes_domaines": [
+        "try.abtasty.com"
+      ],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 641,
+      "telephones_detectes": [],
+      "emails_detectes": [],
+      "adresses_detectees": [
+        {
+          "rue": "32 rue Olympe de Gouges",
+          "code_postal": "89100",
+          "ville": "Sens"
+        }
+      ],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": null,
+      "departements_mentionnes": [],
+      "mention_zone": true
+    },
+    {
+      "role": "contact",
+      "url": "https://www.service-public.gouv.fr/P10017",
+      "final_url": "https://www.service-public.gouv.fr/contact/accueil",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "taille_octets": 45727,
+      "duree_s": 0.78,
+      "erreur": null,
+      "html": true,
+      "title": "Contact | Service Public",
+      "title_longueur": 24,
+      "meta_description": "Service Public - Vos droits et démarches plus simplement",
+      "meta_description_longueur": 56,
+      "meta_viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": null,
+      "lang": "fr",
+      "canonical": null,
+      "h1": [
+        "Contacter Service Public"
+      ],
+      "h1_nombre": 1,
+      "h2": [
+        "Sur quoi porte votre question ?",
+        "Recevoir la lettre de Service Public",
+        "Suivez-nous sur les réseaux sociaux"
+      ],
+      "h3": [
+        "Les sujets du moment",
+        "Autres sujets fréquents"
+      ],
+      "liens_internes": 69,
+      "liens_externes": 22,
+      "liens_tel": [],
+      "liens_mailto": [
+        "mailto:%20?subject=Service Public%20-%20Contacter%20Service%20Public&body=Bonjour,%0D%0A%0D%0ACette information de Service Public vous est conseillée : %0D%0A%0D%0AContacter Service Public%0D%0A%0D%0A"
+      ],
+      "images_total": 15,
+      "images_sans_alt": 10,
+      "images_sans_alt_exemples": [
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo-rf-top.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo-rf-bottom.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/contact/icone-carte-grise.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/contact/icone-permis-conduire.svg",
+        "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/contact/icone-carte-identite.svg"
+      ],
+      "scripts_externes": 1,
+      "scripts_externes_domaines": [
+        "try.abtasty.com"
+      ],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 408,
+      "telephones_detectes": [],
+      "emails_detectes": [],
+      "adresses_detectees": [],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": null,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    }
+  ],
+  "robots": {
+    "url": "https://www.service-public.gouv.fr/robots.txt",
+    "existe": true,
+    "status": 200,
+    "disallow_tout": false,
+    "sitemaps": [],
+    "erreur": null
+  },
+  "sitemap": {
+    "url": "https://www.service-public.gouv.fr/sitemap.xml",
+    "existe": true,
+    "status": 200,
+    "type": "index",
+    "nb_urls": null,
+    "nb_sitemaps": 14,
+    "testees": [
+      {
+        "url": "https://www.service-public.gouv.fr/sitemap.xml",
+        "status": 200,
+        "erreur": null
+      }
+    ],
+    "erreur": null
+  },
+  "navigateur": {
+    "outil": "Playwright (Chromium headless)",
+    "date": "2026-11-05T20:53:50+00:00",
+    "url": "https://www.service-public.gouv.fr/",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "vues": {
+      "mobile": {
+        "viewport": "375x812",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 4.93,
+        "requetes": 93,
+        "octets_transferes": 888051,
+        "erreurs_console": [
+          "JS: Failed to execute 'replaceChild' on 'Node': The node to be replaced is not a child of this node."
+        ],
+        "captures": {
+          "fold": "captures/mobile-375-fold.png",
+          "full": "captures/mobile-375-full.png"
+        },
+        "metriques": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "scrollHeight": 8687,
+          "debordement": false,
+          "appels": [],
+          "plus_petit_texte_px": 6.4,
+          "plus_petit_texte_exemple": "Menu",
+          "textes_moins_12px": 1,
+          "elements_examines": 1658,
+          "viewport_meta": "width=device-width, initial-scale=1, shrink-to-fit=no",
+          "titre_document": "Accueil | Service Public"
+        },
+        "erreurs_console_nombre": 1
+      },
+      "desktop": {
+        "viewport": "1440x900",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 4.63,
+        "requetes": 100,
+        "octets_transferes": 952552,
+        "erreurs_console": [
+          "JS: Failed to execute 'replaceChild' on 'Node': The node to be replaced is not a child of this node.",
+          "Refused to execute script from 'https://jcmm.service-public.fr/col783a/-/2125602749?pggrp=accueil&pglbl=part%2Caccueil_%2Caccueil%2C%2C&user_login_status=anonyme&urlp=particuliers%2Faccueil&api_versio"
+        ],
+        "captures": {
+          "fold": "captures/desktop-1440-fold.png",
+          "full": "captures/desktop-1440-full.png"
+        },
+        "metriques": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 4361,
+          "debordement": false,
+          "appels": [],
+          "plus_petit_texte_px": 12,
+          "plus_petit_texte_exemple": "École primaire (maternelle et élémentaire)",
+          "textes_moins_12px": 0,
+          "elements_examines": 1658,
+          "viewport_meta": "width=device-width, initial-scale=1, shrink-to-fit=no",
+          "titre_document": "Accueil | Service Public"
+        },
+        "erreurs_console_nombre": 2
+      }
+    },
+    "erreur": null
+  },
+  "lighthouse": {
+    "outil": "Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé",
+    "date": "2026-11-05T20:54:03+00:00",
+    "url": "https://www.service-public.gouv.fr/",
+    "statut": "mesuré",
+    "raison": null,
+    "scores": {
+      "performance": 67,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "metriques": {
+      "lcp_ms": 6379,
+      "cls": 0.075,
+      "tbt_ms": 185,
+      "fcp_ms": 3076,
+      "speed_index_ms": 3878,
+      "poids_total_octets": 883152
+    },
+    "fichier": "lighthouse.json",
+    "conditions": "mesure unique depuis un serveur (pas un téléphone réel), réseau et CPU simulés ; les valeurs varient d'une mesure à l'autre",
+    "commande": "npx -y lighthouse@12 https://www.service-public.gouv.fr/ --chrome-flags=--headless=new --no-sandbox --disable-gpu --form-factor=mobile --screenEmulation.mobile --throttling-method=simulate --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=/home/user/refonte-vitrine/pipeline/out/audit-test-service-public/lighthouse.json --quiet",
+    "version": "12.8.2",
+    "url_finale": "https://www.service-public.gouv.fr/"
+  },
+  "analyse": {
+    "constats": [
+      {
+        "id": "C01",
+        "type": "mesure",
+        "gravite": "basse",
+        "titre": "Erreurs JavaScript ou ressources en échec au chargement",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "1 erreur(s) console à 375 px, ex. : JS: Failed to execute 'replaceChild' on 'Node': The node to be replaced is not a child of this node."
+        },
+        "consequence_possible": "Des fonctions (menu, formulaire, carrousel) peuvent ne pas marcher chez certains visiteurs.",
+        "correction": "Corriger ou retirer les scripts en erreur ; vérifier les fichiers manquants (404)."
+      },
+      {
+        "id": "C02",
+        "type": "mesure",
+        "gravite": "moyenne",
+        "titre": "Performance mobile moyenne (Lighthouse)",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "performance 67/100, LCP 6379 ms, CLS 0.075, TBT 185 ms (Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé, 2026-11-05T20:54:03+00:00)"
+        },
+        "consequence_possible": "Affichage perceptiblement lent sur réseau mobile ordinaire.",
+        "correction": "Optimiser images et scripts ; viser un LCP sous 2,5 s."
+      },
+      {
+        "id": "C03",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Images sans attribut alt",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "20 image(s) sans alt sur 2 page(s) consultée(s) (accueil : 10/16)"
+        },
+        "consequence_possible": "Photos de chantiers invisibles pour Google Images et les lecteurs d'écran.",
+        "correction": "Décrire chaque photo en une phrase (ex. « Pose de carrelage, cuisine à Chartres »)."
+      },
+      {
+        "id": "C04",
+        "type": "fait observé",
+        "gravite": "moyenne",
+        "titre": "Aucun numéro de téléphone cliquable (lien tel:)",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "aucun lien tel: ni numéro détecté sur les pages consultées"
+        },
+        "consequence_possible": "Sur téléphone, le visiteur doit recopier le numéro ; une partie abandonne.",
+        "correction": "Transformer le numéro en lien <a href=\"tel:+33…\"> et le placer en haut de page."
+      },
+      {
+        "id": "C05",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Données structurées LocalBusiness absentes",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "types JSON-LD trouvés : aucun"
+        },
+        "consequence_possible": "Google doit deviner nom, adresse, téléphone et horaires au lieu de les lire.",
+        "correction": "Ajouter un bloc JSON-LD LocalBusiness (nom, adresse, téléphone, horaires, zone) cohérent avec la fiche Google."
+      },
+      {
+        "id": "C06",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Aucune mention « devis » sur l'accueil",
+        "preuve": {
+          "url": "https://www.service-public.gouv.fr/",
+          "valeur": "mot « devis » absent du texte de l'accueil"
+        },
+        "consequence_possible": "Le visiteur ne voit pas comment demander un chiffrage.",
+        "correction": "Ajouter un bouton « Demander un devis » visible."
+      }
+    ],
+    "non_verifie": [
+      "redirection http→https non vérifiée (délai dépassé (12 s))"
+    ],
+    "verdict": "amélioration ciblée préférable",
+    "verdict_motif": "2 constats moyens, aucun haut",
+    "gravites": {
+      "haute": 0,
+      "moyenne": 2,
+      "basse": 4
+    },
+    "ce_qui_fonctionne": [
+      "En-tête HSTS présent (le navigateur force HTTPS après la première visite)",
+      "Variante www / sans www redirigée correctement",
+      "Balise viewport présente",
+      "Aucun débordement horizontal à 375 px",
+      "Lighthouse accessibilité 100/100",
+      "Lighthouse SEO technique 100/100",
+      "Lighthouse bonnes pratiques 96/100",
+      "Titre présent (24 caractères)",
+      "Meta description présente (56 caractères)",
+      "H1 unique : « Bienvenue sur le site officiel d’information et de démarches administr »",
+      "Ville ou zone d'intervention visible sur l'accueil (adresse détectée : 89100 Sens)",
+      "Sitemap présent (https://www.service-public.gouv.fr/sitemap.xml, 14 sous-sitemaps URL)",
+      "robots.txt présent et non bloquant"
+    ],
+    "a_preserver": {
+      "pages_trouvees": [
+        {
+          "url": "https://www.service-public.gouv.fr/",
+          "role": "accueil",
+          "title": "Accueil | Service Public",
+          "status": 200
+        },
+        {
+          "url": "https://www.service-public.gouv.fr/contact/accueil",
+          "role": "contact",
+          "title": "Contact | Service Public",
+          "status": 200
+        }
+      ],
+      "menu": [
+        "Se connecter",
+        "Accueil",
+        "Actualité de vos droits et démarches",
+        "Je déménage",
+        "Je cherche un emploi",
+        "Je deviens parent",
+        "Je veux obtenir un crédit immobilier",
+        "J'achète un logement",
+        "Je prépare ma retraite",
+        "Un proche est décédé",
+        "Voir tous les événements de vie",
+        "Papiers - Citoyenneté - Élections",
+        "Famille - Scolarité",
+        "Social - Santé",
+        "Travail - Formation"
+      ],
+      "coordonnees": {
+        "telephones": [],
+        "emails": [],
+        "adresses": [
+          {
+            "rue": "32 rue Olympe de Gouges",
+            "code_postal": "89100",
+            "ville": "Sens"
+          }
+        ]
+      },
+      "services_listes": [
+        "Fiches pratiques par événement de vie",
+        "France Services",
+        "Fiches pratiques les plus lues",
+        "Démarches et outils",
+        "Actualité de vos droits et démarches",
+        "Recevoir la lettre de Service Public",
+        "Je déménage",
+        "Je deviens parent",
+        "Je recherche un emploi",
+        "Je prépare ma retraite",
+        "Besoin d’aide près de chez vous ?",
+        "Calendrier des vacances scolaires 2026-2027 et 2027-2028",
+        "Renouvellement du passeport d'un majeur",
+        "Durée de conservation des papiers",
+        "Aides pour financer le permis de conduire"
+      ],
+      "note": "Inventaire limité aux pages consultées ; les intitulés de services sont les titres H2/H3 relevés, à vérifier avec le client."
+    }
+  },
+  "erreurs": [],
+  "journal_requetes": [
+    {
+      "type": "html",
+      "url": "https://www.service-public.fr/",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/",
+      "duree_s": 1.49,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "http://www.service-public.gouv.fr/",
+      "status": null,
+      "final_url": null,
+      "duree_s": 12.02,
+      "erreur": "délai dépassé (12 s)"
+    },
+    {
+      "type": "html",
+      "url": "https://service-public.gouv.fr/",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/",
+      "duree_s": 1.17,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://www.service-public.gouv.fr/P10017",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/contact/accueil",
+      "duree_s": 0.78,
+      "erreur": null
+    },
+    {
+      "type": "robots",
+      "url": "https://www.service-public.gouv.fr/robots.txt",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/robots.txt",
+      "duree_s": 0.13,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "https://www.service-public.gouv.fr/sitemap.xml",
+      "status": 200,
+      "final_url": "https://www.service-public.gouv.fr/sitemap.xml",
+      "duree_s": 0.14,
+      "erreur": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[audit] GET https://rabarot-freres.fr
+[audit] test http : http://rabarot-freres.fr/
+[audit] test www : https://www.rabarot-freres.fr/
+[audit] page interne (contact) : https://rabarot-freres.fr/contact
+[audit] page interne (a-propos) : https://rabarot-freres.fr/a-propos
+[audit] page interne (navigation) : https://rabarot-freres.fr/agrandissement-maison
+[audit] page interne (navigation) : https://rabarot-freres.fr/cloture
+[audit] navigateur Playwright (375×812 puis 1440×900)
+[audit] Lighthouse mobile (≈20 s)

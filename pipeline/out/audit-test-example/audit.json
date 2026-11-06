@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "outil": "audit_site.py",
+    "version": "1.0",
+    "date": "2026-11-05T20:53:18+00:00",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "parametres": {
+      "url": "http://example.com/",
+      "pages": 4,
+      "ville": null,
+      "cp": null,
+      "timeout_s": 12,
+      "navigateur": true,
+      "lighthouse": true
+    },
+    "requetes_html": 3,
+    "requetes_autres": 3,
+    "duree_totale_s": 16.1
+  },
+  "cible": {
+    "url_demandee": "http://example.com/",
+    "url_finale": "http://example.com/",
+    "status": 200,
+    "chaine": [],
+    "erreur": null
+  },
+  "http": {
+    "hsts": null,
+    "test_http": null,
+    "test_https": {
+      "url": "https://example.com/",
+      "status": 200,
+      "final_url": "https://example.com/",
+      "chaine": [],
+      "erreur": null,
+      "duree_s": 0.33
+    },
+    "test_www": {
+      "url": "http://www.example.com/",
+      "status": 200,
+      "final_url": "http://www.example.com/",
+      "chaine": [],
+      "erreur": null,
+      "duree_s": 0.08
+    },
+    "serveur": "cloudflare"
+  },
+  "pages": [
+    {
+      "role": "accueil",
+      "url": "http://example.com/",
+      "final_url": "http://example.com/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "taille_octets": 577,
+      "duree_s": 0.08,
+      "erreur": null,
+      "html": true,
+      "title": "Example Domain",
+      "title_longueur": 14,
+      "meta_description": null,
+      "meta_description_longueur": 0,
+      "meta_viewport": "width=device-width,initial-scale=1",
+      "meta_robots": null,
+      "meta_generator": null,
+      "og_title": null,
+      "lang": "en",
+      "canonical": null,
+      "h1": [],
+      "h1_nombre": 0,
+      "h2": [],
+      "h3": [],
+      "liens_internes": 0,
+      "liens_externes": 0,
+      "liens_tel": [],
+      "liens_mailto": [],
+      "images_total": 0,
+      "images_sans_alt": 0,
+      "images_sans_alt_exemples": [],
+      "scripts_externes": 0,
+      "scripts_externes_domaines": [],
+      "generateur": {
+        "detectes": [],
+        "generateur_gratuit": false
+      },
+      "jsonld_types": [],
+      "jsonld_erreurs": [],
+      "jsonld_localbusiness": false,
+      "texte_longueur_mots": 27,
+      "telephones_detectes": [],
+      "emails_detectes": [],
+      "adresses_detectees": [],
+      "mention_devis": false,
+      "mention_urgence": false,
+      "copyright_annee": null,
+      "departements_mentionnes": [],
+      "mention_zone": false
+    }
+  ],
+  "robots": {
+    "url": "http://example.com/robots.txt",
+    "existe": false,
+    "status": 404,
+    "disallow_tout": false,
+    "sitemaps": [],
+    "erreur": null
+  },
+  "sitemap": {
+    "url": null,
+    "existe": false,
+    "status": null,
+    "type": null,
+    "nb_urls": null,
+    "nb_sitemaps": null,
+    "testees": [
+      {
+        "url": "http://example.com/sitemap.xml",
+        "status": 404,
+        "erreur": null
+      },
+      {
+        "url": "http://example.com/sitemap_index.xml",
+        "status": 404,
+        "erreur": null
+      }
+    ],
+    "erreur": null
+  },
+  "navigateur": {
+    "outil": "Playwright (Chromium headless)",
+    "date": "2026-11-05T20:53:18+00:00",
+    "url": "http://example.com/",
+    "user_agent": "Mozilla/5.0 (compatible; ClientsIci-audit; +https://clientsici.fr/)",
+    "vues": {
+      "mobile": {
+        "viewport": "375x812",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 0.62,
+        "requetes": 2,
+        "octets_transferes": 2434,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/mobile-375-fold.png",
+          "full": "captures/mobile-375-full.png"
+        },
+        "metriques": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "scrollHeight": 938,
+          "debordement": false,
+          "appels": [],
+          "plus_petit_texte_px": 14,
+          "plus_petit_texte_exemple": "This domain is for use in documentation examples without nee",
+          "textes_moins_12px": 0,
+          "elements_examines": 14,
+          "viewport_meta": "width=device-width,initial-scale=1",
+          "titre_document": "Example Domain"
+        },
+        "erreurs_console_nombre": 0
+      },
+      "desktop": {
+        "viewport": "1440x900",
+        "status": 200,
+        "erreur": null,
+        "networkidle_atteint": true,
+        "temps_chargement_s": 0.62,
+        "requetes": 2,
+        "octets_transferes": 2435,
+        "erreurs_console": [],
+        "captures": {
+          "fold": "captures/desktop-1440-fold.png",
+          "full": "captures/desktop-1440-full.png"
+        },
+        "metriques": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "debordement": false,
+          "appels": [],
+          "plus_petit_texte_px": 14,
+          "plus_petit_texte_exemple": "This domain is for use in documentation examples without nee",
+          "textes_moins_12px": 0,
+          "elements_examines": 14,
+          "viewport_meta": "width=device-width,initial-scale=1",
+          "titre_document": "Example Domain"
+        },
+        "erreurs_console_nombre": 0
+      }
+    },
+    "erreur": null
+  },
+  "lighthouse": {
+    "outil": "Lighthouse 12 (npx lighthouse@12), émulation mobile, throttling simulé",
+    "date": "2026-11-05T20:53:22+00:00",
+    "url": "http://example.com/",
+    "statut": "mesuré",
+    "raison": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 83,
+      "seo": 80
+    },
+    "metriques": {
+      "lcp_ms": 1117,
+      "cls": 0,
+      "tbt_ms": 0,
+      "fcp_ms": 1117,
+      "speed_index_ms": 1117,
+      "poids_total_octets": 1999
+    },
+    "fichier": "lighthouse.json",
+    "conditions": "mesure unique depuis un serveur (pas un téléphone réel), réseau et CPU simulés ; les valeurs varient d'une mesure à l'autre",
+    "commande": "npx -y lighthouse@12 http://example.com/ --chrome-flags=--headless=new --no-sandbox --disable-gpu --form-factor=mobile --screenEmulation.mobile --throttling-method=simulate --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=/home/user/refonte-vitrine/pipeline/out/audit-test-example/lighthouse.json --quiet",
+    "version": "12.8.2",
+    "url_finale": "https://example.com/"
+  },
+  "analyse": {
+    "constats": [
+      {
+        "id": "C01",
+        "type": "fait observé",
+        "gravite": "haute",
+        "titre": "Redirection http→https absente (HTTPS disponible mais non forcé)",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "URL finale en http (réponse 200) alors que https://example.com/ répond 200"
+        },
+        "consequence_possible": "Le visiteur qui arrive sans « https » voit « Non sécurisé » ; deux versions du site coexistent pour Google.",
+        "correction": "Rediriger (301) tout le trafic http:// vers https:// et déclarer la version https dans la Search Console."
+      },
+      {
+        "id": "C02",
+        "type": "fait observé",
+        "gravite": "moyenne",
+        "titre": "Meta description absente sur l'accueil",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "aucune <meta name=\"description\">"
+        },
+        "consequence_possible": "Google compose lui-même l'extrait ; il manque l'accroche (zone, devis gratuit, urgence).",
+        "correction": "Rédiger une description de 120 à 155 caractères avec métier, zone et appel à l'action."
+      },
+      {
+        "id": "C03",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Aucun titre H1 sur l'accueil",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "0 balise <h1>"
+        },
+        "consequence_possible": "Le message principal (métier + ville) n'est pas identifié comme titre par les moteurs et les lecteurs d'écran.",
+        "correction": "Ajouter un H1 unique en haut de page : métier, ville, promesse."
+      },
+      {
+        "id": "C04",
+        "type": "fait observé",
+        "gravite": "moyenne",
+        "titre": "Aucun numéro de téléphone cliquable (lien tel:)",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "aucun lien tel: ni numéro détecté sur les pages consultées"
+        },
+        "consequence_possible": "Sur téléphone, le visiteur doit recopier le numéro ; une partie abandonne.",
+        "correction": "Transformer le numéro en lien <a href=\"tel:+33…\"> et le placer en haut de page."
+      },
+      {
+        "id": "C05",
+        "type": "fait observé",
+        "gravite": "moyenne",
+        "titre": "Aucune ville ni zone d'intervention repérée sur l'accueil",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "aucun code postal + ville, département ou formule de zone détecté (heuristique ; à confirmer à l'œil)"
+        },
+        "consequence_possible": "Le visiteur ne sait pas si l'entreprise intervient chez lui ; Google ne relie pas le site à la zone.",
+        "correction": "Écrire la ville et le rayon d'intervention dans le titre, le H1 et le pied de page."
+      },
+      {
+        "id": "C06",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Données structurées LocalBusiness absentes",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "types JSON-LD trouvés : aucun"
+        },
+        "consequence_possible": "Google doit deviner nom, adresse, téléphone et horaires au lieu de les lire.",
+        "correction": "Ajouter un bloc JSON-LD LocalBusiness (nom, adresse, téléphone, horaires, zone) cohérent avec la fiche Google."
+      },
+      {
+        "id": "C07",
+        "type": "fait observé",
+        "gravite": "basse",
+        "titre": "Aucune mention « devis » sur l'accueil",
+        "preuve": {
+          "url": "http://example.com/",
+          "valeur": "mot « devis » absent du texte de l'accueil"
+        },
+        "consequence_possible": "Le visiteur ne voit pas comment demander un chiffrage.",
+        "correction": "Ajouter un bouton « Demander un devis » visible."
+      }
+    ],
+    "non_verifie": [],
+    "verdict": "refonte pertinente",
+    "verdict_motif": "1 constat(s) de gravité haute et 3 moyenne(s)",
+    "gravites": {
+      "haute": 1,
+      "moyenne": 3,
+      "basse": 3
+    },
+    "ce_qui_fonctionne": [
+      "Balise viewport présente",
+      "Aucun débordement horizontal à 375 px",
+      "Aucune erreur console au chargement mobile",
+      "Performance mobile Lighthouse 100/100 (LCP 1117 ms)",
+      "Lighthouse accessibilité 100/100",
+      "Titre présent (14 caractères)"
+    ],
+    "a_preserver": {
+      "pages_trouvees": [
+        {
+          "url": "http://example.com/",
+          "role": "accueil",
+          "title": "Example Domain",
+          "status": 200
+        }
+      ],
+      "menu": [],
+      "coordonnees": {
+        "telephones": [],
+        "emails": [],
+        "adresses": []
+      },
+      "services_listes": [],
+      "note": "Inventaire limité aux pages consultées ; les intitulés de services sont les titres H2/H3 relevés, à vérifier avec le client."
+    }
+  },
+  "erreurs": [],
+  "journal_requetes": [
+    {
+      "type": "html",
+      "url": "http://example.com/",
+      "status": 200,
+      "final_url": "http://example.com/",
+      "duree_s": 0.08,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "https://example.com/",
+      "status": 200,
+      "final_url": "https://example.com/",
+      "duree_s": 0.33,
+      "erreur": null
+    },
+    {
+      "type": "html",
+      "url": "http://www.example.com/",
+      "status": 200,
+      "final_url": "http://www.example.com/",
+      "duree_s": 0.08,
+      "erreur": null
+    },
+    {
+      "type": "robots",
+      "url": "http://example.com/robots.txt",
+      "status": 404,
+      "final_url": "http://example.com/robots.txt",
+      "duree_s": 0.03,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "http://example.com/sitemap.xml",
+      "status": 404,
+      "final_url": "http://example.com/sitemap.xml",
+      "duree_s": 0.02,
+      "erreur": null
+    },
+    {
+      "type": "sitemap",
+      "url": "http://example.com/sitemap_index.xml",
+      "status": 404,
+      "final_url": "http://example.com/sitemap_index.xml",
+      "duree_s": 0.03,
+      "erreur": null
+    }
+  ]
+}

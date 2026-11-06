@@ -1,0 +1,10 @@
+{
+  "nom": "Exemple Coiffure",
+  "metier": "Salon de coiffure",
+  "ville": "Dreux",
+  "tel": "02 00 00 00 02",
+  "email": "salon@exemple-coiffure.example",
+  "services": ["Coupe femme", "Coupe homme", "Couleur et mèches", "Coiffure de mariage"],
+  "palette": "service",
+  "objectif": "appel"
+}

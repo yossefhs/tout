@@ -1,0 +1,32 @@
+# Clients Ici (https://clientsici.fr/)
+
+> Clients Ici corrige la fiche Google Business Profile (Google Maps) des artisans et commerces locaux en 48 h, pour 49 € en une fois, payés après livraison. Offres secondaires : site vitrine artisan clé en main à 79 €/mois sans engagement, refonte de site vitrine existant au même forfait (audit et maquette avant engagement), et veille B2B des commerces repris (149 €/mois sans engagement, bulletin gratuit d'abord). TVA non applicable, art. 293 B du CGI.
+
+## Identité officielle
+- **Nom commercial :** Clients Ici
+- **Statut :** entrepreneur individuel (micro-entrepreneur), fondateur : Guillaume
+- **SIRET :** `889 546 347 00010` · RCS Chartres `889 546 347`
+- **Zone :** toute la France, travail 100 % à distance. Coordonnées complètes : https://clientsici.fr/mentions-legales/
+- **Contact (par écrit) :** formulaire https://clientsici.fr/#diagnostic
+- **TVA :** non applicable, art. 293 B du CGI (prix affiché = prix payé)
+
+## Offres
+1. **[Fiche Google corrigée en 48 h — 49 € en une fois, payés après livraison](https://clientsici.fr/fiche-google-artisan/)** : catégories, services, zone d'intervention, horaires, téléphone, lien du site, description, réponses proposées aux avis sans réponse, jusqu'à 10 photos fournies par le client, récapitulatif avant / après. Diagnostic gratuit préalable par e-mail sous 24 h.
+2. **[Test IA — 29 €, déduits si la fiche est commandée sous 7 jours](https://clientsici.fr/fiche-google-artisan/#test-ia)** : je pose à ChatGPT et Gemini les questions de vos clients (métier + ville) et je remets des captures datées : êtes-vous cité, qui l'est à votre place, sur quelles sources.
+3. **[Site vitrine artisan clé en main — 79 €/mois sans engagement](https://clientsici.fr/site-vitrine-artisan/)** : site rapide en HTTPS, hébergement et mises à jour inclus, résiliable à tout moment.
+3bis. **[Refonte de site vitrine — 79 €/mois sans engagement, audit et maquette avant engagement](https://clientsici.fr/refonte-site-vitrine/)** : pour une entreprise qui a déjà un site : audit écrit du site actuel, maquette de la nouvelle page d'accueil, puis mise en ligne sur le nom de domaine du client (conservé à son nom) avec redirections ; 0 € de frais de création ; copie du site remise si le client arrête.
+4. **[Veille B2B Commerces & Implantations — 149 €/mois sans engagement](https://clientsici.fr/veille/)** : bulletin hebdomadaire (sources BODACC / Greffes / SIRENE) des reprises de fonds de commerce, cessions de baux et transferts de sièges, pour Enseignistes, Agenceurs, Cuisinistes CHR / Frigoristes et Miroitiers. Exclusivité : 1 seul partenaire par métier et par métropole (1 Enseigniste, 1 Agenceur, 1 Cuisiniste CHR/Froid, 1 Miroitier). Premier bulletin envoyé gratuitement par e-mail avant toute souscription. Formule alternative : 0 € d'abonnement et 10 % de commission HT uniquement sur un chantier signé et encaissé avec un repreneur transmis. 100 % par écrit, sans appel téléphonique.
+
+Aucune promesse de position dans Google ni de volume d'appels.
+
+## URLs clés
+- [Accueil](https://clientsici.fr/)
+- [Fiche Google 49 €](https://clientsici.fr/fiche-google-artisan/)
+- [Test IA 29 €](https://clientsici.fr/fiche-google-artisan/#test-ia)
+- [Site vitrine 79 €/mois](https://clientsici.fr/site-vitrine-artisan/)
+- [Refonte de site vitrine 79 €/mois](https://clientsici.fr/refonte-site-vitrine/)
+- [Veille B2B 149 €/mois](https://clientsici.fr/veille/)
+- [Blog](https://clientsici.fr/blog/)
+- [Être recommandé par ChatGPT et Gemini : comment un artisan devient visible dans l'IA](https://clientsici.fr/blog/etre-recommande-par-chatgpt-gemini-artisan/)
+- [Mentions légales](https://clientsici.fr/mentions-legales/) · [CGV](https://clientsici.fr/cgv/) · [Confidentialité](https://clientsici.fr/confidentialite/)
+- [Documentation complète (llms-full.txt)](https://clientsici.fr/llms-full.txt)

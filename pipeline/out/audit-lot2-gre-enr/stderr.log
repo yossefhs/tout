@@ -1,0 +1,9 @@
+[audit] GET https://www.gre-enr.fr/
+[audit] test http : http://www.gre-enr.fr/
+[audit] test www : https://gre-enr.fr/
+[audit] page interne (contact) : https://www.gre-enr.fr/contact/
+[audit] page interne (realisations) : https://www.gre-enr.fr/realisations/
+[audit] page interne (tarifs) : https://www.gre-enr.fr/revente-delectricite#prix_rachat_electricite
+[audit] page interne (navigation) : https://www.gre-enr.fr/autoconsommation-photovoltaique/
+[audit] navigateur Playwright (375×812 puis 1440×900)
+[audit] Lighthouse mobile (≈20 s)
