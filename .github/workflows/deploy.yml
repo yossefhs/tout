@@ -19,6 +19,15 @@ on:
         description: "Simulation : lister les fichiers sans rien envoyer"
         type: boolean
         default: false
+      protocol:
+        description: "Protocole (ftps = FTP explicite TLS, ftp = FTP simple, sftp = SSH)"
+        type: choice
+        options: [ftps, ftp, sftp]
+        default: ftps
+      port:
+        description: "Port (21 pour ftp/ftps, 22 pour sftp)"
+        type: string
+        default: "21"
 
 concurrency:
   group: deploy-ovh
@@ -55,8 +64,8 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # OVH mutualisé : FTP explicite sur TLS (ftps) ; mettre "sftp" si l'hébergement l'offre (port 22).
-          protocol: ftps
-          port: 21
+          protocol: ${{ inputs.protocol || 'ftps' }}
+          port: ${{ inputs.port || 21 }}
           local-dir: ./site/
           # Racine web OVH mutualisé : généralement ./www/ ; adapter au dossier racine du domaine.
           server-dir: ./www/
