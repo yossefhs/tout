@@ -1,4 +1,4 @@
-# Déploiement du dossier site/ vers l'hébergement OVH par FTP/SFTP à chaque push sur main.
+# Déploiement du dossier site/ vers l'hébergement OVH par FTP/SFTP à chaque push sur la branche clientsici-prospection.
 # À copier dans le dépôt du site sous .github/workflows/deploy.yml
 # Secrets à créer dans le dépôt (Settings > Secrets and variables > Actions) :
 #   FTP_SERVER   ex. ftp.cluster0xx.hosting.ovh.net  (ou le serveur SFTP OVH)
@@ -9,7 +9,7 @@ name: Déploiement OVH (site/)
 
 on:
   push:
-    branches: [main]
+    branches: [clientsici-prospection]
     paths:
       - "site/**"
       - ".github/workflows/deploy.yml"
