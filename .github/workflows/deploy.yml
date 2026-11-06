@@ -20,9 +20,9 @@ on:
         type: boolean
         default: false
       protocol:
-        description: "Protocole (ftps = FTP explicite TLS, ftp = FTP simple, sftp = SSH)"
+        description: "Protocole (ftps = FTP explicite TLS port 21 ; ftps-legacy = TLS implicite port 990 ; ftp = non chiffré, à éviter)"
         type: choice
-        options: [ftps, ftp, sftp]
+        options: [ftps, ftps-legacy, ftp]
         default: ftps
       port:
         description: "Port (21 pour ftp/ftps, 22 pour sftp)"
